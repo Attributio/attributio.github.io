@@ -1,0 +1,132 @@
+/* your styles go here */
+
+.box-image-text .image {
+  min-height: 200px;
+  max-height: 200px;
+}
+
+.box-simple {
+  min-height: 230px;
+}
+
+.home-carousel h1 {
+  font-weight: 500;
+  text-transform: none;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+}
+
+.home-carousel p {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0;
+  text-transform: none;
+  letter-spacing: 0.04em;
+}
+
+.btn-xl {
+    padding: 15px 21px;
+    font-size: 18px;
+    line-height: 1.33;
+    margin-top: 20px;
+}
+
+.home-carousel {
+  background: url('../img/startup-0.svg'), url('../img/photogrid.jpg'), center center repeat;
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 991px) {
+	.btn-xl {
+    padding: 10px 16px;
+    font-size: 14px;
+    line-height: 1.33;
+    margin-top: 10px;
+	}
+}
+
+.navbar ul.nav > li > a {
+  text-decoration: none; 
+}
+
+/* Testimonial Styling Start */
+.testimonial {
+  clear: both;
+  overflow: hidden;
+}
+.pull-center {
+  text-align: center;
+}
+.testimonial .center {
+  width: 980px;
+  margin: 0 auto;
+}
+.narrow {
+  padding: 0 200px;
+}
+@media (max-width: 991px) {
+  .testimonial .center {
+    width: 767px;
+  }
+  .narrow {
+    padding: 0 100px;
+  }            
+}
+@media (max-width: 767px) {
+  .testimonial .center {
+    width: 480px;
+  }
+  .narrow {
+    padding: 0 50px;
+  }            
+}
+@media (max-width: 480px) {
+  .testimonial .center {
+    width: 320px;
+    margin: 0 auto;
+  }
+  .narrow {
+    padding: 0 20px;
+  }
+}
+
+blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: none; 
+}
+.testimonial p {
+  font-style: italic;
+  margin: 25px 0 20px;
+  position: relative;
+}
+.testimonial p:before {
+  position: absolute;
+  left: -40px;
+  top: 0px;
+  content: '';
+  background: url(../img/quote1.png) no-repeat center center;
+  width: 23px;
+  height: 20px;
+}
+.testimonial p:after {
+  position: absolute;
+  right: -40px;
+  bottom: 0px;
+  content: '';
+  background: url(../img/quote2.png) no-repeat center center;
+  width: 23px;
+  height: 20px;
+}
+.testimonial cite {
+  display: block;
+  color: #9E9E9E;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+/* Testimonial Styling End */
