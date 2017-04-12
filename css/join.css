@@ -121,7 +121,6 @@ h3 {
   color: #000000;
   opacity: 0.7;
   text-align: center;
-  width: 160px;
   margin: 0 auto 20px;
 }
 
@@ -157,8 +156,6 @@ img {
 }
 
 .container {
-  width: 980px;
-  margin: 0 auto;
   padding: 52px 0 45px;
 }
 
@@ -295,11 +292,6 @@ a:hover.tooltips span {
   width: 200px;
   height: 50px;
   float: left;
-}
-
-.main-col {
-  float: left;
-  width: 688px;
 }
 
 .main-col .join-form {
@@ -509,9 +501,7 @@ a:hover.tooltips span {
 }
 
 .aside-col {
-  float: right;
   margin-left: 37px;
-  width: 255px;
 }
 
 .aside-col .clients {
