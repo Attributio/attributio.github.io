@@ -70,7 +70,7 @@ $(document).ready(function() {
       dataType: "xml",
       data: data,
       success:function() {
-        console.log('success!');
+        window.location.href = "/thanks/";
       },
       error: function(data) {
         console.log(data.responseText);
