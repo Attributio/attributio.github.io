@@ -294,6 +294,15 @@ a:hover.tooltips span {
   float: left;
 }
 
+@media (max-width: 767px) {
+  #logo {
+    background-image: url(../img/logo_white.png);
+    background-size: 150px 35px;
+    width: 150px;
+    height: 35px;
+  }            
+}
+
 .main-col .join-form {
   border: 2px rgba(95, 95, 95, 0.2) solid;
   -webkit-border-radius: 6px;
@@ -437,59 +446,6 @@ a:hover.tooltips span {
   display: none;
 }
 
-.styled2-select {
-  float: left;
-  margin-right: 14px;
-}
-
-.select2-container {
-  min-width: 190px;
-}
-
-.styled2-select .select2-container {
-  min-width: 82px;
-}
-
-.select2-container--default .select2-selection--single {
-  border: 2px rgba(95, 95, 95, 0.3) solid;
-  height: 42px;
-}
-
-.select2-container--default .select2-selection--single .select2-selection__arrow b {
-  background-image: url(../img/join/drop_arrows.png);
-  width: 12px;
-  height: 16px;
-  display: block;
-  border: none;
-  margin-top: -1px;
-  margin-left: -10px;
-}
-
-.select2-container .select2-selection--single .select2-selection__rendered {
-  padding-right: 24px;
-  line-height: 30px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  color: #5f5f5f;
-  opacity: 0.76;
-}
-
-.styled2-select .select2-container .select2-selection--single .select2-selection__rendered {
-  text-align: left;
-}
-
-.select2-results__option {
-  text-align: center;
-  padding: 6px 16px 6px 0;
-}
-
-.styled2-select .select2-results__option {
-  text-align: left;
-  padding: 6px;
-}
-
 .img-flag {
   position: relative;
   top: 6px;
@@ -502,6 +458,10 @@ a:hover.tooltips span {
 
 .aside-col {
   margin-left: 37px;
+}
+.aside-col img {
+  margin: auto;
+  display: block;
 }
 
 .aside-col .clients {

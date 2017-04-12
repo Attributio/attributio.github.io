@@ -59,14 +59,14 @@
       <div class="row">
 
         <div class="main-col col-sm-7">
-          <form class="join-form form-horizontal" id="new_client" action="/" accept-charset="UTF-8" method="post">
+          <form class="join-form form-horizontal" id="new_client">
             <div class="form-row form-group">
               <div class="col-sm-5">
                 <label for="client_first_name">Your first name</label>
 
               </div>
               <div class="col-sm-7">
-                <input placeholder="e.g. Ross" type="text" name="client[first_name]" id="client_first_name">
+                <input placeholder="e.g. Ross" type="text" name="client_first_name_" id="client_first_name">
               </div>
             </div>
             <div class="form-row form-group">
@@ -75,7 +75,7 @@
 
               </div>
               <div class="col-sm-7">
-                <input placeholder="e.g. ross@example.com" type="email" name="client[email_address]" id="client_email_address">
+                <input placeholder="e.g. ross@example.com" type="email" name="client_email_address" id="client_email_address">
               </div>
             </div>
             <div class="form-row form-group">
@@ -84,7 +84,7 @@
 
               </div>
               <div class="col-sm-7">
-                <input placeholder="e.g. awesome-donuts.com" type="text" name="client[website]" id="client_website">
+                <input placeholder="e.g. awesome-donuts.com" type="text" name="client_website" id="client_website">
               </div>
             </div>
 
@@ -96,8 +96,8 @@
                 <div class="radio-group google">
                   <a href="#" class="yes active">YES</a>
                   <a href="#" class="no">NO</a>
-                  <input type="radio" value="true" name="client[questionnaire_attributes][google]" id="client_questionnaire_attributes_google_true">
-                  <input type="radio" value="false" name="client[questionnaire_attributes][google]" id="client_questionnaire_attributes_google_false">
+                  <input type="radio" value="true" name="client_google" id="client_google_true">
+                  <input type="radio" value="false" name="client_google" id="client_google_false">
                 </div>
               </div>
             </div>
@@ -110,8 +110,8 @@
                 <div class="radio-group facebook">
                   <a href="#" class="yes active">YES</a>
                   <a href="#" class="no">NO</a>
-                  <input type="radio" value="true" name="client[questionnaire_attributes][facebook]" id="client_questionnaire_attributes_facebook_true">
-                  <input type="radio" value="false" name="client[questionnaire_attributes][facebook]" id="client_questionnaire_attributes_facebook_false">
+                  <input type="radio" value="true" name="client_facebook" id="client_facebook_true">
+                  <input type="radio" value="false" name="client_facebook" id="client_facebook_false">
                 </div>
               </div>
             </div>
@@ -123,30 +123,30 @@
               </div>
               <div class="col-sm-7">
 
-                <input placeholder="e.g. $5,000" class="small" type="text" name="client[questionnaire_attributes][monthly_budget]" id="client_questionnaire_attributes_monthly_budget">
+                <input placeholder="e.g. $5,000" class="small" type="text" name="client_monthly_budget" id="client_monthly_budget">
                 <span>per month</span>
                 <div class="custom-checkbox">
-                  <input name="client[questionnaire_attributes][monthly_budget_unknown]" type="hidden" value="0"><input class="css-checkbox" type="checkbox" value="1" name="client[questionnaire_attributes][monthly_budget_unknown]" id="client_questionnaire_attributes_monthly_budget_unknown">
-                  <label class="css-label" for="client_questionnaire_attributes_monthly_budget_unknown">I have no idea</label>
+                  <input name="client_monthly_budget_unknown" type="hidden" value="0"><input class="css-checkbox" type="checkbox" value="1" name="client_monthly_budget_unknown" id="client_monthly_budget_unknown">
+                  <label class="css-label" for="client_monthly_budget_unknown">I have no idea</label>
                 </div>
               </div>
             </div>
 
             <div class="form-row form-group">
               <div class="col-sm-5">
-                <label for="client_questionnaire_attributes_other">Any other marketing channels you're currenty advertising on (optional)</label>
+                <label for="client_other">Any other marketing channels you're currenty advertising on (optional)</label>
               </div>
               <div class="col-sm-7">
-                <textarea placeholder="e.g. Instagram, Twitter, Linkedin" name="client[questionnaire_attributes][other]" id="client_questionnaire_attributes_other"></textarea>
+                <textarea placeholder="e.g. Instagram, Twitter, Linkedin" name="client_other" id="client_other"></textarea>
               </div>
             </div>
 
             <div class="form-row form-group">
               <div class="col-sm-5">
-                <label for="client_questionnaire_attributes_specific_location">If your customers are in a specific location you can enter it here (optional)</label>
+                <label for="client_specific_location">If your customers are in a specific location you can enter it here (optional)</label>
               </div>
               <div class="col-sm-7">
-                <textarea placeholder="e.g. New York and Arizona" name="client[questionnaire_attributes][specific_location]" id="client_questionnaire_attributes_specific_location"></textarea>
+                <textarea placeholder="e.g. New York and Arizona" name="client_specific_location" id="client_specific_location"></textarea>
               </div>
             </div>
 

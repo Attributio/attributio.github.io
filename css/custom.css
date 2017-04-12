@@ -35,10 +35,6 @@
   background: url('../img/startup-0.svg'), url('../img/photogrid.jpg'), center center repeat;
 }
 
-@media (max-width: 767px) {
-
-}
-
 @media (max-width: 991px) {
 	.btn-xl {
     padding: 10px 16px;
@@ -92,7 +88,15 @@
     padding: 0 20px;
   }
 }
-
+@media (max-width: 320px) {
+  .testimonial .center {
+    width: 250px;
+    margin: 0 auto;
+  }
+  .narrow {
+    padding: 0 10px;
+  }
+}
 blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
