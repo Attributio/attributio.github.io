@@ -69,12 +69,14 @@ $(document).ready(function() {
       url: "https://docs.google.com/forms/d/e/1FAIpQLSePZjxqBsFijp2MfxjbK8KdGpY_03-BhEvWOPH41H5RPSijNQ/formResponse",
       dataType: "xml",
       data: data,
-      success:function() {
-        window.location.href = "/thanks/";
-      },
-      error: function(data) {
-        console.log(data.responseText);
-      },
+      statusCode: {
+          0: function() {
+            window.location.href = "/thanks/";
+          },
+          200: function() {
+            window.location.href = "/thanks/";
+          }
+      }
     });      
   });
 
