@@ -25,6 +25,8 @@ $(document).ready(function() {
     });
   }
 
+  var referrer = document.referrer;
+
   $("form#new_client").submit(function(e){
     e.preventDefault();
 
@@ -55,10 +57,11 @@ $(document).ready(function() {
       'entry.1291296828': website,
       'entry.988833789': google,
       'entry.1663771380': facebook,
-      'entry.1057000311': budget ? budget : "unknown",
+      'entry.1057000311': budget,
       'entry.917090703': channel,
       'entry.807709427': target_location,
       'entry.1108506597': client_id,
+      'entry.1842484305': referrer,
       'entry.220425346': time_zone,
     };
     

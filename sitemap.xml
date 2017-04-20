@@ -3,6 +3,2532 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/accounting/freshbooks/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/accounting/quickbooks/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/base/accounting/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/base/cms/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/base/contacts/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/base/crm/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/base/custom/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/base/erp/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/base/leads/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/base/software/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/base/webpage/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/base/website/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/accrisoft/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/alfresco/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/altitude3/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/ametys/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/apachelenya/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/apacheroller/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/atutor/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/b2evolution/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/backdropcms/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/bettercms/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/blosxom/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/bricolage/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/browsercms/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/cascadecloud/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/cascadeserver/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/clickability/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/cmsimple/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/cmsmadesimple/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/compositec1/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/concrete5/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/contao/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/contegro/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/contentbox/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/contentful/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/contentsort/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/contentverse/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/coremeadia/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/cotonti/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/crownpeak/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/daisycms/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/doclogix/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/dokuwiki/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/dot/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/dotclear/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/dotcms/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/dotnetnuke/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/drupal/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/dspace/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/dynpg/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/easydita/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/ektron/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/elcom/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/emc/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/enonic/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/eprints/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/exo/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/exponent/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/expressionengine/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/ezpublish/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/farcry/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/foswiki/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/frontis/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/geeklog/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/getsimple/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/ghost/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/habari/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/hippocms/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/huddle/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/hyland/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/ikiwiki/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/impresscms/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/impresspages/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/instapage/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/jadu/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/jahia/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/jamroom/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/joomla/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/kajona/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/kentico/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/kickofflabs/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/known/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/kooboo/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/landerapp/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/leadpages/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/librex/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/liferay/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/logicaldoc/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/mambo/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/mediawiki/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/mezzanine/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/miacms/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/midgard/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/modx/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/moinmoin/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/mojoportal/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/moodle/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/movable/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/mura/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/novius/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/nubuilder/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/nucleus/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/nuxeo/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/o3spaces/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/ocportal/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/octobercms/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/onxshop/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/openacs/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/opencms/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/openkm/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/opentext/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/openwga/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/oraclewebcenter/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/orchardproject/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/oucampus/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/pageframer/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/pagewiz/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/papayacms/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/percussion/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/ph7cms/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/phire/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/phpwebsite/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/phpwiki/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/pimcore/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/pivotx/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/pixie/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/plone/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/pluck/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/pmwiki/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/polopoly/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/processwire/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/pulsecms/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/radiant/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/ravennuke/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/refinery/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/serendipity/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/sharepoint/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/silverstripe/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/sitecore/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/sitekit/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/smw/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/solodev/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/spine/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/spip/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/tangocms/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/telligent/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/terminalfour/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/textpattern/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/thingamablog/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/tiddlywiki/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/tikiwiki/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/twiki/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/typo/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/typo3/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/ucoz/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/umbraco/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/unbounce/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/webgui/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/webnodescms/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/windowslive/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/wolfcms/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/wordpress/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/xaitporter/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/xaraya/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/xoops/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/xwiki/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/yellow/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/actessentials/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/addresstwo/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/adempiere/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/allprowebtools/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/amocrm/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/apptivo/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/avidian/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/basecrm/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/bigcontacts/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/bitrix24/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/bluenose/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/boomtown/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/bpmonline/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/buddycrm/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/bullhorn/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/campaignercrm/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/capsule/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/casengo/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/civicrm/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/close/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/commence/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/contactually/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/dolibarr/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/dynamics/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/epesi/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/goldmine/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/greenrope/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/hatchbuck/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/highrise/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/hubspot/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/infloflo/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/infor/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/infusionsoft/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/insightly/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/iseeit/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/leadmachine/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/leadmaster/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/lynkos/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/maximizer/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/membrain/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/methodcrm/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/microsoftdynamicscrm/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/mothernode/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/neolane/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/neoncrm/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/netsuite/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/nimble/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/nutshell/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/odoo/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/oncontact/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/oraclecrm/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/oraclesiebel/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/pipedrive/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/pipelinedeals/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/pipeliner/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/pivotal/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/podio/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/prophetcrm/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/quickbase/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/relenta/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/rss/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/sagecrm/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/salesforce/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/salesforceiq/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/salesnet/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/salesnexus/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/sapcrm/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/shopvox/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/snapforce/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/streak/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/sugarcrm/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/suitecrm/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/superoffice/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/teamlab/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/teamwox/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/tryton/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/vtiger/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/workbooks/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/worketc/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/youdontneedacrm/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/zohocrm/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/1automationwiz/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/2checkout/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/3dcart/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/abantecart/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/ablecommerce/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/actinic/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/airsquare/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/allprowebtools/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/aplus/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/arastta/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/ashop/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/aspdotnetstorefront/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/avactis/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/avangate/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/bigcartel/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/bigcommerce/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/bluesnap/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/broadleaf/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/bvcommerce/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/cart42/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/cart66/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/celery/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/clarity/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/cleverbridge/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/commercev3/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/corecommerce/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/cscart/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/cubecart/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/demandware/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/digitalriver/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/dpd/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/e-bee/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/ecrater/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/ecwid/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/edd/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/eonic/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/eshopsgalore/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/estoreadvanced/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/etsy/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/exlcart/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/expandly/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/fashmark/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/fastspring/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/flickrocket/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/fortune3/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/foxycart/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/gocart/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/godaddy/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/goecart/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/golivecart/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/goodsie/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/grandnode/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/gumroad/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/highwire/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/hotcakescommerce/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/hybris/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/iceshop/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/indiemade/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/instantestore/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/intershop/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/itemhut/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/jadasite/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/jigoshop/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/jimdo/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/jooy/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/jumpseller/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/k-ecommerce/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/kalio/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/kentico/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/konakart/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/kong/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/kooomo/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/ktools/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/lemonstand/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/lightcms/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/litecommerce/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/livecart/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/loadedcommerce/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/madefreshly/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/magento/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/marketlive/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/merchium/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/miva/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/modularmerchant/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/moltin/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/moonfruit/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/mozu/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/mshopper/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/mycloudgrocer/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/neto/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/netsuite/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/nexternal/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/nopcommerce/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/opencart/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/oscmax/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/oxid/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/paypro/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/persollo/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/pimcore/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/pinnaclecart/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/powerstores/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/prestashop/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/productcart/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/reactioncommerce/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/rocketspark/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/samcart/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/sana/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/schema/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/searchfit/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/sellbeing/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/selz/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/shopfactory/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/shopgo/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/shopify/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/shopio/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/shopizer/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/shoppingcartelite/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/shoprocket/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/shopsite/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/shoptab/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/shopvisible/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/shuup/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/sidecommerce/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/simplecart/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/smoolis/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/snipcart/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/softslate/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/solidcommerce/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/solidshops/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/sparkpay/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/spreecommerce/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/spryker/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/squarespace/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/squirrelcart/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/stiva/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/storenvy/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/sunshop/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/supadupa/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/suredone/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/sylius/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/teacommerce/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/thelia/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/tictail/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/tomatocart/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/ubercart/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/ucoz/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/ultracart/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/uniemerchant/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/upshot/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/vendio/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/veracart/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/vevocart/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/viart/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/vilkas/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/virtocommerce/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/virtuemart/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/volusion/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/vp-cart/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/wazala/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/websphere/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/weebly/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/wix/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/woocommerce/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/x-cart/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/yahoo/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/yescart/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/yokaboo/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/yola/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/yovigo/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/zencart/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/zeuscart/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/znode/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/</loc>
 	    <priority>0</priority>
 	  </url>
@@ -11,6 +2537,13 @@
   	
 	  <url>
 	    <loc>https://attribut.io/join/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/</loc>
+	    <priority>0</priority>
 	  </url>
 	  
   

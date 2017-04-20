@@ -35,6 +35,17 @@
   background: url('../img/startup-0.svg'), url('../img/photogrid.jpg'), center center repeat;
 }
 
+.home-carousel .medium-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #93ccd6;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+
 @media (max-width: 991px) {
 	.btn-xl {
     padding: 10px 16px;
@@ -56,6 +67,13 @@
 .pull-center {
   text-align: center;
 }
+
+.vcenter {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .testimonial .center {
   width: 980px;
   margin: 0 auto;
