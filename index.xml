@@ -7,7 +7,97 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2017 Attributio. All rights reserved.</copyright>
+    <lastBuildDate>Thu, 27 Apr 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://attribut.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Track Conversions With Google Analytics&#39; Client ID</title>
+      <link>https://attribut.io/blog/2017/04/27/track-conversions-with-google-analytics-client-id/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://attribut.io/blog/2017/04/27/track-conversions-with-google-analytics-client-id/</guid>
+      <description>
+
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;Google Analytics is an underutilized tool and there are a few basic things you can do to gain more insight into your conversions. Last year in March of 2016 Google made their new &lt;a href=&#34;https://support.google.com/analytics/answer/6339208?hl=en&#34;&gt;User Explorer&lt;/a&gt; available to the public. It&amp;rsquo;s a great tool but unfortunately, you can&amp;rsquo;t drill down into other dimensions with this tool yet.&lt;/p&gt;
+
+&lt;p&gt;What the User Explorer essentially does is aggregate users based on the client id that google collects in the form of a cookie set in your visitor&amp;rsquo;s browser. Also, you can&amp;rsquo;t combine this information with other dimensions or metrics like where the user came from etc.&lt;/p&gt;
+
+&lt;h2 id=&#34;why-you-need-to-add-client-id-now&#34;&gt;Why You Need to Add Client ID Now&lt;/h2&gt;
+
+&lt;p&gt;When you&amp;rsquo;re ready to start looking at where your conversions are coming from, you&amp;rsquo;ll want to connect the information related to where they came from and how they interacted with your site. Unfortunately, you want have that data. And you&amp;rsquo;ll have to wait until you&amp;rsquo;ve collected enough data to make any kind of assessment on conversions.&lt;/p&gt;
+
+&lt;p&gt;For example, if you decide to run a ad campaign and spend $10k on cpc, if you want to see the results at the end of the month and you only have a basic analytics setup, you&amp;rsquo;ll have a difficult time connecting your converted users to all the little interactions that visitor had with the various ads you ran along with their activity on your website.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-add-client-id-as-a-custom-dimension&#34;&gt;How to Add Client ID as a Custom Dimension&lt;/h2&gt;
+
+&lt;p&gt;You can add the client ID as a custom diemsion in google analytics by navigating to the admin section of your account and selecting the web property you want to modify&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/property_custom_definitions.png&#34; alt=&#34;add custom dimension to google analytics&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Select Custom Definitions / Custom Dimensions and click on the &amp;ldquo;New Custom Dimension&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/custom_dimensions_new.png&#34; alt=&#34;add client id to google analytics&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;You want to add the name Client ID and set the scope to Session. You can add it as a Hit or User if you like but Session based granularity is appropriate since a session encompasses hits when a visitor interacts with your site and user based collection might miss some session interactions you might want to observe at a later time.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/session_based_client_id.png&#34; alt=&#34;add session based client id to google analytics&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Then you can set the custom dimesion value to your website according to the dimension id that google provides.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/client_id_embed.png&#34; alt=&#34;add custom dimension client id to website embed code&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;You&amp;rsquo;ll want to add the following code as an ammendment to the default embed code that Google Analytics provides. So if you have the Universal Analytics snipped below installed on the header section of your website, you&amp;rsquo;ll want to modify it like the example after.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Before:&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;(function(i,s,o,g,r,a,m){i[&#39;GoogleAnalyticsObject&#39;]=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,&#39;script&#39;,&#39;https://www.google-analytics.com/analytics.js&#39;,&#39;ga&#39;);
+
+ga(&#39;create&#39;, &#39;UA-XXXXXXX-1&#39;, &#39;auto&#39;);
+ga(&#39;send&#39;, &#39;pageview&#39;);
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;After:&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;(function(i,s,o,g,r,a,m){i[&#39;GoogleAnalyticsObject&#39;]=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,&#39;script&#39;,&#39;https://www.google-analytics.com/analytics.js&#39;,&#39;ga&#39;);
+
+ga(&#39;create&#39;, &#39;UA-97173125-1&#39;, &#39;auto&#39;);
+ga(function(tracker) {
+  var clientId = tracker.get(&#39;clientId&#39;);
+  ga(&#39;set&#39;, &#39;dimension1&#39;, clientId);
+  ga(&#39;send&#39;, &#39;pageview&#39;);
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;need-help-setting-up-your-custom-dimesions&#34;&gt;Need Help Setting Up Your Custom Dimesions?&lt;/h2&gt;
+
+&lt;p&gt;Sometimes it not always so simple to configure custom dimensions. your developer may have set up your analytics in a non default way ot you might be using Google Tag Manager to manage all of your js snippets.&lt;/p&gt;
+
+&lt;p&gt;In that case, we have experts standing by to &lt;a href=&#34;https://attribut.io/join/&#34;&gt;install your custom dimesions. Meet Your Expert Today!&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Attributio Terms of Service and Privacy Policy</title>
@@ -197,15 +287,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://attribut.io/platform/cms/cmsimple/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Google Analytics CMS Tracking For Cascade Cloud - Attributio</title>
-      <link>https://attribut.io/platform/cms/cascadecloud/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://attribut.io/platform/cms/cascadecloud/</guid>
       <description></description>
     </item>
     

@@ -1,4 +1,8 @@
 /* your styles go here */
+body,
+body p {
+  font-size: 16px; 
+}
 
 .box-image-text .image {
   min-height: 200px;
