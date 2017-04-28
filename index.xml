@@ -22,23 +22,25 @@
 
 &lt;p&gt;Google Analytics is an underutilized tool and there are a few basic things you can do to gain more insight into your conversions. Last year in March of 2016 Google made their new &lt;a href=&#34;https://support.google.com/analytics/answer/6339208?hl=en&#34;&gt;User Explorer&lt;/a&gt; available to the public. It&amp;rsquo;s a great tool but unfortunately, you can&amp;rsquo;t drill down into other dimensions with this tool yet.&lt;/p&gt;
 
-&lt;p&gt;What the User Explorer essentially does is aggregate users based on the client id that google collects in the form of a cookie set in your visitor&amp;rsquo;s browser. Also, you can&amp;rsquo;t combine this information with other dimensions or metrics like where the user came from etc.&lt;/p&gt;
+&lt;p&gt;What the User Explorer essentially does is aggregate users based on the client id that google collects in the form of a cookie set in your visitor&amp;rsquo;s browser. Also, you can&amp;rsquo;t combine this information with other dimensions or metrics like where the user came from.&lt;/p&gt;
 
 &lt;h2 id=&#34;why-you-need-to-add-client-id-now&#34;&gt;Why You Need to Add Client ID Now&lt;/h2&gt;
 
-&lt;p&gt;When you&amp;rsquo;re ready to start looking at where your conversions are coming from, you&amp;rsquo;ll want to connect the information related to where they came from and how they interacted with your site. Unfortunately, you want have that data. And you&amp;rsquo;ll have to wait until you&amp;rsquo;ve collected enough data to make any kind of assessment on conversions.&lt;/p&gt;
+&lt;p&gt;When you&amp;rsquo;re ready to start looking at where your conversions are coming from, you&amp;rsquo;ll want to connect the information related to where they came from and how they interacted with your site. Unfortunately, you wont have that data. And you&amp;rsquo;ll have to wait until you&amp;rsquo;ve collected enough data to make any kind of assessment on conversions.&lt;/p&gt;
 
-&lt;p&gt;For example, if you decide to run a ad campaign and spend $10k on cpc, if you want to see the results at the end of the month and you only have a basic analytics setup, you&amp;rsquo;ll have a difficult time connecting your converted users to all the little interactions that visitor had with the various ads you ran along with their activity on your website.&lt;/p&gt;
+&lt;p&gt;For example, if you decide to run an ad campaign and spend $10k on cpc, if you want to see the results at the end of the month and you only have a basic analytics setup, you&amp;rsquo;ll have a difficult time connecting your converted users to all the little interactions that visitor had with the various ads you ran along with their activity on your website. And if there&amp;rsquo;s a big chunk of your conversions that isn&amp;rsquo;t trackable, you&amp;rsquo;ll have a harder time mazimizing every single dollar of your marketing budget.&lt;/p&gt;
 
 &lt;h2 id=&#34;how-to-add-client-id-as-a-custom-dimension&#34;&gt;How to Add Client ID as a Custom Dimension&lt;/h2&gt;
 
-&lt;p&gt;You can add the client ID as a custom diemsion in google analytics by navigating to the admin section of your account and selecting the web property you want to modify&lt;/p&gt;
+&lt;p&gt;You can add the client ID as a custom diemsion in google analytics by navigating to the admin section of your account and selecting the web property you want to modify/&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/property_custom_definitions.png&#34; alt=&#34;add custom dimension to google analytics&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;p&gt;Select Custom Definitions / Custom Dimensions and click on the &amp;ldquo;New Custom Dimension&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Select Custom Definitions / Custom Dimensions and click on the &amp;ldquo;New Custom Dimension&amp;rdquo; button.&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
@@ -46,7 +48,7 @@
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;p&gt;You want to add the name Client ID and set the scope to Session. You can add it as a Hit or User if you like but Session based granularity is appropriate since a session encompasses hits when a visitor interacts with your site and user based collection might miss some session interactions you might want to observe at a later time.&lt;/p&gt;
+&lt;p&gt;You want to add the name &amp;ldquo;Client ID&amp;rdquo; and set the scope to Session. You can add it as a Hit or User if you like but Session based granularity is appropriate since a session encompasses hits when a visitor interacts with your site and user based collection might miss some session interactions you&amp;rsquo;ll want to observe at a later time.&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
@@ -62,9 +64,9 @@
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;p&gt;You&amp;rsquo;ll want to add the following code as an ammendment to the default embed code that Google Analytics provides. So if you have the Universal Analytics snipped below installed on the header section of your website, you&amp;rsquo;ll want to modify it like the example after.&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;ll want to add the following code as an ammendment to the default embed code that Google Analytics provides. So if you have the default Universal Analytics snippet installed on your website, you&amp;rsquo;ll want to modify it like so:&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Before:&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Before&lt;/em&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;(function(i,s,o,g,r,a,m){i[&#39;GoogleAnalyticsObject&#39;]=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -76,7 +78,7 @@ ga(&#39;send&#39;, &#39;pageview&#39;);
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;em&gt;After:&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;After&lt;/em&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;(function(i,s,o,g,r,a,m){i[&#39;GoogleAnalyticsObject&#39;]=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -91,9 +93,9 @@ ga(function(tracker) {
 });
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;need-help-setting-up-your-custom-dimesions&#34;&gt;Need Help Setting Up Your Custom Dimesions?&lt;/h2&gt;
+&lt;h2 id=&#34;need-help-setting-up-your-custom-dimensions&#34;&gt;Need Help Setting Up Your Custom Dimensions?&lt;/h2&gt;
 
-&lt;p&gt;Sometimes it not always so simple to configure custom dimensions. your developer may have set up your analytics in a non default way ot you might be using Google Tag Manager to manage all of your js snippets.&lt;/p&gt;
+&lt;p&gt;Sometimes it&amp;rsquo;s not always so simple to configure custom dimensions. Your developer may have set up your analytics in a custom way ot you might be using Google Tag Manager to manage all of your js snippets.&lt;/p&gt;
 
 &lt;p&gt;In that case, we have experts standing by to &lt;a href=&#34;https://attribut.io/join/&#34;&gt;install your custom dimesions. Meet Your Expert Today!&lt;/a&gt;&lt;/p&gt;
 </description>
