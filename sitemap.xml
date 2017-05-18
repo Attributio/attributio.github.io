@@ -3,6 +3,13 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/blog/2017/05/18/tracking-goals-with-subdomains-in-google-analytics/</loc>
+	    <lastmod>2017-05-18T00:00:00+00:00</lastmod>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/blog/2017/04/27/track-conversions-with-google-analytics-client-id/</loc>
 	    <lastmod>2017-04-27T00:00:00+00:00</lastmod>
 	  </url>
@@ -11,7 +18,7 @@
   	
 	  <url>
 	    <loc>https://attribut.io/</loc>
-	    <lastmod>2017-04-27T00:00:00+00:00</lastmod>
+	    <lastmod>2017-05-18T00:00:00+00:00</lastmod>
 	    <priority>0</priority>
 	  </url>
 	  
@@ -25,7 +32,7 @@
   	
 	  <url>
 	    <loc>https://attribut.io/blog/</loc>
-	    <lastmod>2017-04-27T00:00:00+00:00</lastmod>
+	    <lastmod>2017-05-18T00:00:00+00:00</lastmod>
 	    <priority>0</priority>
 	  </url>
 	  
@@ -40,7 +47,7 @@
   	
 	  <url>
 	    <loc>https://attribut.io/tags/google-analytics/</loc>
-	    <lastmod>2017-04-27T00:00:00+00:00</lastmod>
+	    <lastmod>2017-05-18T00:00:00+00:00</lastmod>
 	    <priority>0</priority>
 	  </url>
 	  
@@ -2632,7 +2639,7 @@
   	
 	  <url>
 	    <loc>https://attribut.io/categories/tutorial/</loc>
-	    <lastmod>2017-04-27T00:00:00+00:00</lastmod>
+	    <lastmod>2017-05-18T00:00:00+00:00</lastmod>
 	    <priority>0</priority>
 	  </url>
 	  

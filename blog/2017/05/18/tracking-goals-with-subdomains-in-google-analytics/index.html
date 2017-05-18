@@ -6,15 +6,15 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <title>Tutorial</title>
+  <title>Tracking Goals with Subdomains in Google Analytics</title>
   <meta name="author" content="" />
 
   
-  <meta name="keywords" content="attribution modelling google analytics conversion tracking crm tracking leads adwords ppc tracking">	
+  <meta name="keywords" content="google analytics, google analytics subdomain tracking, google analytics goals with subdomains">
   
 
   
-  <meta name="description" content="Attributio provides tools to track all of the conversions for your business. We help you plug all the holes in your marketing strategy.">	
+  <meta name="description" content="Track goals for your subdomains with the same universal tracking code from Google Analytics.">
   
 
   <meta name="generator" content="Hugo 0.19" />
@@ -51,9 +51,9 @@
   <link rel="alternate" href="https://attribut.io/index.xml" type="application/rss+xml" title="Attributio - Attribution Markerting Experts">
 
   
-  <meta property="og:title" content="Tutorial" />
+  <meta property="og:title" content="Tracking Goals with Subdomains in Google Analytics" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="/categories/tutorial//" />
+  <meta property="og:url" content="/blog/2017/05/18/tracking-goals-with-subdomains-in-google-analytics//" />
   <meta property="og:image" content="img/logo.png" />
 
   <script>
@@ -103,9 +103,9 @@ src="https://www.facebook.com/tr?id=1395762513829538&ev=PageView&noscript=1"
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand home" href="/">
-                    <img src="/img/logo.png" alt="Tutorial logo" class="hidden-xs hidden-sm">
-                    <img src="/img/logo-small.png" alt="Tutorial logo" class="visible-xs visible-sm">
-                    <span class="sr-only">Tutorial - go to homepage</span>
+                    <img src="/img/logo.png" alt="Tracking Goals with Subdomains in Google Analytics logo" class="hidden-xs hidden-sm">
+                    <img src="/img/logo-small.png" alt="Tracking Goals with Subdomains in Google Analytics logo" class="visible-xs visible-sm">
+                    <span class="sr-only">Tracking Goals with Subdomains in Google Analytics - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -176,7 +176,7 @@ src="https://www.facebook.com/tr?id=1395762513829538&ev=PageView&noscript=1"
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Tutorial</h1>
+                <h1>Tracking Goals with Subdomains in Google Analytics</h1>
             </div>
         </div>
     </div>
@@ -185,97 +185,92 @@ src="https://www.facebook.com/tr?id=1395762513829538&ev=PageView&noscript=1"
 
         <div id="content">
             <div class="container">
+
                 <div class="row">
+
                     
 
-                    <div class="col-md-9" id="blog-listing-medium">
+                    <div class="col-md-9" id="blog-post">
 
+                        <p class="text-muted text-uppercase mb-small text-right">By <a href="#">David Chun</a> | May 18, 2017</p>
+
+                        <div id="post-content">
+                          
+
+<h2 id="introduction">Introduction</h2>
+
+<p>Sometimes your conversion funnel spans multiple domains or subdomains. If you need to track destination url goals on a subdomain for an existing universal analytics property, you can follow the steps below to distinguish between root domain visitors and subdomain visitors along with goals that might have the same url path. This is not to be confused with cross-domain tracking which requires different configuration settings.</p>
+
+<h2 id="step-1">Step 1</h2>
+
+<p>Add the universal analytics tracking code from your root domain to your subdomain and ensure that the cookie domain is set (by default it is set in universal analytics unless you are using GTM).</p>
+
+<h2 id="step-2">Step 2</h2>
+
+<p>Add your subdomain to the referral exclusion list. That way, Google doesn&rsquo;t set the referrer as your subdomain when your visitors jump between your root domain and subdomain, when it should be set to the originating source like an ad or search.</p>
+
+<p><br></p>
+
+<p><img class="img-responsive img-thumbnail" src="/img/blog/201705/add_referral_exclusion.png" alt="gogole analytics referral exclusion for subdomain" /></p>
+
+<p><br></p>
+
+<h2 id="step-3">Step 3</h2>
+
+<p>Add a subdomain filter to your view. Since the most common goals are destination goals and Google Analytics utilizes the Request URI (path) as the match value, we need to distinguish between subdomain paths and root domain paths. Google by default only matches against the path information so we need to modify the path data to include the subdomain in our filter.</p>
+
+<p>You want to select the advanced filter and extract the hostname (your subdomain) and concatenate it with the request uri (your path), and store it as the new path. In the example below we only do this for subdomains. You could do this for every path <a href="https://support.google.com/analytics/answer/1012243?hl=en">shown here</a> .</p>
+
+<p><br></p>
+
+<p><img class="img-responsive img-thumbnail" src="/img/blog/201705/subdomain_page_filter.png" alt="view filter for hostname path google analytics sub domain" /></p>
+
+<p><br></p>
+
+<h2 id="step-4">Step 4</h2>
+
+<p>Set up your goals with the destination path if you have the default requrest uri set, or with the hostname included if your filter is set up that way. See the examples below for a path only set up for the root domain and a hostname and path set up for the subdomain.</p>
+
+<p>Notice that they share the same path and Google Analytics would have counted them as the same goal if we did not explicitly make that distinction in our filtered view.</p>
+
+<div class="row">
+<div class="col-md-6">
+<h4>Root Domain Goal</h4>
+<img class="img-responsive img-thumbnail" src="/img/blog/201705/root_domain_goal.png" alt="root domain goal for google analytics" />
+</div>
+
+<div class="col-md-6">
+<h4>Subdomain Goal</h4>
+<img class="img-responsive img-thumbnail" src="/img/blog/201705/subdomain_goal.png" alt="subdomain goal for google analytics" />
+</div>
+</div>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>There you have it. Now you&rsquo;re ready to start tracking across multiple subdomains. If you need help tracking your goals across multiple domains or subdomains, we have experts standing by to <a href="/join/">configure your analytics for cross domain tracking. Meet Your Expert Today!</a></p>
+
+                        </div>
                         
                         
-                        <section class="post">
-                            <div class="row">
-                                <div class="col-md-4">
-                                  <div class="image">
-                                      <a href="https://attribut.io/blog/2017/05/18/tracking-goals-with-subdomains-in-google-analytics/">
-                                          
-                                          <img src="https://attribut.io//img/blog/201705/subdomain_page_filter.png" class="img-responsive" alt="">
-                                          
-                                      </a>
-                                  </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <h2><a href="https://attribut.io/blog/2017/05/18/tracking-goals-with-subdomains-in-google-analytics/">Tracking Goals with Subdomains in Google Analytics</a></h2>
-                                    <div class="clearfix">
-                                        <p class="author-category">
-                                          
-                                          By <a href="#">David Chun</a>
-                                          
-                                          
-                                          
-                                          in <a href="https://attribut.io/categories/tutorial">tutorial</a>
-                                          
-                                          
+                        <div id="comments">
+                            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'https-attribut-io';
+    var disqus_identifier = 'https:\/\/attribut.io\/blog\/2017\/05\/18\/tracking-goals-with-subdomains-in-google-analytics\/';
+    var disqus_title = 'Tracking Goals with Subdomains in Google Analytics';
+    var disqus_url = 'https:\/\/attribut.io\/blog\/2017\/05\/18\/tracking-goals-with-subdomains-in-google-analytics\/';
 
-                                        </p>
-                                        <p class="date-comments">
-                                            <a href="https://attribut.io/blog/2017/05/18/tracking-goals-with-subdomains-in-google-analytics/"><i class="fa fa-calendar-o"></i> May 18, 2017</a>
-                                        </p>
-                                    </div>
-                                    <p class="intro">Introduction Sometimes your conversion funnel spans multiple domains or subdomains. If you need to track destination url goals on a subdomain for an existing universal analytics property, you can follow the steps below to distinguish between root domain visitors and subdomain visitors along with goals that might have the same url path. This is not to be confused with cross-domain tracking which requires different configuration settings.
-Step 1 Add the universal analytics tracking code from your root domain to your subdomain and ensure that the cookie domain is set (by default it is set in universal analytics unless you are using GTM).</p>
-                                    <p class="read-more"><a href="https://attribut.io/blog/2017/05/18/tracking-goals-with-subdomains-in-google-analytics/" class="btn btn-template-main">Continue reading</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </section>
-                        
-                        <section class="post">
-                            <div class="row">
-                                <div class="col-md-4">
-                                  <div class="image">
-                                      <a href="https://attribut.io/blog/2017/04/27/track-conversions-with-google-analytics-client-id/">
-                                          
-                                          <img src="https://attribut.io//img/blog/201704/session_based_client_id.png" class="img-responsive" alt="">
-                                          
-                                      </a>
-                                  </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <h2><a href="https://attribut.io/blog/2017/04/27/track-conversions-with-google-analytics-client-id/">Track Conversions With Google Analytics&#39; Client ID</a></h2>
-                                    <div class="clearfix">
-                                        <p class="author-category">
-                                          
-                                          By <a href="#">David Chun</a>
-                                          
-                                          
-                                          
-                                          in <a href="https://attribut.io/categories/tutorial">tutorial</a>
-                                          
-                                          
-
-                                        </p>
-                                        <p class="date-comments">
-                                            <a href="https://attribut.io/blog/2017/04/27/track-conversions-with-google-analytics-client-id/"><i class="fa fa-calendar-o"></i> April 27, 2017</a>
-                                        </p>
-                                    </div>
-                                    <p class="intro">Introduction Google Analytics is an underutilized tool and there are a few basic things you can do to gain more insight into your conversions. Last year in March of 2016 Google made their new User Explorer available to the public. It&rsquo;s a great tool but unfortunately, you can&rsquo;t drill down into other dimensions with this tool yet.
-What the User Explorer essentially does is aggregate users based on the client id that google collects in the form of a cookie set in your visitor&rsquo;s browser.</p>
-                                    <p class="read-more"><a href="https://attribut.io/blog/2017/04/27/track-conversions-with-google-analytics-client-id/" class="btn btn-template-main">Continue reading</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </section>
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                        </div>
                         
 
-                        <ul class="pager">
-                            
-                            <li class="previous disabled"><a href="#">&larr; Newer</a></li>
-                            
-
-                            
-                            <li class="next disabled"><a href="#">Older &rarr;</a></li>
-                            
-                        </ul>
                     </div>
                     
 
@@ -366,6 +361,7 @@ What the User Explorer essentially does is aggregate users based on the client i
 
                 </div>
                 
+
             </div>
             
         </div>

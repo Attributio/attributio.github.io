@@ -7,8 +7,70 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2017 Attributio. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 27 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 May 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://attribut.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Tracking Goals with Subdomains in Google Analytics</title>
+      <link>https://attribut.io/blog/2017/05/18/tracking-goals-with-subdomains-in-google-analytics/</link>
+      <pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://attribut.io/blog/2017/05/18/tracking-goals-with-subdomains-in-google-analytics/</guid>
+      <description>
+
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;Sometimes your conversion funnel spans multiple domains or subdomains. If you need to track destination url goals on a subdomain for an existing universal analytics property, you can follow the steps below to distinguish between root domain visitors and subdomain visitors along with goals that might have the same url path. This is not to be confused with cross-domain tracking which requires different configuration settings.&lt;/p&gt;
+
+&lt;h2 id=&#34;step-1&#34;&gt;Step 1&lt;/h2&gt;
+
+&lt;p&gt;Add the universal analytics tracking code from your root domain to your subdomain and ensure that the cookie domain is set (by default it is set in universal analytics unless you are using GTM).&lt;/p&gt;
+
+&lt;h2 id=&#34;step-2&#34;&gt;Step 2&lt;/h2&gt;
+
+&lt;p&gt;Add your subdomain to the referral exclusion list. That way, Google doesn&amp;rsquo;t set the referrer as your subdomain when your visitors jump between your root domain and subdomain, when it should be set to the originating source like an ad or search.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201705/add_referral_exclusion.png&#34; alt=&#34;gogole analytics referral exclusion for subdomain&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;step-3&#34;&gt;Step 3&lt;/h2&gt;
+
+&lt;p&gt;Add a subdomain filter to your view. Since the most common goals are destination goals and Google Analytics utilizes the Request URI (path) as the match value, we need to distinguish between subdomain paths and root domain paths. Google by default only matches against the path information so we need to modify the path data to include the subdomain in our filter.&lt;/p&gt;
+
+&lt;p&gt;You want to select the advanced filter and extract the hostname (your subdomain) and concatenate it with the request uri (your path), and store it as the new path. In the example below we only do this for subdomains. You could do this for every path &lt;a href=&#34;https://support.google.com/analytics/answer/1012243?hl=en&#34;&gt;shown here&lt;/a&gt; .&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201705/subdomain_page_filter.png&#34; alt=&#34;view filter for hostname path google analytics sub domain&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;step-4&#34;&gt;Step 4&lt;/h2&gt;
+
+&lt;p&gt;Set up your goals with the destination path if you have the default requrest uri set, or with the hostname included if your filter is set up that way. See the examples below for a path only set up for the root domain and a hostname and path set up for the subdomain.&lt;/p&gt;
+
+&lt;p&gt;Notice that they share the same path and Google Analytics would have counted them as the same goal if we did not explicitly make that distinction in our filtered view.&lt;/p&gt;
+
+&lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;col-md-6&#34;&gt;
+&lt;h4&gt;Root Domain Goal&lt;/h4&gt;
+&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201705/root_domain_goal.png&#34; alt=&#34;root domain goal for google analytics&#34; /&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;col-md-6&#34;&gt;
+&lt;h4&gt;Subdomain Goal&lt;/h4&gt;
+&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201705/subdomain_goal.png&#34; alt=&#34;subdomain goal for google analytics&#34; /&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;There you have it. Now you&amp;rsquo;re ready to start tracking across multiple subdomains. If you need help tracking your goals across multiple domains or subdomains, we have experts standing by to &lt;a href=&#34;https://attribut.io/join/&#34;&gt;configure your analytics for cross domain tracking. Meet Your Expert Today!&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Track Conversions With Google Analytics&#39; Client ID</title>
@@ -36,7 +98,7 @@
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/property_custom_definitions.png&#34; alt=&#34;add custom dimension to google analytics&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201704/property_custom_definitions.png&#34; alt=&#34;add custom dimension to google analytics&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
@@ -44,7 +106,7 @@
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/custom_dimensions_new.png&#34; alt=&#34;add client id to google analytics&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201704/custom_dimensions_new.png&#34; alt=&#34;add client id to google analytics&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
@@ -52,7 +114,7 @@
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/session_based_client_id.png&#34; alt=&#34;add session based client id to google analytics&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201704/session_based_client_id.png&#34; alt=&#34;add session based client id to google analytics&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
@@ -60,7 +122,7 @@
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/client_id_embed.png&#34; alt=&#34;add custom dimension client id to website embed code&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201704/client_id_embed.png&#34; alt=&#34;add custom dimension client id to website embed code&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
