@@ -81,15 +81,21 @@
 
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 
-&lt;p&gt;Google Analytics is an underutilized tool and there are a few basic things you can do to gain more insight into your conversions. Last year in March of 2016 Google made their new &lt;a href=&#34;https://support.google.com/analytics/answer/6339208?hl=en&#34;&gt;User Explorer&lt;/a&gt; available to the public. It&amp;rsquo;s a great tool but unfortunately, you can&amp;rsquo;t drill down into other dimensions with this tool yet.&lt;/p&gt;
+&lt;p&gt;Google Analytics is an underutilized tool and there are a few basic things you can do to gain more insight into your conversions. Last year in March of 2016 Google made their new &lt;a href=&#34;https://support.google.com/analytics/answer/6339208?hl=en&#34;&gt;User Explorer&lt;/a&gt; available to the public. It&amp;rsquo;s a great tool but unfortunately, you can&amp;rsquo;t drill down into other dimensions with this tool yet. Also, you can&amp;rsquo;t combine this information with other dimensions or metrics like where the user came from.&lt;/p&gt;
 
-&lt;p&gt;What the User Explorer essentially does is aggregate users based on the client id that google collects in the form of a cookie set in your visitor&amp;rsquo;s browser. Also, you can&amp;rsquo;t combine this information with other dimensions or metrics like where the user came from.&lt;/p&gt;
+&lt;p&gt;What the User Explorer essentially does is aggregate users based on the client id that google collects in the form of a cookie set in your visitor&amp;rsquo;s browser. Google uses this cookie internally but doesn&amp;rsquo;t make it accessible to Google Analytic&amp;rsquo;s users. The only way to access the client id is by exposing it and sending it to your Google Analytics property as a custom dimension.&lt;/p&gt;
 
 &lt;h2 id=&#34;why-you-need-to-add-client-id-now&#34;&gt;Why You Need to Add Client ID Now&lt;/h2&gt;
 
 &lt;p&gt;When you&amp;rsquo;re ready to start looking at where your conversions are coming from, you&amp;rsquo;ll want to connect the information related to where they came from and how they interacted with your site. Unfortunately, you wont have that data. And you&amp;rsquo;ll have to wait until you&amp;rsquo;ve collected enough data to make any kind of assessment on conversions.&lt;/p&gt;
 
-&lt;p&gt;For example, if you decide to run an ad campaign and spend $10k on cpc, if you want to see the results at the end of the month and you only have a basic analytics setup, you&amp;rsquo;ll have a difficult time connecting your converted users to all the little interactions that visitor had with the various ads you ran along with their activity on your website. And if there&amp;rsquo;s a big chunk of your conversions that isn&amp;rsquo;t trackable, you&amp;rsquo;ll have a harder time mazimizing every single dollar of your marketing budget.&lt;/p&gt;
+&lt;p&gt;For example, if you decide to run an ad campaign and spend $10k on cpc, if you want to see the results at the end of the month and you only have a basic analytics setup, you&amp;rsquo;ll have a difficult time connecting your converted users to all the little interactions that visitor had with the various ads you ran along with their activity on your website. And if there&amp;rsquo;s a big chunk of your conversions that isn&amp;rsquo;t trackable, you&amp;rsquo;ll have a harder time maximizing every single dollar of your marketing budget.&lt;/p&gt;
+
+&lt;p&gt;So let&amp;rsquo;s say a visitor came to your site via search at the beginning of the month. Their session will be attributed to the medium of search. Let&amp;rsquo;s say the following month, they returned by typing in your domain in their browser. When that visitor converts, there is a high likelihood that that conversion will be attributed as &lt;strong&gt;(none)&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Assuming that you added the client id to all your pageviews just before that conversion, you still won&amp;rsquo;t know that that visitor originally arrived from search.&lt;/p&gt;
+
+&lt;p&gt;Assuming that you had enough foresight to add the client id before that visitor first arrived at your site, you will then be able to process that raw data and attribute that conversion to search. That is why you need to add the client id to your Google Analytics property ASAP.&lt;/p&gt;
 
 &lt;h2 id=&#34;how-to-add-client-id-as-a-custom-dimension&#34;&gt;How to Add Client ID as a Custom Dimension&lt;/h2&gt;
 

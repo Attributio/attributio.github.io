@@ -20,45 +20,6 @@
   <meta name="generator" content="Hugo 0.19" />
   
   
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-97173125-1', 'auto');
-ga(function(tracker) {
-  var clientId = tracker.get('clientId');
-  ga('set', 'dimension1', clientId);
-  ga('send', 'pageview');
-});
-</script>
-
-
-
-<script>
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1395762513829538'); 
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1395762513829538&ev=PageView&noscript=1"
-/></noscript>
-
-
-
-
-<script>
-(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5664513"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");
-</script>
-<noscript><img src="//bat.bing.com/action/0?ti=5664513&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
-
-
-
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -230,15 +191,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <h2 id="introduction">Introduction</h2>
 
-<p>Google Analytics is an underutilized tool and there are a few basic things you can do to gain more insight into your conversions. Last year in March of 2016 Google made their new <a href="https://support.google.com/analytics/answer/6339208?hl=en">User Explorer</a> available to the public. It&rsquo;s a great tool but unfortunately, you can&rsquo;t drill down into other dimensions with this tool yet.</p>
+<p>Google Analytics is an underutilized tool and there are a few basic things you can do to gain more insight into your conversions. Last year in March of 2016 Google made their new <a href="https://support.google.com/analytics/answer/6339208?hl=en">User Explorer</a> available to the public. It&rsquo;s a great tool but unfortunately, you can&rsquo;t drill down into other dimensions with this tool yet. Also, you can&rsquo;t combine this information with other dimensions or metrics like where the user came from.</p>
 
-<p>What the User Explorer essentially does is aggregate users based on the client id that google collects in the form of a cookie set in your visitor&rsquo;s browser. Also, you can&rsquo;t combine this information with other dimensions or metrics like where the user came from.</p>
+<p>What the User Explorer essentially does is aggregate users based on the client id that google collects in the form of a cookie set in your visitor&rsquo;s browser. Google uses this cookie internally but doesn&rsquo;t make it accessible to Google Analytic&rsquo;s users. The only way to access the client id is by exposing it and sending it to your Google Analytics property as a custom dimension.</p>
 
 <h2 id="why-you-need-to-add-client-id-now">Why You Need to Add Client ID Now</h2>
 
 <p>When you&rsquo;re ready to start looking at where your conversions are coming from, you&rsquo;ll want to connect the information related to where they came from and how they interacted with your site. Unfortunately, you wont have that data. And you&rsquo;ll have to wait until you&rsquo;ve collected enough data to make any kind of assessment on conversions.</p>
 
-<p>For example, if you decide to run an ad campaign and spend $10k on cpc, if you want to see the results at the end of the month and you only have a basic analytics setup, you&rsquo;ll have a difficult time connecting your converted users to all the little interactions that visitor had with the various ads you ran along with their activity on your website. And if there&rsquo;s a big chunk of your conversions that isn&rsquo;t trackable, you&rsquo;ll have a harder time mazimizing every single dollar of your marketing budget.</p>
+<p>For example, if you decide to run an ad campaign and spend $10k on cpc, if you want to see the results at the end of the month and you only have a basic analytics setup, you&rsquo;ll have a difficult time connecting your converted users to all the little interactions that visitor had with the various ads you ran along with their activity on your website. And if there&rsquo;s a big chunk of your conversions that isn&rsquo;t trackable, you&rsquo;ll have a harder time maximizing every single dollar of your marketing budget.</p>
+
+<p>So let&rsquo;s say a visitor came to your site via search at the beginning of the month. Their session will be attributed to the medium of search. Let&rsquo;s say the following month, they returned by typing in your domain in their browser. When that visitor converts, there is a high likelihood that that conversion will be attributed as <strong>(none)</strong>.</p>
+
+<p>Assuming that you added the client id to all your pageviews just before that conversion, you still won&rsquo;t know that that visitor originally arrived from search.</p>
+
+<p>Assuming that you had enough foresight to add the client id before that visitor first arrived at your site, you will then be able to process that raw data and attribute that conversion to search. That is why you need to add the client id to your Google Analytics property ASAP.</p>
 
 <h2 id="how-to-add-client-id-as-a-custom-dimension">How to Add Client ID as a Custom Dimension</h2>
 
