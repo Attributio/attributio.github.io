@@ -89,13 +89,7 @@
 
 &lt;p&gt;When you&amp;rsquo;re ready to start looking at where your conversions are coming from, you&amp;rsquo;ll want to connect the information related to where they came from and how they interacted with your site. Unfortunately, you wont have that data. And you&amp;rsquo;ll have to wait until you&amp;rsquo;ve collected enough data to make any kind of assessment on conversions.&lt;/p&gt;
 
-&lt;p&gt;For example, if you decide to run an ad campaign and spend $10k on cpc, if you want to see the results at the end of the month and you only have a basic analytics setup, you&amp;rsquo;ll have a difficult time connecting your converted users to all the little interactions that visitor had with the various ads you ran along with their activity on your website. And if there&amp;rsquo;s a big chunk of your conversions that isn&amp;rsquo;t trackable, you&amp;rsquo;ll have a harder time maximizing every single dollar of your marketing budget.&lt;/p&gt;
-
-&lt;p&gt;So let&amp;rsquo;s say a visitor came to your site via search at the beginning of the month. Their session will be attributed to the medium of search. Let&amp;rsquo;s say the following month, they returned by typing in your domain in their browser. When that visitor converts, there is a high likelihood that that conversion will be attributed as &lt;strong&gt;(none)&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Assuming that you added the client id to all your pageviews just before that conversion, you still won&amp;rsquo;t know that that visitor originally arrived from search.&lt;/p&gt;
-
-&lt;p&gt;Assuming that you had enough foresight to add the client id before that visitor first arrived at your site, you will then be able to process that raw data and attribute that conversion to search. That is why you need to add the client id to your Google Analytics property ASAP.&lt;/p&gt;
+&lt;p&gt;Assuming that you are collecting your visitor&amp;rsquo;s client id when they convert, you can query as far back as you like on that user to visualize every step they took to convert. You can also view all of the channels that they navigated to before converting.&lt;/p&gt;
 
 &lt;h2 id=&#34;how-to-add-client-id-as-a-custom-dimension&#34;&gt;How to Add Client ID as a Custom Dimension&lt;/h2&gt;
 
