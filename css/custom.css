@@ -156,3 +156,19 @@ blockquote {
   margin-bottom: 18px;
 }
 /* Testimonial Styling End */
+
+/* Blog Styling Start */
+@media (min-width: 992px) {
+    .email-signup-form-container.affix {
+        position: fixed;
+        top: 100px;
+        width: auto;
+        margin-right: 10%;
+    }
+}
+@media (max-width: 992px) {
+    .email-signup-form-container.affix {
+        position: static;
+    }
+}
+/* Blog Styling End */
