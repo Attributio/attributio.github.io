@@ -18,12 +18,7 @@ $(document).ready(function() {
 
   $("#client_monthly_budget_unknown").trigger("change");
 
-  var client_id;
-  if (typeof ga === 'function') {
-    ga(function(tracker) {
-      client_id = tracker.get('clientId');
-    });
-  }
+  var client_id = $.cookie("clientId");
 
   var referrer = document.referrer;
 
