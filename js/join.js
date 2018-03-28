@@ -19,6 +19,7 @@ $(document).ready(function() {
   $("#client_monthly_budget_unknown").trigger("change");
 
   var client_id = $.cookie("clientId");
+  client_id = client_id.toString();
 
   var referrer = document.referrer;
 
