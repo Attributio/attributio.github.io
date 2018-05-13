@@ -2628,6 +2628,12 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/test/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/platform/</loc>
 	    <priority>0</priority>
 	  </url>
