@@ -30,16 +30,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-WXK2VG6');</script>
 
-
-  
-  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
-  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
-
-  
-  <meta property="og:title" content="Meet Your Attribution Marketing Expert - Attributio" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="/test//" />
-  <meta property="og:image" content="img/logo.png" />
 </head>
 
 <body id="" cz-shortcut-listen="true">
@@ -73,27 +63,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
-
-<label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+<label for="first_name">Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
 
 <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
 
-<label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
-
-
-<input  id="00N1Y00000IQObz" maxlength="50" name="00N1Y00000IQObz" size="20" type="hidden" /><br>
+<input  id="GACLIENTID" maxlength="255" name="GACLIENTID" size="20" type="hidden" />
+<input  id="GAUSERID" maxlength="255" name="GAUSERID" size="20" type="hidden" />
+<input  id="GATRACKID" maxlength="255" name="GATRACKID" size="20" type="hidden" />
 
 <input type="submit" name="submit">
 
 </form>
-  <script src="//code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-  <script>
-  	var clientId = $.cookie("clientId");
-  	$("input#00N1Y00000IQObz").val(clientId);
 
-  </script>
+<script>
+  window.getCookie = function(name) {
+    match = document.cookie.match(new RegExp(name + '=([^;]+)'));
+    if (match) return match[1];
+  }
+	var clientId = window.getCookie("clientId");
+  document.getElementById('GACLIENTID').value = clientId;
+</script>
 
 </body>
 
