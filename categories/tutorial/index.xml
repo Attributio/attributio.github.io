@@ -10,6 +10,42 @@
     <atom:link href="https://attribut.io/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>How to Unblock Google Analytics in Wordpress</title>
+      <link>https://attribut.io/blog/2018/06/25/how-to-unblock-google-analytics-in-wordpress/</link>
+      <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://attribut.io/blog/2018/06/25/how-to-unblock-google-analytics-in-wordpress/</guid>
+      <description>
+
+&lt;h2 id=&#34;adblockers&#34;&gt;Adblockers&lt;/h2&gt;
+
+&lt;p&gt;Adblocking is on the rise. And with it comes not only the removal of ads but the blocking of popular web traffic tracking tools like Google Analytics. Some reports suggest that more than 10% of all web traffic is now being blocked from services like Google Analytics and this can be a major issue for businesses that rely on accurate data to make good business decisions.&lt;/p&gt;
+
+&lt;h2 id=&#34;specific-problems&#34;&gt;Specific Problems&lt;/h2&gt;
+
+&lt;p&gt;You might find that conversions that are being reported in Google Analytics don&amp;rsquo;t actually reflect the conversions that you are seeing in the backend of your website. This could be for a variety of reasons, one of which is that Google Analytics is being blocked by those particular users that are using adblocking software.&lt;/p&gt;
+
+&lt;h2 id=&#34;a-simple-solution&#34;&gt;A simple solution&lt;/h2&gt;
+
+&lt;p&gt;By hosting the Universal Analytics Script on your server and creating a proxy to send hit data to Google Analytics, the &lt;a href=&#34;https://wordpress.org/plugins/attributio-unblock-analytics/&#34;&gt;Attribution Unblock Analytics plugin&lt;/a&gt; will ensure that when Google Analytics is being blocked, a backup script will load and fire the standard scripts and any custom hit data you add to the plugin.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201806/attributio-plugin.png&#34; alt=&#34;unblock google analytics plugin for wordpress&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;As seen in the example below, a common extension used to block Google Analytics is detected and triggers the self hosted Analytics script and sends hit data along with any custom scripts added to the backend to the proxy created by the plugin and routes it back to Google.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201806/analytics-unblock.png&#34; alt=&#34;unblock adblockers google analytics&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Tracking Goals with Subdomains in Google Analytics</title>
       <link>https://attribut.io/blog/2017/05/18/tracking-goals-with-subdomains-in-google-analytics/</link>
       <pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
