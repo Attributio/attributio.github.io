@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Crm on Attributio - Attribution Markerting Experts</title>
+    <link>https://attribut.io/tags/crm/index.xml</link>
+    <description>Recent content in Crm on Attributio - Attribution Markerting Experts</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2018 Attributio. All rights reserved.</copyright>
+    <atom:link href="https://attribut.io/tags/crm/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Tracking Offline Sales in Google Analytics</title>
+      <link>https://attribut.io/blog/2018/11/19/tracking-offline-sales-in-google-analytics/</link>
+      <pubDate>Mon, 19 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://attribut.io/blog/2018/11/19/tracking-offline-sales-in-google-analytics/</guid>
+      <description>
+
+&lt;h2 id=&#34;configure-your-lead-generation-forms-to-store-google-s-cookies&#34;&gt;Configure your lead generation forms to store Google&amp;rsquo;s cookies&lt;/h2&gt;
+
+&lt;p&gt;If you&amp;rsquo;re collecting leads online and converting them over the phone through your CRM, you need to collect a cookie that Google Analytics sets on your website to identify that user. Once you store that unique id in your CRM, you can send a webhook to Google Analytics with that id via their &lt;a href=&#34;https://developers.google.com/analytics/devguides/collection/protocol/v1/parameters&#34;&gt;Measurement Protocol&lt;/a&gt; whenever a deal has been completed.&lt;/p&gt;
+
+&lt;h2 id=&#34;configure-google-analytics-to-store-revenue-data&#34;&gt;Configure Google Analytics to store revenue data&lt;/h2&gt;
+
+&lt;p&gt;You will also need to create a custom metric in your Google Analytics property to represent revenue data (you can do this easily with our &lt;a href=&#34;https://app.attribut.io?utm_medium=blog&#34;&gt;app&lt;/a&gt;). Once that has been set, you can send the client id that was captured during the online lead conversion process along with the total value of that deal to Google Anaytics to get a picture of your ROI.&lt;/p&gt;
+
+&lt;p&gt;If you can&amp;rsquo;t collect the client id, which Google uses to match all of that user&amp;rsquo;s behavior in Google Analytics with the data that you want to see, you will need to send a User ID. If you aren&amp;rsquo;t using an authentication system where your customers have id&amp;rsquo;s associated with their accounts, you can just add the id generated from your CRM and send that along with the revenue data. You will need one or the other, otherwise Google Analytics will not register the event data that you will be sending to it&amp;rsquo;s servers.&lt;/p&gt;
+
+&lt;p&gt;Lastly, you will need to create a calculated metric that will divide the revenue with the cost.&lt;/p&gt;
+
+&lt;h2 id=&#34;create-a-report-in-google-analytics-to-show-attribution-data-with-revenue-and-roa&#34;&gt;Create a report in Google Analytics to show attribution data with revenue and ROA&lt;/h2&gt;
+
+&lt;p&gt;In Google Analytics you will need to create a report that lists the custom metric you created with revenue and the calculated metric along with the cost of advertising.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201811/revenue.png&#34; alt=&#34;gogole analytics track offline sales&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;And there you have it. Now you can track the ROI of all your advertising in Google Analytics along with all of your sales that happen offline.&lt;/p&gt;
+
+&lt;p&gt;Next, we&amp;rsquo;ll take a look at how to add cost data related to our advertising to Google Analytics.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
