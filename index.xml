@@ -7,8 +7,109 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; 2018 Attributio. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 19 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Nov 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://attribut.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Ultimate Guide to Measure ROI On Your Direct Marketing Efforts With Salesforce &amp; Google Analytics - Part 1</title>
+      <link>https://attribut.io/blog/2018/11/21/the-ultimate-guide-to-measure-roi-on-your-direct-marketing-efforts-with-salesforce-and-google-analytics-1/</link>
+      <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://attribut.io/blog/2018/11/21/the-ultimate-guide-to-measure-roi-on-your-direct-marketing-efforts-with-salesforce-and-google-analytics-1/</guid>
+      <description>
+
+&lt;h2 id=&#34;brand-marketing-vs-direct-marketing&#34;&gt;Brand Marketing VS Direct Marketing&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;You can&amp;rsquo;t manage what you can&amp;rsquo;t measure.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;- Peter Drucker&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We live in an age when we can measure just about everything. The fact that many of us aren&amp;rsquo;t measuring our direct marketing efforts is detrimental to our businesses.&lt;/p&gt;
+
+&lt;p&gt;Brand marketing continues to be difficult to measure since brand marketing is more about communicating values to an audience. The ROI on that kind of advertising is measured far down the line whereas direct marketing is about getting conversions and selling right off the bat.&lt;/p&gt;
+
+&lt;h2 id=&#34;measuring-your-marketing&#34;&gt;Measuring Your Marketing&lt;/h2&gt;
+
+&lt;p&gt;Companies of the past used to throw millions into their advertising budget without ever getting any kind of accurate indication of how those efforts rolled over into sales.&lt;/p&gt;
+
+&lt;p&gt;Today, those companies are fading and a new generation of companies are springing up with the tools to measure their direct marketing efforts to maximize their profits.&lt;/p&gt;
+
+&lt;p&gt;With a set of tools and a bit of configuration, you can be well on your way to measuring the ROI on your direct marketing efforts to compete with the new generation of guirella marketers taking down old encumbents.&lt;/p&gt;
+
+&lt;h2 id=&#34;using-salesforce-google-analytics-to-measure-your-results&#34;&gt;Using Salesforce &amp;amp; Google Analytics To Measure Your Results&lt;/h2&gt;
+
+&lt;p&gt;You don&amp;rsquo;t have to use a CRM. You can use your POS, your ecommerce shop, your ERP system. Anything you use to store transaction data. In our example, we&amp;rsquo;ll use Salesforce since it&amp;rsquo;s the most common CRM and Google Analytics since it&amp;rsquo;s the most widely available analytics tool.&lt;/p&gt;
+
+&lt;p&gt;You&amp;rsquo;ll need to first follow &lt;a href=&#34;https://support.google.com/analytics/answer/7584446?hl=en&#34; target=&#34;_blank&#34;&gt;these instructions&lt;/a&gt; to configure your Leads and Opportunites to be able to store data that is provided by Google Analytics. For detailed instructions, continue reading.&lt;/p&gt;
+
+&lt;h3 id=&#34;create-lead-opportunity-fields-in-salesforce&#34;&gt;Create Lead &amp;amp; Opportunity Fields In Salesforce&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Navigate to the Object Manager Tab and select the &amp;ldquo;Lead&amp;rdquo; object&lt;/li&gt;
+&lt;li&gt;Select &amp;ldquo;Fields &amp;amp; Relationships&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Select &amp;ldquo;New&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Select &amp;ldquo;Text&amp;rdquo; in the radio options and then select &amp;ldquo;Next&amp;rdquo;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Fill in the form as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Field Label = GA Client ID&lt;/li&gt;
+&lt;li&gt;Length = 255&lt;/li&gt;
+&lt;li&gt;Field Name = GACLIENTID&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201811/lead-gclid.png&#34; alt=&#34;salesforce gclid leads&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Leave all the default fields in the subsequent pages and save&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Repeat with Leads and Opportunities with these three fields:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;GACLIENTID&lt;/li&gt;
+&lt;li&gt;GAUSERID&lt;/li&gt;
+&lt;li&gt;GATRACKID&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&amp;ldquo;Set History Tracking&amp;rdquo; for all new fields&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201811/lead-history.png&#34; alt=&#34;salesforce gclid set lead history&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&amp;ldquo;Map Lead Fields&amp;rdquo; between Lead and Opportunity fields&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201811/lead-map.png&#34; alt=&#34;salesforce gclid map leads&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;create-custom-dimensions-metrics-in-google-analytics&#34;&gt;Create Custom Dimensions &amp;amp; Metrics In Google Analytics&lt;/h3&gt;
+
+&lt;p&gt;This part is easy. We created a &lt;a href=&#34;https://app.attribut.io&#34; target=&#34;_blank&#34;&gt;simple tool&lt;/a&gt; to help you create these fields in your Google Analytics Property.&lt;/p&gt;
+
+&lt;p&gt;You&amp;rsquo;ll also want to send the Client ID &amp;amp; User ID back to Google Analytics as a custom dimension if you want to run some more complex analyses of your campaigns. You can find instructions &lt;a href=&#34;https://attribut.io/blog/2017/04/27/track-conversions-with-google-analytics-client-id/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;create-a-web-to-lead-form&#34;&gt;Create a Web-To-Lead Form&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;In Salesforce navigate to Platform Tools &amp;gt; Feature Settings &amp;gt; Marketing &amp;gt; Web-to-Lead and create a new form.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201811/lead-form-1.png&#34; alt=&#34;salesforce gclid lead form start&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Add the fields you want for you form making sure to add the fields we created earlier.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201811/lead-form-2.png&#34; alt=&#34;salesforce gclid lead form setup&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Add the rendered html form to our website and make the tracking fields hidden.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Grab the Client ID from Google Analytics along with User ID (If you have it) and auto-populate the hidden fields. If you&amp;rsquo;re using Google Tag Manager, you&amp;rsquo;re code will differ than what is presented below. You need to make the Client ID available as a cookie and grab the cookie and populate the hidden field. As for the Tracking ID, you can either manually add it to the form as a value or dynamically populate it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201811/lead-form-html.png&#34; alt=&#34;salesforce gclid lead form setup&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;next-steps&#34;&gt;Next Steps&lt;/h2&gt;
+
+&lt;p&gt;Now that you have Salesforce and Google Analytics setup, you&amp;rsquo;ll need to configure Salesforce to send deal values to Google Analytics. To get help, &lt;a href=&#34;https://attribut.io/support/&#34;&gt;consult with a marketing attribution expert today&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Tracking Offline Sales in Google Analytics</title>
@@ -36,7 +137,7 @@
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201811/revenue.png&#34; alt=&#34;gogole analytics track offline sales&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201811/revenue.png&#34; alt=&#34;google analytics track offline sales&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
@@ -387,15 +488,6 @@ ga(function(tracker) {
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://attribut.io/platform/cms/bettercms/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Google Analytics CMS Tracking For Bricolage - Attributio</title>
-      <link>https://attribut.io/platform/cms/bricolage/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://attribut.io/platform/cms/bricolage/</guid>
       <description></description>
     </item>
     

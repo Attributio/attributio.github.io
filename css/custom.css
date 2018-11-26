@@ -171,4 +171,29 @@ blockquote {
         position: static;
     }
 }
+
+blockquote {
+    border-left: .25em solid #dfe2e5;
+    color: #6a737d;
+    padding: 0 1em;
+}
 /* Blog Styling End */
+
+.signup-form {
+    position: relative;
+    width: 100%;
+    float: left;
+    padding: 30px 50px;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    -moz-box-shadow: 1px 1px 8px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 1px 1px 8px rgba(0,0,0,0.2);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.signup-form .form-group {
+    margin-bottom: 10px;
+}

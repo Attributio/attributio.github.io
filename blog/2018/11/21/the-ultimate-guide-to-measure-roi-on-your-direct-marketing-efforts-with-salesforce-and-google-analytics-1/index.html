@@ -6,15 +6,15 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <title>Tracking Goals with Subdomains in Google Analytics</title>
+  <title>The Ultimate Guide to Measure ROI On Your Direct Marketing Efforts With Salesforce &amp; Google Analytics - Part 1</title>
   <meta name="author" content="" />
 
   
-  <meta name="keywords" content="google analytics, google analytics subdomain tracking, google analytics goals with subdomains">
+  <meta name="keywords" content="google analytics, google analytics offline sales, track offline sales, salesforce, measure roa, measure roi, salesforce roi, marketing roi">
   
 
   
-  <meta name="description" content="Track goals for your subdomains with the same universal tracking code from Google Analytics.">
+  <meta name="description" content="A step by step guide to setting up your Salesforce account to kick ass in marketing by measuring ROA (Return On Adspend) and double down on the channels that convert.">
   
 
   <meta name="generator" content="Hugo 0.19" />
@@ -63,9 +63,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="alternate" href="https://attribut.io/index.xml" type="application/rss+xml" title="Attributio - Attribution Markerting Experts">
 
   
-  <meta property="og:title" content="Tracking Goals with Subdomains in Google Analytics" />
+  <meta property="og:title" content="The Ultimate Guide to Measure ROI On Your Direct Marketing Efforts With Salesforce &amp; Google Analytics - Part 1" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="/blog/2017/05/18/tracking-goals-with-subdomains-in-google-analytics//" />
+  <meta property="og:url" content="/blog/2018/11/21/the-ultimate-guide-to-measure-roi-on-your-direct-marketing-efforts-with-salesforce-and-google-analytics-1//" />
   <meta property="og:image" content="img/attributio-logo-300.png" />
 </head>
 
@@ -88,9 +88,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand home" href="/">
-                    <img src="/img/attributio-logo-300.png" alt="Tracking Goals with Subdomains in Google Analytics logo" width="162" height="45" style="padding-top:3px;" class="hidden-xs hidden-sm">
-                    <img src="/img/attributio-logo-300.png" alt="Tracking Goals with Subdomains in Google Analytics logo" width="135" height="40" style="padding-top:5px;" class="visible-xs visible-sm">
-                    <span class="sr-only">Tracking Goals with Subdomains in Google Analytics - go to homepage</span>
+                    <img src="/img/attributio-logo-300.png" alt="The Ultimate Guide to Measure ROI On Your Direct Marketing Efforts With Salesforce &amp; Google Analytics - Part 1 logo" width="162" height="45" style="padding-top:3px;" class="hidden-xs hidden-sm">
+                    <img src="/img/attributio-logo-300.png" alt="The Ultimate Guide to Measure ROI On Your Direct Marketing Efforts With Salesforce &amp; Google Analytics - Part 1 logo" width="135" height="40" style="padding-top:5px;" class="visible-xs visible-sm">
+                    <span class="sr-only">The Ultimate Guide to Measure ROI On Your Direct Marketing Efforts With Salesforce &amp; Google Analytics - Part 1 - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -161,7 +161,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Tracking Goals with Subdomains in Google Analytics</h1>
+                <h1>The Ultimate Guide to Measure ROI On Your Direct Marketing Efforts With Salesforce &amp; Google Analytics - Part 1</h1>
             </div>
         </div>
     </div>
@@ -177,62 +177,101 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                     <div class="col-md-9" id="blog-post">
 
-                        <p class="text-muted text-uppercase mb-small text-right">By <a href="#">Attributio</a> | May 18, 2017</p>
+                        <p class="text-muted text-uppercase mb-small text-right">By <a href="#">Attributio</a> | November 21, 2018</p>
 
                         <div id="post-content">
                           
 
-<h2 id="introduction">Introduction</h2>
+<h2 id="brand-marketing-vs-direct-marketing">Brand Marketing VS Direct Marketing</h2>
 
-<p>Sometimes your conversion funnel spans multiple domains or subdomains. If you need to track destination url goals on a subdomain for an existing universal analytics property, you can follow the steps below to distinguish between root domain visitors and subdomain visitors along with goals that might have the same url path. This is not to be confused with cross-domain tracking which requires different configuration settings.</p>
+<blockquote>
+<p>You can&rsquo;t manage what you can&rsquo;t measure.</p>
 
-<h2 id="step-1">Step 1</h2>
+<p><em>- Peter Drucker</em></p>
+</blockquote>
 
-<p>Add the universal analytics tracking code from your root domain to your subdomain and ensure that the cookie domain is set (by default it is set in universal analytics unless you are using GTM).</p>
+<p>We live in an age when we can measure just about everything. The fact that many of us aren&rsquo;t measuring our direct marketing efforts is detrimental to our businesses.</p>
 
-<h2 id="step-2">Step 2</h2>
+<p>Brand marketing continues to be difficult to measure since brand marketing is more about communicating values to an audience. The ROI on that kind of advertising is measured far down the line whereas direct marketing is about getting conversions and selling right off the bat.</p>
 
-<p>Add your subdomain to the referral exclusion list. That way, Google doesn&rsquo;t set the referrer as your subdomain when your visitors jump between your root domain and subdomain, when it should be set to the originating source like an ad or search.</p>
+<h2 id="measuring-your-marketing">Measuring Your Marketing</h2>
 
-<p><br></p>
+<p>Companies of the past used to throw millions into their advertising budget without ever getting any kind of accurate indication of how those efforts rolled over into sales.</p>
 
-<p><img class="img-responsive img-thumbnail" src="/img/blog/201705/add_referral_exclusion.png" alt="gogole analytics referral exclusion for subdomain" /></p>
+<p>Today, those companies are fading and a new generation of companies are springing up with the tools to measure their direct marketing efforts to maximize their profits.</p>
 
-<p><br></p>
+<p>With a set of tools and a bit of configuration, you can be well on your way to measuring the ROI on your direct marketing efforts to compete with the new generation of guirella marketers taking down old encumbents.</p>
 
-<h2 id="step-3">Step 3</h2>
+<h2 id="using-salesforce-google-analytics-to-measure-your-results">Using Salesforce &amp; Google Analytics To Measure Your Results</h2>
 
-<p>Add a subdomain filter to your view. Since the most common goals are destination goals and Google Analytics utilizes the Request URI (path) as the match value, we need to distinguish between subdomain paths and root domain paths. Google by default only matches against the path information so we need to modify the path data to include the subdomain in our filter.</p>
+<p>You don&rsquo;t have to use a CRM. You can use your POS, your ecommerce shop, your ERP system. Anything you use to store transaction data. In our example, we&rsquo;ll use Salesforce since it&rsquo;s the most common CRM and Google Analytics since it&rsquo;s the most widely available analytics tool.</p>
 
-<p>You want to select the advanced filter and extract the hostname (your subdomain) and concatenate it with the request uri (your path), and store it as the new path. In the example below we only do this for subdomains. You could do this for every path <a href="https://support.google.com/analytics/answer/1012243?hl=en">shown here</a> .</p>
+<p>You&rsquo;ll need to first follow <a href="https://support.google.com/analytics/answer/7584446?hl=en" target="_blank">these instructions</a> to configure your Leads and Opportunites to be able to store data that is provided by Google Analytics. For detailed instructions, continue reading.</p>
 
-<p><br></p>
+<h3 id="create-lead-opportunity-fields-in-salesforce">Create Lead &amp; Opportunity Fields In Salesforce</h3>
 
-<p><img class="img-responsive img-thumbnail" src="/img/blog/201705/subdomain_page_filter.png" alt="view filter for hostname path google analytics sub domain" /></p>
+<ol>
+<li>Navigate to the Object Manager Tab and select the &ldquo;Lead&rdquo; object</li>
+<li>Select &ldquo;Fields &amp; Relationships&rdquo;</li>
+<li>Select &ldquo;New&rdquo;</li>
+<li>Select &ldquo;Text&rdquo; in the radio options and then select &ldquo;Next&rdquo;</li>
 
-<p><br></p>
+<li><p>Fill in the form as follows:</p>
 
-<h2 id="step-4">Step 4</h2>
+<ul>
+<li>Field Label = GA Client ID</li>
+<li>Length = 255</li>
+<li>Field Name = GACLIENTID</li>
+</ul>
 
-<p>Set up your goals with the destination path if you have the default requrest uri set, or with the hostname included if your filter is set up that way. See the examples below for a path only set up for the root domain and a hostname and path set up for the subdomain.</p>
+<p><img class="img-responsive img-thumbnail" src="/img/blog/201811/lead-gclid.png" alt="salesforce gclid leads" /></p></li>
 
-<p>Notice that they share the same path and Google Analytics would have counted them as the same goal if we did not explicitly make that distinction in our filtered view.</p>
+<li><p>Leave all the default fields in the subsequent pages and save</p></li>
 
-<div class="row">
-<div class="col-md-6">
-<h4>Root Domain Goal</h4>
-<img class="img-responsive img-thumbnail" src="/img/blog/201705/root_domain_goal.png" alt="root domain goal for google analytics" />
-</div>
+<li><p>Repeat with Leads and Opportunities with these three fields:</p>
 
-<div class="col-md-6">
-<h4>Subdomain Goal</h4>
-<img class="img-responsive img-thumbnail" src="/img/blog/201705/subdomain_goal.png" alt="subdomain goal for google analytics" />
-</div>
-</div>
+<ul>
+<li>GACLIENTID</li>
+<li>GAUSERID</li>
+<li>GATRACKID</li>
+</ul></li>
 
-<h2 id="conclusion">Conclusion</h2>
+<li><p>&ldquo;Set History Tracking&rdquo; for all new fields</p>
 
-<p>There you have it. Now you&rsquo;re ready to start tracking across multiple subdomains. If you need help tracking your goals across multiple domains or subdomains, we have experts standing by to <a href="/join/">configure your analytics for cross domain tracking. Meet Your Expert Today!</a></p>
+<p><img class="img-responsive img-thumbnail" src="/img/blog/201811/lead-history.png" alt="salesforce gclid set lead history" /></p></li>
+
+<li><p>&ldquo;Map Lead Fields&rdquo; between Lead and Opportunity fields</p>
+
+<p><img class="img-responsive img-thumbnail" src="/img/blog/201811/lead-map.png" alt="salesforce gclid map leads" /></p></li>
+</ol>
+
+<h3 id="create-custom-dimensions-metrics-in-google-analytics">Create Custom Dimensions &amp; Metrics In Google Analytics</h3>
+
+<p>This part is easy. We created a <a href="https://app.attribut.io" target="_blank">simple tool</a> to help you create these fields in your Google Analytics Property.</p>
+
+<p>You&rsquo;ll also want to send the Client ID &amp; User ID back to Google Analytics as a custom dimension if you want to run some more complex analyses of your campaigns. You can find instructions <a href="https://attribut.io/blog/2017/04/27/track-conversions-with-google-analytics-client-id/">here</a>.</p>
+
+<h3 id="create-a-web-to-lead-form">Create a Web-To-Lead Form</h3>
+
+<ol>
+<li><p>In Salesforce navigate to Platform Tools &gt; Feature Settings &gt; Marketing &gt; Web-to-Lead and create a new form.</p>
+
+<p><img class="img-responsive img-thumbnail" src="/img/blog/201811/lead-form-1.png" alt="salesforce gclid lead form start" /></p></li>
+
+<li><p>Add the fields you want for you form making sure to add the fields we created earlier.</p>
+
+<p><img class="img-responsive img-thumbnail" src="/img/blog/201811/lead-form-2.png" alt="salesforce gclid lead form setup" /></p></li>
+
+<li><p>Add the rendered html form to our website and make the tracking fields hidden.</p></li>
+
+<li><p>Grab the Client ID from Google Analytics along with User ID (If you have it) and auto-populate the hidden fields. If you&rsquo;re using Google Tag Manager, you&rsquo;re code will differ than what is presented below. You need to make the Client ID available as a cookie and grab the cookie and populate the hidden field. As for the Tracking ID, you can either manually add it to the form as a value or dynamically populate it.</p>
+
+<p><img class="img-responsive img-thumbnail" src="/img/blog/201811/lead-form-html.png" alt="salesforce gclid lead form setup" /></p></li>
+</ol>
+
+<h2 id="next-steps">Next Steps</h2>
+
+<p>Now that you have Salesforce and Google Analytics setup, you&rsquo;ll need to configure Salesforce to send deal values to Google Analytics. To get help, <a href="/support/">consult with a marketing attribution expert today</a>.</p>
 
                         </div>
                         
