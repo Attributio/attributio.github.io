@@ -69,6 +69,7 @@
 &lt;li&gt;GACLIENTID&lt;/li&gt;
 &lt;li&gt;GAUSERID&lt;/li&gt;
 &lt;li&gt;GATRACKID&lt;/li&gt;
+&lt;li&gt;GAREVENUEID&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;&amp;ldquo;Set History Tracking&amp;rdquo; for all new fields&lt;/p&gt;
@@ -106,7 +107,7 @@
 
 &lt;h2 id=&#34;next-steps&#34;&gt;Next Steps&lt;/h2&gt;
 
-&lt;p&gt;Now that you have Salesforce and Google Analytics setup, you&amp;rsquo;ll need to configure Salesforce to send deal values to Google Analytics. To get help, &lt;a href=&#34;https://attribut.io/support/&#34;&gt;consult with a marketing attribution expert today&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Now that you have Salesforce and Google Analytics setup, you&amp;rsquo;ll need to &lt;a href=&#34;https://attribut.io/blog/2018/11/21/the-ultimate-guide-to-measure-roi-on-your-direct-marketing-efforts-with-salesforce-and-google-analytics-2/&#34;&gt;configure Salesforce to send deal values to Google Analytics&lt;/a&gt;. To get help, &lt;a href=&#34;https://attribut.io/support/&#34;&gt;consult with a marketing attribution expert today&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
