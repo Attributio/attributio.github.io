@@ -184,7 +184,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <h2 id="installation">Installation</h2>
 
-<p>Follow the link provided to you. And select the option to &ldquo;Install for All Users&rdquo;.</p>
+<p>Follow the link provided to you and select the option to &ldquo;Install for All Users&rdquo;.</p>
 
 <p><img class="img-responsive img-thumbnail" src="/img/docs/salesforce/install-marketing-analytics-screen.png" alt="install salesforce marketing analytics attribution app" /></p>
 
@@ -198,7 +198,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <li>Select Setup under the gear icon on the top right of your screen.</li>
 <li>In the navigation pane to the left go to Platform Tools &gt; Objects and Fields &gt; Object Manager.</li>
 <li>Select Lead.</li>
-<li>Select Fields &amp; Relationships and on the select Map Lead Fields on the top right.</li>
+<li>Select Fields &amp; Relationships and on the top right corner, select Map Lead Fields.</li>
 <li>Map GA Client ID, GA Revenue ID, GA Tracking ID, and GA User ID to their respective fields from Leads to Accounts and Opportunities.</li>
 </ol>
 
@@ -230,11 +230,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <p><img class="img-responsive img-thumbnail" src="/img/docs/salesforce/web-to-lead-setup-after.png" alt="create web to lead form salesforce attribution google analytics gclid after" /></p></li>
 
-<li><p>You will need to use some javascript to add grab the client id from Google Analytics and add it to your hidden field.</p></li>
+<li><p>You will need to use some javascript to retreive the client id from Google Analytics and add it to your hidden field. You can find detailed instructions <a href="/blog/2017/04/27/track-conversions-with-google-analytics-client-id/">here</a>.</p></li>
 
 <li><p>You can manually set the values of GA Revenue ID &amp; GA Tracking ID in the form.</p></li>
-
-<li><p>You can find detailed instructions <a href="/blog/2017/04/27/track-conversions-with-google-analytics-client-id/">here</a>.</p></li>
 </ol>
 
 <h2 id="configure-your-ga-activity-link">Configure Your GA Activity Link</h2>
@@ -242,8 +240,39 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <p>In order to view your Lead&rsquo;s activity on your website via Google Analytics, you&rsquo;ll need to add a custom setting and add the custom link object provided by this app into your desired layout in Leads, Accounts, and Opportunities.</p>
 
 <ol>
-<li>Navigate to Platform Tools &gt; Custom Code &gt; Custom Settings</li>
+<li><p>Find the unique path for visitor activity in Google Analytics</p>
+
+<ul>
+<li>Log into Google Analytics</li>
+<li>Navigate to Audience &gt; User Explorer and select a random CLient ID</li>
+<li>Note the ID in the url path after &ldquo;visitors-user-activity&rdquo;
+<br /></li>
+</ul>
+
+<p><img class="img-responsive img-thumbnail" src="/img/docs/salesforce/ga-visitor-user-activity-link.png" alt="google analytics visitor activity link id" /></p></li>
+
+<li><p>Now in Salesforce, navigate to Platform Tools &gt; Custom Code &gt; Custom Settings</p></li>
+
+<li><p>Select Manage for Attributio Settings</p></li>
+
+<li><p>Select New and add the ID extracted from Google Analytics to GA Activity Link ID field in Salesforce Custom Settings</p>
+
+<p><img class="img-responsive img-thumbnail" src="/img/docs/salesforce/ga-activity-link-id-setting.png" alt="google analytics visitor activity link id for salesforce" /></p></li>
+
+<li><p>Finally, add the GA Activity Link to a Page Layout under Platform Tools &gt; Objects and Fields &gt; Object Manager &gt; {The object you want to add the link}&gt; Page Layout</p></li>
+
+<li><p>Drag and drop the GA Activity Link into the Custom Links section</p>
+
+<p><img class="img-responsive img-thumbnail" src="/img/docs/salesforce/ga-activity-link-page-layout.png" alt="google analytics visitor activity custom link for salesforce" /></p></li>
+
+<li><p>Finally, navigate to the view of your page layout and if you added the GA Activity Link ID under custom settings and your Object has an id for the GA Client ID field present, you should have a valid link to view the activity of that user in Google Analytics.</p></li>
 </ol>
+
+<h2 id="workflow">Workflow</h2>
+
+<p>If the Marketing Analytics App has been properly configured, your website should be collecting the client id provided by Google Analytics and storing it as a custom field under Leads. During the Lead Conversion and Opportunity Qualification Proccess, you should be able to view all of the details regarding your Lead and Opportunity&rsquo;s activity on your website, from how they got there (what ads, keywords, campaigns, or referrals), to what pieces of content they visited before converting on your website form.</p>
+
+<p>In addition, when an Opportunity is Won and the amount and client id fields are present, that revenue data will be available in custom reports in Google Analytics for further anaysis on determining ROI on Ads and Marketing campaigns.</p>
 
                         </div>
                         

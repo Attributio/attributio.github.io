@@ -20,7 +20,7 @@
 
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
 
-&lt;p&gt;Follow the link provided to you. And select the option to &amp;ldquo;Install for All Users&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Follow the link provided to you and select the option to &amp;ldquo;Install for All Users&amp;rdquo;.&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/docs/salesforce/install-marketing-analytics-screen.png&#34; alt=&#34;install salesforce marketing analytics attribution app&#34; /&gt;&lt;/p&gt;
 
@@ -34,7 +34,7 @@
 &lt;li&gt;Select Setup under the gear icon on the top right of your screen.&lt;/li&gt;
 &lt;li&gt;In the navigation pane to the left go to Platform Tools &amp;gt; Objects and Fields &amp;gt; Object Manager.&lt;/li&gt;
 &lt;li&gt;Select Lead.&lt;/li&gt;
-&lt;li&gt;Select Fields &amp;amp; Relationships and on the select Map Lead Fields on the top right.&lt;/li&gt;
+&lt;li&gt;Select Fields &amp;amp; Relationships and on the top right corner, select Map Lead Fields.&lt;/li&gt;
 &lt;li&gt;Map GA Client ID, GA Revenue ID, GA Tracking ID, and GA User ID to their respective fields from Leads to Accounts and Opportunities.&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -66,11 +66,9 @@
 
 &lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/docs/salesforce/web-to-lead-setup-after.png&#34; alt=&#34;create web to lead form salesforce attribution google analytics gclid after&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;You will need to use some javascript to add grab the client id from Google Analytics and add it to your hidden field.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;You will need to use some javascript to retreive the client id from Google Analytics and add it to your hidden field. You can find detailed instructions &lt;a href=&#34;https://attribut.io/blog/2017/04/27/track-conversions-with-google-analytics-client-id/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;You can manually set the values of GA Revenue ID &amp;amp; GA Tracking ID in the form.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;You can find detailed instructions &lt;a href=&#34;https://attribut.io/blog/2017/04/27/track-conversions-with-google-analytics-client-id/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h2 id=&#34;configure-your-ga-activity-link&#34;&gt;Configure Your GA Activity Link&lt;/h2&gt;
@@ -78,8 +76,39 @@
 &lt;p&gt;In order to view your Lead&amp;rsquo;s activity on your website via Google Analytics, you&amp;rsquo;ll need to add a custom setting and add the custom link object provided by this app into your desired layout in Leads, Accounts, and Opportunities.&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Navigate to Platform Tools &amp;gt; Custom Code &amp;gt; Custom Settings&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Find the unique path for visitor activity in Google Analytics&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Log into Google Analytics&lt;/li&gt;
+&lt;li&gt;Navigate to Audience &amp;gt; User Explorer and select a random CLient ID&lt;/li&gt;
+&lt;li&gt;Note the ID in the url path after &amp;ldquo;visitors-user-activity&amp;rdquo;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/docs/salesforce/ga-visitor-user-activity-link.png&#34; alt=&#34;google analytics visitor activity link id&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Now in Salesforce, navigate to Platform Tools &amp;gt; Custom Code &amp;gt; Custom Settings&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Select Manage for Attributio Settings&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Select New and add the ID extracted from Google Analytics to GA Activity Link ID field in Salesforce Custom Settings&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/docs/salesforce/ga-activity-link-id-setting.png&#34; alt=&#34;google analytics visitor activity link id for salesforce&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Finally, add the GA Activity Link to a Page Layout under Platform Tools &amp;gt; Objects and Fields &amp;gt; Object Manager &amp;gt; {The object you want to add the link}&amp;gt; Page Layout&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Drag and drop the GA Activity Link into the Custom Links section&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/docs/salesforce/ga-activity-link-page-layout.png&#34; alt=&#34;google analytics visitor activity custom link for salesforce&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Finally, navigate to the view of your page layout and if you added the GA Activity Link ID under custom settings and your Object has an id for the GA Client ID field present, you should have a valid link to view the activity of that user in Google Analytics.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;h2 id=&#34;workflow&#34;&gt;Workflow&lt;/h2&gt;
+
+&lt;p&gt;If the Marketing Analytics App has been properly configured, your website should be collecting the client id provided by Google Analytics and storing it as a custom field under Leads. During the Lead Conversion and Opportunity Qualification Proccess, you should be able to view all of the details regarding your Lead and Opportunity&amp;rsquo;s activity on your website, from how they got there (what ads, keywords, campaigns, or referrals), to what pieces of content they visited before converting on your website form.&lt;/p&gt;
+
+&lt;p&gt;In addition, when an Opportunity is Won and the amount and client id fields are present, that revenue data will be available in custom reports in Google Analytics for further anaysis on determining ROI on Ads and Marketing campaigns.&lt;/p&gt;
 </description>
     </item>
     
