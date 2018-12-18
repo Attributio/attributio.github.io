@@ -10,6 +10,41 @@
     <atom:link href="https://attribut.io/categories/google-analytics/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>The Ultimate Guide to Measure ROI On Your Direct Marketing Efforts With Salesforce &amp; Google Analytics - Part 2</title>
+      <link>https://attribut.io/blog/2018/12/05/the-ultimate-guide-to-measure-roi-on-your-direct-marketing-efforts-with-salesforce-and-google-analytics-2/</link>
+      <pubDate>Wed, 05 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://attribut.io/blog/2018/12/05/the-ultimate-guide-to-measure-roi-on-your-direct-marketing-efforts-with-salesforce-and-google-analytics-2/</guid>
+      <description>
+
+&lt;h2 id=&#34;send-revenue-data-to-google-analytics&#34;&gt;Send Revenue Data To Google Analytics&lt;/h2&gt;
+
+&lt;p&gt;In the &lt;a href=&#34;https://attribut.io/blog/2018/11/21/the-ultimate-guide-to-measure-roi-on-your-direct-marketing-efforts-with-salesforce-and-google-analytics-1/&#34;&gt;Part 1 of Measuring Roi With Salesforce and Google Analytics&lt;/a&gt;, we provided a step by step guide on configuring Google Analytics and setting up a Web-to-lead form with Salesforce and getting all of that configured on your website. In this post, we&amp;rsquo;re going to set Salesforce up to send revenue data to Google Analytics&lt;/p&gt;
+
+&lt;h3 id=&#34;configure-remote-site-settings-in-salesforce&#34;&gt;Configure remote site settings in Salesforce&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Navigate to Setup &amp;gt; Settings &amp;gt; Security &amp;gt; Remote Site Settings and create a new setting
+&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201812/sf-new-remote-site.png&#34; alt=&#34;salesforce send revenue to google analytics&#34; /&gt;&lt;/li&gt;
+&lt;li&gt;Create new setting as seen below:
+&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201812/sf-new-remote-site-create.png&#34; alt=&#34;salesforce send revenue to google analytics&#34; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;create-apex-class-in-salesforce&#34;&gt;Create Apex Class in Salesforce&lt;/h3&gt;
+
+&lt;p&gt;We&amp;rsquo;re going to need to create an Apex class to handle our get requests to Google Analytics via the Measurement Protocol. Keep in mind that the client id is a required field and revenue data sent without this field will not be registered in Google Analytics.&lt;/p&gt;
+
+&lt;p&gt;Go to Setup &amp;gt; Developer Console &amp;gt; File &amp;gt; New &amp;gt; Apex Class and create a new class with an invocable method with invocable variables that sends a get request to Google Analytics with the varialbes that we will map from our Opportunity.&lt;/p&gt;
+
+&lt;p&gt;Now navigate to Setup &amp;gt; Platform Tools &amp;gt; Process Automation &amp;gt; Process Builder and create a new process. You can create an action that will be triggered when an Opportunity is Won and map the fields of that opportunity to the Apex Class that we just created as shown below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201812/sf-process-builder.png&#34; alt=&#34;salesforce opportunity won send google analytics&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;And that&amp;rsquo;s it. Now you can send revenue data to Google Analytics every time your sales agents close a deal and you can do a detailed cost analysis based on your advertising campaigns and even identify the most profitable keywords to really take your marketing efforts to the next level.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>The Ultimate Guide to Measure ROI On Your Direct Marketing Efforts With Salesforce &amp; Google Analytics - Part 1</title>
       <link>https://attribut.io/blog/2018/11/21/the-ultimate-guide-to-measure-roi-on-your-direct-marketing-efforts-with-salesforce-and-google-analytics-1/</link>
       <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
@@ -39,7 +74,7 @@
 
 &lt;h2 id=&#34;using-salesforce-google-analytics-to-measure-your-results&#34;&gt;Using Salesforce &amp;amp; Google Analytics To Measure Your Results&lt;/h2&gt;
 
-&lt;p&gt;You don&amp;rsquo;t have to use a CRM. You can use your POS, your ecommerce shop, your ERP system. Anything you use to store transaction data. In our example, we&amp;rsquo;ll use Salesforce since it&amp;rsquo;s the most common CRM and Google Analytics since it&amp;rsquo;s the most widely available analytics tool.&lt;/p&gt;
+&lt;p&gt;You don&amp;rsquo;t have to use a CRM. You can use your POS, your ecommerce shop, or your ERP system. Anything you use to store transaction data. In our example, we&amp;rsquo;ll use Salesforce since it&amp;rsquo;s the most common CRM and Google Analytics since it&amp;rsquo;s the most widely available analytics tool.&lt;/p&gt;
 
 &lt;p&gt;You&amp;rsquo;ll need to first follow &lt;a href=&#34;https://support.google.com/analytics/answer/7584446?hl=en&#34; target=&#34;_blank&#34;&gt;these instructions&lt;/a&gt; to configure your Leads and Opportunites to be able to store data that is provided by Google Analytics. For detailed instructions, continue reading.&lt;/p&gt;
 
@@ -63,7 +98,7 @@
 
 &lt;li&gt;&lt;p&gt;Leave all the default fields in the subsequent pages and save&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Repeat with Leads and Opportunities with these three fields:&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Repeat with Leads, Accounts, and Opportunities with these three fields:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;GACLIENTID&lt;/li&gt;
@@ -76,7 +111,7 @@
 
 &lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201811/lead-history.png&#34; alt=&#34;salesforce gclid set lead history&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&amp;ldquo;Map Lead Fields&amp;rdquo; between Lead and Opportunity fields&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&amp;ldquo;Map Lead Fields&amp;rdquo; between Lead, Account, and Opportunity fields&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201811/lead-map.png&#34; alt=&#34;salesforce gclid map leads&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
@@ -94,7 +129,7 @@
 
 &lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201811/lead-form-1.png&#34; alt=&#34;salesforce gclid lead form start&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Add the fields you want for you form making sure to add the fields we created earlier.&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;Add the fields you want for your form making sure to add the fields we created earlier.&lt;/p&gt;
 
 &lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201811/lead-form-2.png&#34; alt=&#34;salesforce gclid lead form setup&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
@@ -107,7 +142,7 @@
 
 &lt;h2 id=&#34;next-steps&#34;&gt;Next Steps&lt;/h2&gt;
 
-&lt;p&gt;Now that you have Salesforce and Google Analytics setup, you&amp;rsquo;ll need to &lt;a href=&#34;https://attribut.io/blog/2018/11/21/the-ultimate-guide-to-measure-roi-on-your-direct-marketing-efforts-with-salesforce-and-google-analytics-2/&#34;&gt;configure Salesforce to send deal values to Google Analytics&lt;/a&gt;. To get help, &lt;a href=&#34;https://attribut.io/support/&#34;&gt;consult with a marketing attribution expert today&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Now that you have Salesforce and Google Analytics setup, you&amp;rsquo;ll need to &lt;a href=&#34;https://attribut.io/blog/2018/12/05/the-ultimate-guide-to-measure-roi-on-your-direct-marketing-efforts-with-salesforce-and-google-analytics-2/&#34;&gt;configure Salesforce to send deal values to Google Analytics&lt;/a&gt;. To get help, &lt;a href=&#34;https://attribut.io/support/&#34;&gt;consult with a marketing attribution expert today&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

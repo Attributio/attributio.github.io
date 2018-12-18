@@ -184,7 +184,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <h2 id="send-revenue-data-to-google-analytics">Send Revenue Data To Google Analytics</h2>
 
-<p>In the <a href="/blog/2018/11/21/the-ultimate-guide-to-measure-roi-on-your-direct-marketing-efforts-with-salesforce-and-google-analytics-1/">part one of measuring roi with Salesforce and Google Analytics</a>, we provided a step by step guide on configuring Google Analytics and setting up a Web-to-lead form with Salesforce and getting all of that configured on your website. In this post, we&rsquo;re going to set Salesforce up to send revenue data to Google Analytics</p>
+<p>In the <a href="/blog/2018/11/21/the-ultimate-guide-to-measure-roi-on-your-direct-marketing-efforts-with-salesforce-and-google-analytics-1/">Part 1 of Measuring Roi With Salesforce and Google Analytics</a>, we provided a step by step guide on configuring Google Analytics and setting up a Web-to-lead form with Salesforce and getting all of that configured on your website. In this post, we&rsquo;re going to set Salesforce up to send revenue data to Google Analytics</p>
 
 <h3 id="configure-remote-site-settings-in-salesforce">Configure remote site settings in Salesforce</h3>
 
@@ -196,6 +196,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </ol>
 
 <h3 id="create-apex-class-in-salesforce">Create Apex Class in Salesforce</h3>
+
+<p>We&rsquo;re going to need to create an Apex class to handle our get requests to Google Analytics via the Measurement Protocol. Keep in mind that the client id is a required field and revenue data sent without this field will not be registered in Google Analytics.</p>
+
+<p>Go to Setup &gt; Developer Console &gt; File &gt; New &gt; Apex Class and create a new class with an invocable method with invocable variables that sends a get request to Google Analytics with the varialbes that we will map from our Opportunity.</p>
+
+<p>Now navigate to Setup &gt; Platform Tools &gt; Process Automation &gt; Process Builder and create a new process. You can create an action that will be triggered when an Opportunity is Won and map the fields of that opportunity to the Apex Class that we just created as shown below:</p>
+
+<p><img class="img-responsive img-thumbnail" src="/img/blog/201812/sf-process-builder.png" alt="salesforce opportunity won send google analytics" /></p>
+
+<p>And that&rsquo;s it. Now you can send revenue data to Google Analytics every time your sales agents close a deal and you can do a detailed cost analysis based on your advertising campaigns and even identify the most profitable keywords to really take your marketing efforts to the next level.</p>
 
                         </div>
                         

@@ -163,7 +163,7 @@ blockquote {
         position: fixed;
         top: 100px;
         width: auto;
-        margin-right: 10%;
+        margin-right: 5%;
     }
 }
 @media (max-width: 992px) {
@@ -196,4 +196,9 @@ blockquote {
 
 .signup-form .form-group {
     margin-bottom: 10px;
+}
+
+#heading-breadcrumbs h1,
+.text-uppercase {
+    letter-spacing: 0.05em;
 }

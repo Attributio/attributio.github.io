@@ -3,6 +3,20 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/documentation/salesforce/marketing-analytics/</loc>
+	    <lastmod>2018-12-18T00:00:00+00:00</lastmod>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/blog/2018/12/05/the-ultimate-guide-to-measure-roi-on-your-direct-marketing-efforts-with-salesforce-and-google-analytics-2/</loc>
+	    <lastmod>2018-12-05T00:00:00+00:00</lastmod>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/blog/2018/11/21/the-ultimate-guide-to-measure-roi-on-your-direct-marketing-efforts-with-salesforce-and-google-analytics-1/</loc>
 	    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
 	  </url>
@@ -39,7 +53,7 @@
   	
 	  <url>
 	    <loc>https://attribut.io/</loc>
-	    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+	    <lastmod>2018-12-18T00:00:00+00:00</lastmod>
 	    <priority>0</priority>
 	  </url>
 	  
@@ -53,7 +67,7 @@
   	
 	  <url>
 	    <loc>https://attribut.io/blog/</loc>
-	    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+	    <lastmod>2018-12-05T00:00:00+00:00</lastmod>
 	    <priority>0</priority>
 	  </url>
 	  
@@ -68,15 +82,15 @@
   	
 	  <url>
 	    <loc>https://attribut.io/tags/crm/</loc>
-	    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+	    <lastmod>2018-12-05T00:00:00+00:00</lastmod>
 	    <priority>0</priority>
 	  </url>
 	  
   
   	
 	  <url>
-	    <loc>https://attribut.io/categories/google-analytics/</loc>
-	    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+	    <loc>https://attribut.io/documentation/</loc>
+	    <lastmod>2018-12-18T00:00:00+00:00</lastmod>
 	    <priority>0</priority>
 	  </url>
 	  
@@ -84,7 +98,15 @@
   	
 	  <url>
 	    <loc>https://attribut.io/tags/google-analytics/</loc>
-	    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+	    <lastmod>2018-12-05T00:00:00+00:00</lastmod>
+	    <priority>0</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/categories/google-analytics/</loc>
+	    <lastmod>2018-12-05T00:00:00+00:00</lastmod>
 	    <priority>0</priority>
 	  </url>
 	  
@@ -2672,7 +2694,7 @@
   	
 	  <url>
 	    <loc>https://attribut.io/tags/offline-sales/</loc>
-	    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+	    <lastmod>2018-12-05T00:00:00+00:00</lastmod>
 	    <priority>0</priority>
 	  </url>
 	  
@@ -2687,7 +2709,7 @@
   	
 	  <url>
 	    <loc>https://attribut.io/tags/roa/</loc>
-	    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+	    <lastmod>2018-12-05T00:00:00+00:00</lastmod>
 	    <priority>0</priority>
 	  </url>
 	  
@@ -2695,7 +2717,7 @@
   	
 	  <url>
 	    <loc>https://attribut.io/tags/salesforce/</loc>
-	    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+	    <lastmod>2018-12-05T00:00:00+00:00</lastmod>
 	    <priority>0</priority>
 	  </url>
 	  
@@ -2718,7 +2740,7 @@
   	
 	  <url>
 	    <loc>https://attribut.io/categories/tutorial/</loc>
-	    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+	    <lastmod>2018-12-05T00:00:00+00:00</lastmod>
 	    <priority>0</priority>
 	  </url>
 	  

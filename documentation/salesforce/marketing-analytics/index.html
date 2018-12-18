@@ -6,15 +6,15 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <title>Tracking Offline Sales in Google Analytics</title>
+  <title>Salesforce Marketing Analytics App Documentation</title>
   <meta name="author" content="" />
 
   
-  <meta name="keywords" content="google analytics, google analytics offline sales, track offline sales">
+  <meta name="keywords" content="attribution modelling google analytics conversion tracking crm tracking leads adwords ppc tracking">	
   
 
   
-  <meta name="description" content="Track all of your offline sales figures in Google Analytics so you can measure your ROI.">
+  <meta name="description" content="Instructions to download and install Attributio Marketing Analytics App integration with Google Analytics for Salesforce">
   
 
   <meta name="generator" content="Hugo 0.19" />
@@ -63,9 +63,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="alternate" href="https://attribut.io/index.xml" type="application/rss+xml" title="Attributio - Attribution Markerting Experts">
 
   
-  <meta property="og:title" content="Tracking Offline Sales in Google Analytics" />
+  <meta property="og:title" content="Salesforce Marketing Analytics App Documentation" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="/blog/2018/11/19/tracking-offline-sales-in-google-analytics//" />
+  <meta property="og:url" content="/documentation/salesforce/marketing-analytics//" />
   <meta property="og:image" content="img/attributio-logo-300.png" />
 </head>
 
@@ -88,9 +88,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand home" href="/">
-                    <img src="/img/attributio-logo-300.png" alt="Tracking Offline Sales in Google Analytics logo" width="162" height="45" style="padding-top:3px;" class="hidden-xs hidden-sm">
-                    <img src="/img/attributio-logo-300.png" alt="Tracking Offline Sales in Google Analytics logo" width="135" height="40" style="padding-top:5px;" class="visible-xs visible-sm">
-                    <span class="sr-only">Tracking Offline Sales in Google Analytics - go to homepage</span>
+                    <img src="/img/attributio-logo-300.png" alt="Salesforce Marketing Analytics App Documentation logo" width="162" height="45" style="padding-top:3px;" class="hidden-xs hidden-sm">
+                    <img src="/img/attributio-logo-300.png" alt="Salesforce Marketing Analytics App Documentation logo" width="135" height="40" style="padding-top:5px;" class="visible-xs visible-sm">
+                    <span class="sr-only">Salesforce Marketing Analytics App Documentation - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -161,7 +161,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Tracking Offline Sales in Google Analytics</h1>
+                <h1>Salesforce Marketing Analytics App Documentation</h1>
             </div>
         </div>
     </div>
@@ -177,36 +177,59 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                     <div class="col-md-9" id="blog-post">
 
-                        <p class="text-muted text-uppercase mb-small text-right">By <a href="#">Attributio</a> | November 19, 2018</p>
+                        <p class="text-muted text-uppercase mb-small text-right">By <a href="#">Attributio</a> | December 18, 2018</p>
 
                         <div id="post-content">
                           
 
-<h2 id="configure-your-lead-generation-forms-to-store-google-s-cookies">Configure your lead generation forms to store Google&rsquo;s cookies</h2>
+<h2 id="installation">Installation</h2>
 
-<p>If you&rsquo;re collecting leads online and converting them over the phone through your CRM, you need to collect a cookie that Google Analytics sets on your website to identify that user. Once you store that unique id in your CRM, you can send a webhook to Google Analytics with that id via their <a href="https://developers.google.com/analytics/devguides/collection/protocol/v1/parameters">Measurement Protocol</a> whenever a deal has been completed.</p>
+<p>Follow the link provided to you. And select the option to &ldquo;Install for All Users&rdquo;.</p>
 
-<h2 id="configure-google-analytics-to-store-revenue-data">Configure Google Analytics to store revenue data</h2>
-
-<p>You will also need to create a custom metric in your Google Analytics property to represent revenue data (you can do this easily with our <a href="https://app.attribut.io?utm_medium=blog">app</a>). Once that has been set, you can send the client id that was captured during the online lead conversion process along with the total value of that deal to Google Anaytics to get a picture of your ROI.</p>
-
-<p>If you can&rsquo;t collect the client id, which Google uses to match all of that user&rsquo;s behavior in Google Analytics with the data that you want to see, you will need to send a User ID. If you aren&rsquo;t using an authentication system where your customers have id&rsquo;s associated with their accounts, you can just add the id generated from your CRM and send that along with the revenue data. You will need one or the other, otherwise Google Analytics will not register the event data that you will be sending to it&rsquo;s servers.</p>
-
-<p>Lastly, you will need to create a calculated metric that will divide the revenue with the cost.</p>
-
-<h2 id="create-a-report-in-google-analytics-to-show-attribution-data-with-revenue-and-roa">Create a report in Google Analytics to show attribution data with revenue and ROA</h2>
-
-<p>In Google Analytics you will need to create a report that lists the custom metric you created with revenue and the calculated metric along with the cost of advertising.</p>
+<p><img class="img-responsive img-thumbnail" src="/img/documentation/salesforce/install-marketing-analytics-screen.png" alt="install salesforce marketing analytics attribution app" /></p>
 
 <p><br></p>
 
-<p><img class="img-responsive img-thumbnail" src="/img/blog/201811/revenue.png" alt="google analytics track offline sales" /></p>
+<p>You will be prompted to allow outgoing requests to Google Analytics. Check the box and submit.</p>
+
+<h2 id="configure-lead-mappings">Configure Lead Mappings</h2>
+
+<ol>
+<li>Select Setup under the gear icon on the top right of your screen.</li>
+<li>In the navigation pane to the left go to Platform Tools &gt; Objects and Fields &gt; Object Manager.</li>
+<li>Select Lead.</li>
+<li>Select Fields &amp; Relationships and on the select Map Lead Fields on the top right.</li>
+<li>Map GA Client ID, GA Revenue ID, GA Tracking ID, and GA User ID to their respective fields from Leads to Accounts and Opportunities.</li>
+</ol>
+
+<p><img class="img-responsive img-thumbnail" src="/img/documentation/salesforce/map-leads-fields.png" alt="map leads fields for salesforce marketing analytics attribution app" /></p>
 
 <p><br></p>
 
-<p>And there you have it. Now you can track the ROI of all your advertising in Google Analytics along with all of your sales that happen offline.</p>
+<h2 id="configure-web-to-lead-form">Configure Web-To-Lead Form</h2>
 
-<p>If you need help tracking your goals across multiple domains or subdomains, we have experts standing by to <a href="/support/">configure your analytics for tracking offline sales. Meet Your Expert Today!</a></p>
+<ol>
+<li>Navigate to Platform Tools &gt; Feature Settings &gt; Marketing &gt; Web-to-Lead.</li>
+<li>Create new form.</li>
+
+<li><p>Add GA Client ID, GA Revenue ID, GA Tracking ID, and GA User ID to our new form and create.</p>
+
+<p><img class="img-responsive img-thumbnail" src="/img/documentation/salesforce/web-to-lead-setup.png" alt="create web to lead form salesforce attribution google analytics gclid" /></p></li>
+
+<li><p>Modify the input fields for GA Client ID, GA Revenue ID, GA Tracking ID, and GA User ID by removing the the label, maxlength, and size fields and convert the input type field to hidden and add those fields to your form.</p>
+
+<ul>
+<li>Before</li>
+</ul>
+
+<p><img class="img-responsive img-thumbnail" src="/img/documentation/salesforce/web-to-lead-setup-before.png" alt="create web to lead form salesforce attribution google analytics gclid before" /></p>
+
+<ul>
+<li>After</li>
+</ul>
+
+<p><img class="img-responsive img-thumbnail" src="/img/documentation/salesforce/web-to-lead-setup-after.png" alt="create web to lead form salesforce attribution google analytics gclid after" /></p></li>
+</ol>
 
                         </div>
                         
@@ -243,66 +266,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </form>
     </div>
 </div>
-
-
-
-
-
-
-
-<div class="panel panel-default sidebar-menu">
-
-    <div class="panel-heading">
-      <h3 class="panel-title">Categories</h3>
-    </div>
-
-    <div class="panel-body">
-        <ul class="nav nav-pills nav-stacked">
-            
-            <li><a href="https://attribut.io/categories/google-analytics">google-analytics (3)</a>
-            </li>
-            
-            <li><a href="https://attribut.io/categories/tutorial">tutorial (6)</a>
-            </li>
-            
-        </ul>
-    </div>
-</div>
-
-
-
-
-
-
-
-
-<div class="panel sidebar-menu">
-    <div class="panel-heading">
-      <h3 class="panel-title">Tags</h3>
-    </div>
-
-    <div class="panel-body">
-        <ul class="tag-cloud">
-            
-            <li><a href="https://attribut.io/tags/crm"><i class="fa fa-tags"></i> crm</a>
-            </li>
-            
-            <li><a href="https://attribut.io/tags/google-analytics"><i class="fa fa-tags"></i> google-analytics</a>
-            </li>
-            
-            <li><a href="https://attribut.io/tags/offline-sales"><i class="fa fa-tags"></i> offline-sales</a>
-            </li>
-            
-            <li><a href="https://attribut.io/tags/roa"><i class="fa fa-tags"></i> roa</a>
-            </li>
-            
-            <li><a href="https://attribut.io/tags/salesforce"><i class="fa fa-tags"></i> salesforce</a>
-            </li>
-            
-        </ul>
-    </div>
-</div>
-
 
 
 
