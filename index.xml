@@ -12,17 +12,17 @@
     
     <item>
       <title>Salesforce Marketing Analytics App Documentation</title>
-      <link>https://attribut.io/documentation/salesforce/marketing-analytics/</link>
+      <link>https://attribut.io/docs/salesforce/marketing-analytics/</link>
       <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://attribut.io/documentation/salesforce/marketing-analytics/</guid>
+      <guid>https://attribut.io/docs/salesforce/marketing-analytics/</guid>
       <description>
 
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
 
 &lt;p&gt;Follow the link provided to you. And select the option to &amp;ldquo;Install for All Users&amp;rdquo;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/documentation/salesforce/install-marketing-analytics-screen.png&#34; alt=&#34;install salesforce marketing analytics attribution app&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/docs/salesforce/install-marketing-analytics-screen.png&#34; alt=&#34;install salesforce marketing analytics attribution app&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
@@ -38,7 +38,7 @@
 &lt;li&gt;Map GA Client ID, GA Revenue ID, GA Tracking ID, and GA User ID to their respective fields from Leads to Accounts and Opportunities.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/documentation/salesforce/map-leads-fields.png&#34; alt=&#34;map leads fields for salesforce marketing analytics attribution app&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/docs/salesforce/map-leads-fields.png&#34; alt=&#34;map leads fields for salesforce marketing analytics attribution app&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
@@ -50,7 +50,7 @@
 
 &lt;li&gt;&lt;p&gt;Add GA Client ID, GA Revenue ID, GA Tracking ID, and GA User ID to our new form and create.&lt;/p&gt;
 
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/documentation/salesforce/web-to-lead-setup.png&#34; alt=&#34;create web to lead form salesforce attribution google analytics gclid&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/docs/salesforce/web-to-lead-setup.png&#34; alt=&#34;create web to lead form salesforce attribution google analytics gclid&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Modify the input fields for GA Client ID, GA Revenue ID, GA Tracking ID, and GA User ID by removing the the label, maxlength, and size fields and convert the input type field to hidden and add those fields to your form.&lt;/p&gt;
 
@@ -58,13 +58,27 @@
 &lt;li&gt;Before&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/documentation/salesforce/web-to-lead-setup-before.png&#34; alt=&#34;create web to lead form salesforce attribution google analytics gclid before&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/docs/salesforce/web-to-lead-setup-before.png&#34; alt=&#34;create web to lead form salesforce attribution google analytics gclid before&#34; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;After&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/documentation/salesforce/web-to-lead-setup-after.png&#34; alt=&#34;create web to lead form salesforce attribution google analytics gclid after&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/docs/salesforce/web-to-lead-setup-after.png&#34; alt=&#34;create web to lead form salesforce attribution google analytics gclid after&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;You will need to use some javascript to add grab the client id from Google Analytics and add it to your hidden field.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;You can manually set the values of GA Revenue ID &amp;amp; GA Tracking ID in the form.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;You can find detailed instructions &lt;a href=&#34;https://attribut.io/blog/2017/04/27/track-conversions-with-google-analytics-client-id/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;configure-your-ga-activity-link&#34;&gt;Configure Your GA Activity Link&lt;/h2&gt;
+
+&lt;p&gt;In order to view your Lead&amp;rsquo;s activity on your website via Google Analytics, you&amp;rsquo;ll need to add a custom setting and add the custom link object provided by this app into your desired layout in Leads, Accounts, and Opportunities.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Navigate to Platform Tools &amp;gt; Custom Code &amp;gt; Custom Settings&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
