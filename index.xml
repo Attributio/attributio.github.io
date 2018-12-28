@@ -26,7 +26,21 @@
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;p&gt;You will be prompted to allow outgoing requests to Google Analytics. Check the box and submit.&lt;/p&gt;
+&lt;h3 id=&#34;configure-remote-site-settings-in-salesforce&#34;&gt;Configure remote site settings in Salesforce&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Navigate to Setup &amp;gt; Settings &amp;gt; Security &amp;gt; Remote Site Settings and create a new setting
+&lt;br&gt;&lt;br&gt;
+&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201812/sf-new-remote-site.png&#34; alt=&#34;salesforce send revenue to google analytics&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Add the following Remote Site URL:
+&lt;br&gt;&lt;br&gt;
+&lt;code&gt;&lt;a href=&#34;https://www.google-analytics.com&#34;&gt;https://www.google-analytics.com&lt;/a&gt;&lt;/code&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201812/sf-new-remote-site-create.png&#34; alt=&#34;salesforce send revenue to google analytics&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;configure-lead-mappings&#34;&gt;Configure Lead Mappings&lt;/h2&gt;
 
@@ -109,6 +123,13 @@
 &lt;p&gt;If the Marketing Analytics App has been properly configured, your website should be collecting the client id provided by Google Analytics and storing it as a custom field under Leads. During the Lead Conversion and Opportunity Qualification Proccess, you should be able to view all of the details regarding your Lead and Opportunity&amp;rsquo;s activity on your website, from how they got there (what ads, keywords, campaigns, or referrals), to what pieces of content they visited before converting on your website form.&lt;/p&gt;
 
 &lt;p&gt;In addition, when an Opportunity is Won and the amount and client id fields are present, that revenue data will be available in custom reports in Google Analytics for further anaysis on determining ROI on Ads and Marketing campaigns.&lt;/p&gt;
+
+&lt;h2 id=&#34;versions&#34;&gt;Versions&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;v 1.0 First Release&lt;/li&gt;
+&lt;li&gt;v 1.1 Removed Remote SIte Settings for manual installation by user.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

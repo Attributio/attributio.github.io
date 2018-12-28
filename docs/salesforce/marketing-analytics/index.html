@@ -190,7 +190,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <p><br></p>
 
-<p>You will be prompted to allow outgoing requests to Google Analytics. Check the box and submit.</p>
+<h3 id="configure-remote-site-settings-in-salesforce">Configure remote site settings in Salesforce</h3>
+
+<ol>
+<li><p>Navigate to Setup &gt; Settings &gt; Security &gt; Remote Site Settings and create a new setting
+<br><br>
+<img class="img-responsive img-thumbnail" src="/img/blog/201812/sf-new-remote-site.png" alt="salesforce send revenue to google analytics" /></p></li>
+
+<li><p>Add the following Remote Site URL:
+<br><br>
+<code><a href="https://www.google-analytics.com">https://www.google-analytics.com</a></code>
+<br><br>
+<img class="img-responsive img-thumbnail" src="/img/blog/201812/sf-new-remote-site-create.png" alt="salesforce send revenue to google analytics" /></p></li>
+</ol>
+
+<p><br></p>
 
 <h2 id="configure-lead-mappings">Configure Lead Mappings</h2>
 
@@ -273,6 +287,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <p>If the Marketing Analytics App has been properly configured, your website should be collecting the client id provided by Google Analytics and storing it as a custom field under Leads. During the Lead Conversion and Opportunity Qualification Proccess, you should be able to view all of the details regarding your Lead and Opportunity&rsquo;s activity on your website, from how they got there (what ads, keywords, campaigns, or referrals), to what pieces of content they visited before converting on your website form.</p>
 
 <p>In addition, when an Opportunity is Won and the amount and client id fields are present, that revenue data will be available in custom reports in Google Analytics for further anaysis on determining ROI on Ads and Marketing campaigns.</p>
+
+<h2 id="versions">Versions</h2>
+
+<ul>
+<li>v 1.0 First Release</li>
+<li>v 1.1 Removed Remote SIte Settings for manual installation by user.</li>
+</ul>
 
                         </div>
                         
