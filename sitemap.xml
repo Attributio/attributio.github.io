@@ -1133,6 +1133,30 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/call-tracking/callfire/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/call-tracking/callhippo/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/call-tracking/callrail/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/call-tracking/calltrackingmetrics/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/platform/crm/campaignercrm/</loc>
 	  </url>
 	  
@@ -1409,6 +1433,12 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/call-tracking/ringcentral/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/platform/crm/sapcrm/</loc>
 	  </url>
 	  
@@ -1494,6 +1524,12 @@
   	
 	  <url>
 	    <loc>https://attribut.io/platform/crm/tryton/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/call-tracking/twilio/</loc>
 	  </url>
 	  
   
@@ -2628,6 +2664,12 @@
   	
 	  <url>
 	    <loc>https://attribut.io/platform/base/crm/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/base/call-tracking/</loc>
 	  </url>
 	  
   
