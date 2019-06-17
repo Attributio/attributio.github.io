@@ -47,6 +47,8 @@ $(document).ready(function() {
       return alert(alerts.join('\n'));
     }
 
+    var analyticsLink = "https://analytics.google.com/analytics/web/#/report/visitors-user-activity/a97173125w143092423p147708296/_r.userId="+client_id+"&_r.userListReportStates=&_r.userListReportId=visitors-legacy-user-id";
+
     var data = {
       'entry.1595441572': name,
       'entry.42766654': email,
@@ -56,7 +58,7 @@ $(document).ready(function() {
       'entry.1057000311': budget,
       'entry.917090703': channel,
       'entry.807709427': target_location,
-      'entry.1108506597': client_id,
+      'entry.1108506597': analyticsLink,
       'entry.1842484305': referrer,
       'entry.220425346': time_zone,
     };
