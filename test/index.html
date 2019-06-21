@@ -49,6 +49,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
+  <h2>Salesforce Form</h2>
+
   <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
     <input type=hidden name="oid" value="00D5A0000016Nwg">
@@ -68,6 +70,67 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <input type="submit" name="submit">
 
   </form>
+
+  <h2>Zoho Form</h2>
+  <form action='https://developer.zoho.com/crm/WebToLeadForm' name=WebToLeads4047100000000223049 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory4047100000000223049()' accept-charset='UTF-8'>
+  <input type='text' style='display:none;' name='xnQsjsdp' value='a67380b8439303697667ea3ad004e6e9c2bbd5e19af2e9028b462f7d3c317915' />
+  <input type='hidden' name='zc_gad' id='zc_gad' value='' />
+  <input type='text' style='display:none;' name='xmIwtLD' value='d573c6deda3be26f3efe3debd2b2d476e39131eda3e2c446083b878c53e2f773' />
+  <input type='text'  style='display:none;' name='actionType' value='TGVhZHM=' />
+  <input type='text' style='display:none;' name='returnURL' value='https://attribut.io/test-thanks' />
+  Name<input type='text' style='width:250px;'  maxlength='80' name='Last Name' /><br>
+  Email<input type='text' style='width:250px;'  maxlength='100' name='Email' /><br>
+  Website<input type='text' style='width:250px;'  maxlength='255' name='Website' /><br>
+  <input type='hidden' name='LEADCF1' />
+  <input type='hidden' name='LEADCF2' />
+  <input type='hidden' name='LEADCF3' />
+
+  <input style='font-size:12px;color:black' id='formsubmit' type='submit' value='Submit' ></input> 
+  <input type='reset' name='reset' style='font-size:12px;color:black' value='Reset' ></input>
+<script>
+  var mndFileds=new Array('Last Name');
+  var fldLangVal=new Array('Last Name'); 
+  var name='';
+  var email='';
+
+  function checkMandatory4047100000000223049() {
+    for(i=0;i<mndFileds.length;i++) {
+      var fieldObj=document.forms['WebToLeads4047100000000223049'][mndFileds[i]];
+      if(fieldObj) {
+      if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
+       if(fieldObj.type =='file')
+        { 
+         alert('Please select a file to upload.'); 
+         fieldObj.focus(); 
+         return false;
+        } 
+      alert(fldLangVal[i] +' cannot be empty.'); 
+              fieldObj.focus();
+              return false;
+      }  else if(fieldObj.nodeName=='SELECT') {
+             if(fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
+        alert(fldLangVal[i] +' cannot be none.'); 
+        fieldObj.focus();
+        return false;
+         }
+      } else if(fieldObj.type =='checkbox'){
+       if(fieldObj.checked == false){
+        alert('Please accept  '+fldLangVal[i]);
+        fieldObj.focus();
+        return false;
+         } 
+       } 
+       try {
+           if(fieldObj.name == 'Last Name') {
+        name = fieldObj.value;
+          }
+      } catch (e) {}
+        }
+    }
+    document.getElementById('formsubmit').disabled=true;
+  }
+</script>
+</form>
 
 <script>
   window.getCookie = function(name) {
