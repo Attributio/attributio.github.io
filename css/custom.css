@@ -9,7 +9,7 @@ body p {
   max-height: 200px;
 }
 
-.box-simple {
+.box-simple.custom {
   min-height: 230px;
 }
 
