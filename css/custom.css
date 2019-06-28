@@ -175,7 +175,8 @@ blockquote {
 
 /* Blog Styling Start */
 @media (min-width: 992px) {
-    .email-signup-form-container.affix {
+    .email-signup-form-container.affix,
+    .section-nav.affix {
         position: fixed;
         top: 100px;
         width: auto;
@@ -183,7 +184,8 @@ blockquote {
     }
 }
 @media (max-width: 992px) {
-    .email-signup-form-container.affix {
+    .email-signup-form-container.affix,
+    .section-nav.affix {
         position: static;
     }
 }
@@ -217,4 +219,27 @@ blockquote {
 #heading-breadcrumbs h1,
 .text-uppercase {
     letter-spacing: 0.05em;
+}
+
+.section-nav {
+  padding-left: 20px;
+}
+
+.section-nav ul {
+  padding-left: 1rem;
+}
+
+.toc-entry {
+  display: block
+}
+
+.toc-entry a {
+  display: block;
+  padding: .125rem 1.5rem;
+  color: #77757a
+}
+
+.toc-entry a:hover {
+  color: #007bff;
+  text-decoration: none
 }

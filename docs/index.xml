@@ -26,7 +26,7 @@
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;configure-remote-site-settings-in-salesforce&#34;&gt;Configure remote site settings in Salesforce&lt;/h3&gt;
+&lt;h3 id=&#34;configure-remote-site-settings&#34;&gt;Configure remote site settings&lt;/h3&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;p&gt;Navigate to Setup &amp;gt; Settings &amp;gt; Security &amp;gt; Remote Site Settings and create a new setting
@@ -85,7 +85,7 @@
 &lt;li&gt;&lt;p&gt;You can manually set the values of GA Revenue ID &amp;amp; GA Tracking ID in the form.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h2 id=&#34;configure-your-ga-activity-link&#34;&gt;Configure Your GA Activity Link&lt;/h2&gt;
+&lt;h2 id=&#34;configure-ga-activity-link&#34;&gt;Configure GA Activity Link&lt;/h2&gt;
 
 &lt;p&gt;In order to view your Lead&amp;rsquo;s activity on your website via Google Analytics, you&amp;rsquo;ll need to add a custom setting and add the custom link object provided by this app into your desired layout in Leads, Accounts, and Opportunities.&lt;/p&gt;
 
@@ -130,6 +130,101 @@
 &lt;li&gt;v 1.0 First Release&lt;/li&gt;
 &lt;li&gt;v 1.1 Removed Remote SIte Settings for manual installation by user.&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Defining Attribution Parameters</title>
+      <link>https://attribut.io/docs/attributio/defining-attribution-parameters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://attribut.io/docs/attributio/defining-attribution-parameters/</guid>
+      <description>
+
+&lt;h2 id=&#34;sessions&#34;&gt;Sessions&lt;/h2&gt;
+
+&lt;p&gt;The most common type of session is &lt;a href=&#34;https://support.google.com/analytics/answer/2731565?hl=en&#34; target=&#34;_blank&#34;&gt;defined by Google&lt;/a&gt; based on time or by a change in campaign. In Google Analytics session time is defined by a 30 minute window of inactivity.&lt;/p&gt;
+
+&lt;p&gt;By default our session definition does not include a time based session definition so you may see a session duration in excess of days. This is to minimize the amount of data stored in your visitor&amp;rsquo;s browsers regarding their session data and not storing additional data for every visit past 30 minutes of inactivity if the source, medium, or campaign has not changed.&lt;/p&gt;
+
+&lt;h3 id=&#34;definitions&#34;&gt;Definitions&lt;/h3&gt;
+
+&lt;p&gt;Our definition of a session based on storage of First and Last Impression data is based on a change of either of the following:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;A change in source&lt;/li&gt;
+&lt;li&gt;A change in medium&lt;/li&gt;
+&lt;li&gt;A change in campaign&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Parameters utilize the same &amp;ldquo;utm_&amp;rdquo; structure that Google Analytics recommends. You can use a &lt;a href=&#34;https://ga-dev-tools.appspot.com/campaign-url-builder/&#34;&gt;free tool&lt;/a&gt; to do the same.&lt;/p&gt;
+
+&lt;h3 id=&#34;default-fields&#34;&gt;Default Fields&lt;/h3&gt;
+
+&lt;p&gt;&lt;table class=&#34;table table-sm table-borderless&#34;&gt;
+    &lt;tr&gt;
+        &lt;td&gt;First Interaction Referrer&lt;/td&gt;
+        &lt;td&gt;Last Interaction Referrer&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;First Interaction Source&lt;/td&gt;
+        &lt;td&gt;Last Interaction Source&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;First Interaction Medium&lt;/td&gt;
+        &lt;td&gt;Last Interaction Medium&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;First Interaction Campaign&lt;/td&gt;
+        &lt;td&gt;Last Interaction Campaign&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;First Interaction Content&lt;/td&gt;
+        &lt;td&gt;Last Interaction Content&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;First Interaction Term&lt;/td&gt;
+        &lt;td&gt;Last Interaction Term&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;First Interaction Landing Page&lt;/td&gt;
+        &lt;td&gt;Last Interaction Landing Page&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;First Interaction Session Duration&lt;/td&gt;
+        &lt;td&gt;Last Interaction Session Duration&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;First Interaction Page Visits&lt;/td&gt;
+        &lt;td&gt;Last Interaction Page Visits&lt;/td&gt;
+    &lt;/tr&gt;
+ &lt;/table&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;custom-fields&#34;&gt;Custom Fields&lt;/h3&gt;
+
+&lt;p&gt;Include additionals fields as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Journey By Source&lt;/li&gt;
+&lt;li&gt;Journey By Medium&lt;/li&gt;
+&lt;li&gt;Journey By Campaign&lt;/li&gt;
+&lt;li&gt;Exclude Sources&lt;/li&gt;
+&lt;li&gt;Exclude Mediums&lt;/li&gt;
+&lt;li&gt;Exclude Campaigns&lt;/li&gt;
+&lt;li&gt;Device&lt;/li&gt;
+&lt;li&gt;Browser&lt;/li&gt;
+&lt;li&gt;Location&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;custom-sessions&#34;&gt;Custom Sessions&lt;/h2&gt;
+
+&lt;p&gt;Many times visitors convert after doing a branded paid or organic search. We typically do not want that information as attribution will often times be credited to Google where little weight should be placed. In these cases, we can set conditions to ignore certain paid branded clicks as Last Impressions and store the previous session with more valuable data.&lt;/p&gt;
+
+&lt;p&gt;There are many scenarios you can imagine for a custom fit attribution model for your company.&lt;/p&gt;
+
+&lt;h2 id=&#34;google-analytics&#34;&gt;Google Analytics&lt;/h2&gt;
+
+&lt;p&gt;We encourage the use of Google Analytics as a tool to compare data with. Although our tool is independent of Google Analytics, often times it is hard to complete with the dearth of data available in Google. So we also store unique visitor data based on ids provided by Google so you can have all the data you could ever need.&lt;/p&gt;
 </description>
     </item>
     
