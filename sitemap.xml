@@ -1205,6 +1205,12 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/live-chat/crisp/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/platform/crm/dolibarr/</loc>
 	  </url>
 	  
@@ -1236,6 +1242,12 @@
   	
 	  <url>
 	    <loc>https://attribut.io/platform/crm/greenrope/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/live-chat/happyfox/</loc>
 	  </url>
 	  
   
@@ -1290,6 +1302,12 @@
   	
 	  <url>
 	    <loc>https://attribut.io/platform/crm/leadmachine/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/live-chat/livechat/</loc>
 	  </url>
 	  
   
@@ -1362,6 +1380,12 @@
   	
 	  <url>
 	    <loc>https://attribut.io/platform/crm/odoo/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/live-chat/olark/</loc>
 	  </url>
 	  
   
@@ -1571,6 +1595,12 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/live-chat/zopim/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/platform/crm/amocrm/</loc>
 	  </url>
 	  
@@ -1578,6 +1608,12 @@
   	
 	  <url>
 	    <loc>https://attribut.io/platform/crm/iseeit/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/live-chat/intercom/</loc>
 	  </url>
 	  
   
