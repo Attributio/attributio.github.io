@@ -143,13 +143,13 @@
 
 &lt;h2 id=&#34;sessions&#34;&gt;Sessions&lt;/h2&gt;
 
-&lt;p&gt;The most common type of session is &lt;a href=&#34;https://support.google.com/analytics/answer/2731565?hl=en&#34; target=&#34;_blank&#34;&gt;defined by Google&lt;/a&gt; based on time or by a change in campaign. In Google Analytics session time is defined by a 30 minute window of inactivity.&lt;/p&gt;
+&lt;p&gt;The most common type of session is &lt;a href=&#34;https://support.google.com/analytics/answer/2731565?hl=en&#34; target=&#34;_blank&#34;&gt;defined by Google&lt;/a&gt; based on time or by a change in campaign. In Google Analytics a new session is created during 30 minutes of inactivity.&lt;/p&gt;
 
-&lt;p&gt;By default our session definition does not include a time based session definition so you may see a session duration in excess of days. This is to minimize the amount of data stored in your visitor&amp;rsquo;s browsers regarding their session data and not storing additional data for every visit past 30 minutes of inactivity if the source, medium, or campaign has not changed.&lt;/p&gt;
+&lt;p&gt;By default, our sessions are not based on time so you may see session durations in excess of days. This is to minimize the amount of data stored in your visitor&amp;rsquo;s browsers regarding their session data and not storing additional data for every visit past 30 minutes of inactivity if the source, medium, or campaign has not changed. This means that you will see a limited amount of direct traffic as a source in your conversions.&lt;/p&gt;
 
 &lt;h3 id=&#34;definitions&#34;&gt;Definitions&lt;/h3&gt;
 
-&lt;p&gt;Our definition of a session based on storage of First and Last Impression data is based on a change of either of the following:&lt;/p&gt;
+&lt;p&gt;Our definition of a session is based on First and Last Interaction data and is based on a change of either of the following:&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;A change in source&lt;/li&gt;
@@ -157,7 +157,7 @@
 &lt;li&gt;A change in campaign&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Parameters utilize the same &amp;ldquo;utm_&amp;rdquo; structure that Google Analytics recommends. You can use a &lt;a href=&#34;https://ga-dev-tools.appspot.com/campaign-url-builder/&#34;&gt;free tool&lt;/a&gt; to do the same.&lt;/p&gt;
+&lt;p&gt;URL parameters utilize the same &amp;ldquo;utm_&amp;rdquo; structure that Google Analytics recommends. You can use a &lt;a href=&#34;https://ga-dev-tools.appspot.com/campaign-url-builder/&#34;&gt;free tool&lt;/a&gt; to do the same.&lt;/p&gt;
 
 &lt;h3 id=&#34;default-fields&#34;&gt;Default Fields&lt;/h3&gt;
 
@@ -218,13 +218,13 @@
 
 &lt;h2 id=&#34;custom-sessions&#34;&gt;Custom Sessions&lt;/h2&gt;
 
-&lt;p&gt;Many times visitors convert after doing a branded paid or organic search. We typically do not want that information as attribution will often times be credited to Google where little weight should be placed. In these cases, we can set conditions to ignore certain paid branded clicks as Last Impressions and store the previous session with more valuable data.&lt;/p&gt;
+&lt;p&gt;Often visitors convert after doing a branded paid or organic search. We typically do not want that information as attribution will typically be credited to Google where little weight should be placed. In these cases, we can set conditions to ignore certain paid branded clicks as Last Impressions and store the previous session with more valuable data.&lt;/p&gt;
 
 &lt;p&gt;There are many scenarios you can imagine for a custom fit attribution model for your company.&lt;/p&gt;
 
 &lt;h2 id=&#34;google-analytics&#34;&gt;Google Analytics&lt;/h2&gt;
 
-&lt;p&gt;We encourage the use of Google Analytics as a tool to compare data with. Although our tool is independent of Google Analytics, often times it is hard to complete with the dearth of data available in Google. So we also store unique visitor data based on ids provided by Google so you can have all the data you could ever need.&lt;/p&gt;
+&lt;p&gt;We encourage the use of Google Analytics to compare attribution data stored in your CRM with our tool. Although our tool is independent of Google Analytics, Google Analytics has so much data available that we recommend using it in conjunction with our tool for comparisons. That is why we configure your Analytics to store unique visitor data based on ids provided by Google so you can have all the data you could ever need.&lt;/p&gt;
 </description>
     </item>
     
