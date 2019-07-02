@@ -45,7 +45,7 @@ body p {
 
 .page-carousel {
   background: url('../img/startup-0.svg') center center repeat;
-  background-size: 100%;
+  background-size: cover;
   background-color: #eee;
   padding-top: 30px;
 }
