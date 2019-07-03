@@ -55,12 +55,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <input type=hidden name="oid" value="00D5A0000016Nwg">
     <input type=hidden name="retURL" value="https://attribut.io/thanks">
-    <label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
-    <label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
-    <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
-    <label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
-    <label for="URL">Website</label><input  id="URL" maxlength="80" name="URL" size="20" type="text" /><br>
-    <label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+    <label for="first_name">First Name</label>
+<input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+    <label for="last_name">Last Name</label>
+<input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+    <label for="email">Email</label>
+<input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+    <label for="company">Company</label>
+<input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
+    <label for="URL">Website</label>
+<input  id="URL" maxlength="80" name="URL" size="20" type="text" /><br>
+    <label for="phone">Phone</label>
+<input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
     
     <input  id="00N5A00000LrarX" name="00N5A00000LrarX" type="hidden" /><br>
     
@@ -71,29 +77,48 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   </form>
 
-  <h2>Zoho Form</h2>
-  <form action='https://developer.zoho.com/crm/WebToLeadForm' name=WebToLeads4047100000000223049 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory4047100000000223049()' accept-charset='UTF-8'>
-  <input type='text' style='display:none;' name='xnQsjsdp' value='a67380b8439303697667ea3ad004e6e9c2bbd5e19af2e9028b462f7d3c317915' />
-  <input type='hidden' name='zc_gad' id='zc_gad' value='' />
-  <input type='text' style='display:none;' name='xmIwtLD' value='d573c6deda3be26f3efe3debd2b2d476e39131eda3e2c446083b878c53e2f773' />
-  <input type='text'  style='display:none;' name='actionType' value='TGVhZHM=' />
-  <input type='text' style='display:none;' name='returnURL' value='https://attribut.io/test-thanks' />
-  Name<input type='text' style='width:250px;'  maxlength='80' name='Last Name' /><br>
-  Email<input type='text' style='width:250px;'  maxlength='100' name='Email' /><br>
-  Website<input type='text' style='width:250px;'  maxlength='255' name='Website' /><br>
-  <input type='hidden' id='zoho_first_interaction' name='LEADCF1' />
-  <input type='hidden' id='zoho_second_interaction' name='LEADCF2' />
-  <input type='hidden' id='zoho_client_id' name='LEADCF3' />
 
-  <input style='font-size:12px;color:black' id='formsubmit' type='submit' value='Submit' ></input> 
-  <input type='reset' name='reset' style='font-size:12px;color:black' value='Reset' ></input>
-<script>
-  var mndFileds=new Array('Last Name');
-  var fldLangVal=new Array('Last Name'); 
-  var name='';
-  var email='';
+<div id='crmWebToEntityForm'>
 
-  function checkMandatory4047100000000223049() {
+ <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
+ <form action='https://developer.zoho.com/crm/WebToLeadForm' name=WebToLeads4047100000000223049 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory4047100000000223049()' accept-charset='UTF-8'>
+   <input type='text' style='display:none;' name='xnQsjsdp' value='a67380b8439303697667ea3ad004e6e9c2bbd5e19af2e9028b462f7d3c317915'></input> 
+   <input type='hidden' name='zc_gad' id='zc_gad' value=''></input> 
+   <input type='text' style='display:none;' name='xmIwtLD' value='d573c6deda3be26f3efe3debd2b2d476e39131eda3e2c446083b878c53e2f773'></input> 
+   <input type='text'  style='display:none;' name='actionType' value='TGVhZHM='></input>
+   <input type='text' style='display:none;' name='returnURL' value='https://attribut.io/test-thanks' > </input><br></br>
+
+<h2>Zoho Form</h2>
+<br>
+Name<span style='color:red;'>*</span><input type='text' style='width:250px;'  maxlength='80' name='Last Name' />
+<br>
+Email<input type='text' style='width:250px;'  maxlength='100' name='Email' />
+<br>
+Website<input type='text' style='width:250px;'  maxlength='255' name='Website' />
+<br>
+
+ <input type='hidden' id='gcid' name='LEADCF3' />
+ <input type='hidden' id='fis' name='LEADCF9' />
+ <input type='hidden' id='fim' name='LEADCF4' />
+ <input type='hidden' id='fic' name='LEADCF6' />
+ <input type='hidden' id='fit' name='LEADCF8' />
+ <input type='hidden' id='filp' name='LEADCF10' />
+ <input type='hidden' id='fiv' name='LEADCF52' />
+ <input type='hidden' id='lis' name='LEADCF1' />
+ <input type='hidden' id='lim' name='LEADCF2' />
+ <input type='hidden' id='lic' name='LEADCF5' />
+ <input type='hidden' id='lit' name='LEADCF7' />
+ <input type='hidden' id='liv' name='LEADCF51' />
+
+
+    <input style='font-size:12px;color:black' id='formsubmit' type='submit' value='Submit' ></input> <input type='reset' name='reset' style='font-size:12px;color:black' value='Reset' ></input> </td></tr></table>
+  <script>
+    var mndFileds=new Array('Last Name');
+    var fldLangVal=new Array('Last Name'); 
+    var name='';
+    var email='';
+
+    function checkMandatory4047100000000223049() {
     for(i=0;i<mndFileds.length;i++) {
       var fieldObj=document.forms['WebToLeads4047100000000223049'][mndFileds[i]];
       if(fieldObj) {
@@ -130,16 +155,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     document.getElementById('formsubmit').disabled=true;
   }
 </script>
-</form>
+  </form>
+</div>
 
-<script>
-  window.getCookie = function(name) {
-    match = document.cookie.match(new RegExp(name + '=([^;]+)'));
-    if (match) return match[1];
-  }
-	var clientId = window.getCookie("clientId");
-  document.getElementById('00N5A00000LrarX').value = clientId;
-</script>
 
 </body>
 
