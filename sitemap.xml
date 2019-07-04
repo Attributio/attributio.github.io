@@ -118,6 +118,12 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/demo/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/docs/</loc>
 	    <lastmod>2018-12-18T00:00:00+00:00</lastmod>
 	    <priority>0</priority>

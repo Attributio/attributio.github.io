@@ -3,6 +3,9 @@ body,
 body p {
   font-size: 16px; 
 }
+.top {
+  margin-top: 40px;
+}
 
 .box-image-text .image {
   min-height: 200px;
