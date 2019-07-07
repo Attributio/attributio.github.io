@@ -1168,30 +1168,6 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/call-tracking/callfire/</loc>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/call-tracking/callhippo/</loc>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/call-tracking/callrail/</loc>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/call-tracking/calltrackingmetrics/</loc>
-	  </url>
-	  
-  
-  	
-	  <url>
 	    <loc>https://attribut.io/platform/crm/campaignercrm/</loc>
 	  </url>
 	  
@@ -1234,12 +1210,6 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/live-chat/crisp/</loc>
-	  </url>
-	  
-  
-  	
-	  <url>
 	    <loc>https://attribut.io/platform/crm/dolibarr/</loc>
 	  </url>
 	  
@@ -1271,12 +1241,6 @@
   	
 	  <url>
 	    <loc>https://attribut.io/platform/crm/greenrope/</loc>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/live-chat/happyfox/</loc>
 	  </url>
 	  
   
@@ -1331,12 +1295,6 @@
   	
 	  <url>
 	    <loc>https://attribut.io/platform/crm/leadmachine/</loc>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/live-chat/livechat/</loc>
 	  </url>
 	  
   
@@ -1414,12 +1372,6 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/live-chat/olark/</loc>
-	  </url>
-	  
-  
-  	
-	  <url>
 	    <loc>https://attribut.io/platform/crm/oncontact/</loc>
 	  </url>
 	  
@@ -1487,12 +1439,6 @@
   	
 	  <url>
 	    <loc>https://attribut.io/platform/crm/relenta/</loc>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/call-tracking/ringcentral/</loc>
 	  </url>
 	  
   
@@ -1588,12 +1534,6 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/call-tracking/twilio/</loc>
-	  </url>
-	  
-  
-  	
-	  <url>
 	    <loc>https://attribut.io/platform/crm/vtiger/</loc>
 	  </url>
 	  
@@ -1624,12 +1564,6 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/live-chat/zopim/</loc>
-	  </url>
-	  
-  
-  	
-	  <url>
 	    <loc>https://attribut.io/platform/crm/amocrm/</loc>
 	  </url>
 	  
@@ -1642,13 +1576,43 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/live-chat/intercom/</loc>
+	    <loc>https://attribut.io/platform/crm/pardot/</loc>
 	  </url>
 	  
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/crm/pardot/</loc>
+	    <loc>https://attribut.io/platform/call-tracking/callfire/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/call-tracking/callhippo/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/call-tracking/callrail/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/call-tracking/calltrackingmetrics/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/call-tracking/ringcentral/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/call-tracking/twilio/</loc>
 	  </url>
 	  
   
@@ -2723,6 +2687,84 @@
   	
 	  <url>
 	    <loc>https://attribut.io/platform/ecommerce/ucoz/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/formbuilder/clickfunnels/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/formbuilder/contactform7/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/formbuilder/formidableforms/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/formbuilder/gravityforms/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/formbuilder/wpforms/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/live-chat/crisp/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/live-chat/happyfox/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/live-chat/livechat/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/live-chat/olark/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/live-chat/purechat/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/live-chat/snapengage/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/live-chat/zopim/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/live-chat/intercom/</loc>
 	  </url>
 	  
   
