@@ -67,15 +67,15 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/</loc>
-	    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
-	    <priority>0</priority>
+	    <loc>https://attribut.io/tos/</loc>
 	  </url>
 	  
   
   	
 	  <url>
-	    <loc>https://attribut.io/tos/</loc>
+	    <loc>https://attribut.io/</loc>
+	    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
+	    <priority>0</priority>
 	  </url>
 	  
   
