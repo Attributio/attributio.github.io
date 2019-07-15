@@ -246,3 +246,7 @@ blockquote {
   color: #007bff;
   text-decoration: none
 }
+
+p.small {
+  font-size: 14px; 
+}
