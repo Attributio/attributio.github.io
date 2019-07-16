@@ -266,3 +266,6 @@ p.small {
     list-style-type: none;
     padding-left: 0px;
 }
+.affix-bottom {
+    position: relative
+}
