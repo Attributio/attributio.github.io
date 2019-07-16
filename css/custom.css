@@ -253,3 +253,16 @@ blockquote {
 p.small {
   font-size: 14px; 
 }
+.internal-links {
+    background: #333;
+    padding-top: 50px;
+}
+.internal-links li, h5 {
+    color: #ccc;
+    font-size: 12px;
+    line-height: 28px;
+}
+.internal-links ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
