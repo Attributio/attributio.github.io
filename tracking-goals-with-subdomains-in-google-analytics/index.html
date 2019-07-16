@@ -196,7 +196,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                     <div class="col-md-7 col-md-offset-1" id="blog-post">
 
-                        <p class="text-muted text-uppercase mb-small text-right">By <a href="#">Attributio</a> | May 18, 2017</p>
+                        <p class="text-muted text-uppercase mb-small text-right">
+
+
+
+                        
+                            Last updated: June 16, 2019
+                        
+
+                        </p>
 
                         <div id="post-content">
                           
@@ -205,11 +213,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <p>Sometimes your conversion funnel spans multiple domains or subdomains. If you need to track destination url goals on a subdomain for an existing universal analytics property, you can follow the steps below to distinguish between root domain visitors and subdomain visitors along with goals that might have the same url path. This is not to be confused with cross-domain tracking which requires different configuration settings.</p>
 
-<h2 id="step-1">Step 1</h2>
+<h2 id="step-1-set-cookie-domain-to-auto">Step 1 - Set cookie domain to auto</h2>
 
-<p>Add the universal analytics tracking code from your root domain to your subdomain and ensure that the cookie domain is set (by default it is set in universal analytics unless you are using GTM).</p>
+<p>Add the universal analytics tracking code from your root domain to your subdomain and ensure that the cookie domain is set to auto (by default it is set in universal analytics unless you are using GTM).</p>
 
-<h2 id="step-2">Step 2</h2>
+<h2 id="step-2-add-a-referral-exclusion-list">Step 2 - Add a referral exclusion list</h2>
 
 <p>Add your subdomain to the referral exclusion list. That way, Google doesn&rsquo;t set the referrer as your subdomain when your visitors jump between your root domain and subdomain, when it should be set to the originating source like an ad or search.</p>
 
@@ -219,7 +227,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <p><br></p>
 
-<h2 id="step-3">Step 3</h2>
+<h2 id="step-3-add-a-filter-to-your-ga-view">Step 3 - Add a filter to your GA view</h2>
 
 <p>Add a subdomain filter to your view. Since the most common goals are destination goals and Google Analytics utilizes the Request URI (path) as the match value, we need to distinguish between subdomain paths and root domain paths. Google by default only matches against the path information so we need to modify the path data to include the subdomain in our filter.</p>
 
@@ -231,7 +239,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <p><br></p>
 
-<h2 id="step-4">Step 4</h2>
+<h2 id="step-4-set-goals">Step 4 - Set goals</h2>
 
 <p>Set up your goals with the destination path if you have the default requrest uri set, or with the hostname included if your filter is set up that way. See the examples below for a path only set up for the root domain and a hostname and path set up for the subdomain.</p>
 
@@ -248,6 +256,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <img class="img-responsive img-thumbnail" src="/img/blog/201705/subdomain_goal.png" alt="subdomain goal for google analytics" />
 </div>
 </div>
+
+<h2 id="step-5-set-autolinker-for-cross-domain-only">Step 5 - Set autolinker (for cross domain only)</h2>
+
+<p>If you have a different domain but want to track it under the same property, you need to configure Google Analytics to allow linker like so:</p>
+
+<pre><code class="language-javascript">  ga('create', 'UA-XXXXXXX-Y', 'auto', {'allowLinker': true});
+  ga('require', 'linker');
+  ga('linker:autoLink', ['example-2.com']);
+</code></pre>
+
+<p>In Google Tag Manager you will need to set the Field Name of Fields to Set add &ldquo;allowLinker&rdquo; as the Field Name and set the Value to &ldquo;true&rdquo;. Under Cross Domain Tracking, add a comma separated list of domains that you want to share the client id under the Auto Link Domains field.</p>
 
 <h2 id="conclusion">Conclusion</h2>
 
@@ -283,8 +302,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
-<h3>Preview Your Analytics</h3>
-<h4>Fill out the form below and we will send you an instant preview of analytics we collected from your browser.</h4>
+<h3>FORM ANALYTICS</h3>
+<h4>Request a demo to see all the analytics you can capture from your visitors.</h4>
 <hr>
  <div id='crmWebToEntityForm'>
 
@@ -335,8 +354,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <input type='text' style='display:none;' id='lisd' name='LEADCF66' />
 
       <div class="form-group">                    
-        <input type="submit" class="btn btn-block btn-large btn-danger btn-lg" name="submit">
+        <input type="submit" class="btn btn-block btn-large btn-danger btn-lg" name="submit" value="Request Demo">
       </div>
+
+      <small>You data is safe with us. We'll never share your data with third parties.</small>
       <script>
           var mndFileds=new Array('Last Name','Email','Website');
           var fldLangVal=new Array('Last Name','Email','Website'); 

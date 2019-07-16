@@ -408,11 +408,11 @@
 
 &lt;p&gt;Sometimes your conversion funnel spans multiple domains or subdomains. If you need to track destination url goals on a subdomain for an existing universal analytics property, you can follow the steps below to distinguish between root domain visitors and subdomain visitors along with goals that might have the same url path. This is not to be confused with cross-domain tracking which requires different configuration settings.&lt;/p&gt;
 
-&lt;h2 id=&#34;step-1&#34;&gt;Step 1&lt;/h2&gt;
+&lt;h2 id=&#34;step-1-set-cookie-domain-to-auto&#34;&gt;Step 1 - Set cookie domain to auto&lt;/h2&gt;
 
-&lt;p&gt;Add the universal analytics tracking code from your root domain to your subdomain and ensure that the cookie domain is set (by default it is set in universal analytics unless you are using GTM).&lt;/p&gt;
+&lt;p&gt;Add the universal analytics tracking code from your root domain to your subdomain and ensure that the cookie domain is set to auto (by default it is set in universal analytics unless you are using GTM).&lt;/p&gt;
 
-&lt;h2 id=&#34;step-2&#34;&gt;Step 2&lt;/h2&gt;
+&lt;h2 id=&#34;step-2-add-a-referral-exclusion-list&#34;&gt;Step 2 - Add a referral exclusion list&lt;/h2&gt;
 
 &lt;p&gt;Add your subdomain to the referral exclusion list. That way, Google doesn&amp;rsquo;t set the referrer as your subdomain when your visitors jump between your root domain and subdomain, when it should be set to the originating source like an ad or search.&lt;/p&gt;
 
@@ -422,7 +422,7 @@
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;step-3&#34;&gt;Step 3&lt;/h2&gt;
+&lt;h2 id=&#34;step-3-add-a-filter-to-your-ga-view&#34;&gt;Step 3 - Add a filter to your GA view&lt;/h2&gt;
 
 &lt;p&gt;Add a subdomain filter to your view. Since the most common goals are destination goals and Google Analytics utilizes the Request URI (path) as the match value, we need to distinguish between subdomain paths and root domain paths. Google by default only matches against the path information so we need to modify the path data to include the subdomain in our filter.&lt;/p&gt;
 
@@ -434,7 +434,7 @@
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;step-4&#34;&gt;Step 4&lt;/h2&gt;
+&lt;h2 id=&#34;step-4-set-goals&#34;&gt;Step 4 - Set goals&lt;/h2&gt;
 
 &lt;p&gt;Set up your goals with the destination path if you have the default requrest uri set, or with the hostname included if your filter is set up that way. See the examples below for a path only set up for the root domain and a hostname and path set up for the subdomain.&lt;/p&gt;
 
@@ -451,6 +451,17 @@
 &lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201705/subdomain_goal.png&#34; alt=&#34;subdomain goal for google analytics&#34; /&gt;
 &lt;/div&gt;
 &lt;/div&gt;
+
+&lt;h2 id=&#34;step-5-set-autolinker-for-cross-domain-only&#34;&gt;Step 5 - Set autolinker (for cross domain only)&lt;/h2&gt;
+
+&lt;p&gt;If you have a different domain but want to track it under the same property, you need to configure Google Analytics to allow linker like so:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;  ga(&#39;create&#39;, &#39;UA-XXXXXXX-Y&#39;, &#39;auto&#39;, {&#39;allowLinker&#39;: true});
+  ga(&#39;require&#39;, &#39;linker&#39;);
+  ga(&#39;linker:autoLink&#39;, [&#39;example-2.com&#39;]);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In Google Tag Manager you will need to set the Field Name of Fields to Set add &amp;ldquo;allowLinker&amp;rdquo; as the Field Name and set the Value to &amp;ldquo;true&amp;rdquo;. Under Cross Domain Tracking, add a comma separated list of domains that you want to share the client id under the Auto Link Domains field.&lt;/p&gt;
 
 &lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
 
