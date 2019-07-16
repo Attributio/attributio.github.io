@@ -192,6 +192,9 @@ blockquote {
         position: static;
     }
 }
+.email-signup-form-container {
+  background: none !important;
+}
 
 blockquote {
     border-left: .25em solid #dfe2e5;
