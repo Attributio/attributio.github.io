@@ -2481,6 +2481,12 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/crm/copper/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/platform/crm/dolibarr/</loc>
 	  </url>
 	  
@@ -2697,6 +2703,12 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/crm/prosperworks/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/platform/crm/quickbase/</loc>
 	  </url>
 	  
@@ -2872,6 +2884,12 @@
   	
 	  <url>
 	    <loc>https://attribut.io/test/</loc>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/meet/</loc>
 	  </url>
 	  
   
