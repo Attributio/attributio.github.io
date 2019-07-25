@@ -6,15 +6,15 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <title>Tracking Offline Sales in Google Analytics</title>
+  <title>The Ultimate Guide to Measure ROI with Salesforce &amp; Google Analytics</title>
   <meta name="author" content="" />
 
   
-  <meta name="keywords" content="google analytics, google analytics offline sales, track offline sales">
+  <meta name="keywords" content="google analytics, google analytics offline sales, track offline sales, salesforce, measure roa, measure roi, salesforce roi, marketing roi">
   
 
   
-  <meta name="description" content="Track all of your offline sales figures in Google Analytics so you can measure your ROI.">
+  <meta name="description" content="Part 1 of a step by step guide to setting up your Salesforce account to measure ROI on ads, campaigns, and keywords in Google Analytics .">
   
 
   <meta name="generator" content="Hugo 0.19" />
@@ -63,9 +63,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <link rel="alternate" href="https://attribut.io/index.xml" type="application/rss+xml" title="Attributio | Business Intelligence &amp; Analytics Experts">
 
   
-  <meta property="og:title" content="Tracking Offline Sales in Google Analytics" />
+  <meta property="og:title" content="The Ultimate Guide to Measure ROI with Salesforce &amp; Google Analytics" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="/tracking-offline-sales-in-google-analytics//" />
+  <meta property="og:url" content="/the-ultimate-guide-to-measure-roi-with-salesforce-and-google-analytics//" />
   <meta property="og:image" content="img/attributio-logo-300.png" />
 </head>
 
@@ -88,9 +88,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand home" href="/">
-                    <img src="/img/attributio-logo-300.png" alt="Tracking Offline Sales in Google Analytics logo" width="162" height="45" style="padding-top:3px;" class="hidden-xs hidden-sm">
-                    <img src="/img/attributio-logo-300.png" alt="Tracking Offline Sales in Google Analytics logo" width="135" height="40" style="padding-top:5px;" class="visible-xs visible-sm">
-                    <span class="sr-only">Tracking Offline Sales in Google Analytics - go to homepage</span>
+                    <img src="/img/attributio-logo-300.png" alt="The Ultimate Guide to Measure ROI with Salesforce &amp; Google Analytics logo" width="162" height="45" style="padding-top:3px;" class="hidden-xs hidden-sm">
+                    <img src="/img/attributio-logo-300.png" alt="The Ultimate Guide to Measure ROI with Salesforce &amp; Google Analytics logo" width="135" height="40" style="padding-top:5px;" class="visible-xs visible-sm">
+                    <span class="sr-only">The Ultimate Guide to Measure ROI with Salesforce &amp; Google Analytics - go to homepage</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -183,7 +183,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1>Tracking Offline Sales in Google Analytics</h1>
+                <h1>The Ultimate Guide to Measure ROI with Salesforce &amp; Google Analytics</h1>
             </div>
         </div>
     </div>
@@ -204,7 +204,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
                         
-                            Last updated: November 19, 2018
+                            Last updated: November 21, 2018
                         
 
                         </p>
@@ -212,31 +212,120 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div id="post-content">
                           
 
-<h2 id="configure-your-lead-generation-forms-to-store-google-s-cookies">Configure your lead generation forms to store Google&rsquo;s cookies</h2>
+<h2 id="brand-marketing-vs-direct-marketing">Brand Marketing VS Direct Marketing</h2>
 
-<p>If you&rsquo;re collecting leads online and converting them over the phone through your CRM, you need to collect a cookie that Google Analytics sets on your website to identify that user. Once you store that unique id in your CRM, you can send a webhook to Google Analytics with that id via their <a href="https://developers.google.com/analytics/devguides/collection/protocol/v1/parameters">Measurement Protocol</a> whenever a deal has been completed.</p>
+<blockquote>
+<p>You can&rsquo;t manage what you can&rsquo;t measure.</p>
 
-<h2 id="configure-google-analytics-to-store-revenue-data">Configure Google Analytics to store revenue data</h2>
+<p><em>- Peter Drucker</em></p>
+</blockquote>
 
-<p>You will also need to create a custom metric in your Google Analytics property to represent revenue data (you can do this easily with our <a href="app.attribut.io">app</a>). Once that has been set, you can send the client id that was captured during the online lead conversion process along with the total value of that deal to Google Anaytics to get a picture of your ROI.</p>
+<p>We live in an age when we can measure just about everything. The fact that many of us aren&rsquo;t measuring our direct marketing efforts is detrimental to our businesses.</p>
 
-<p>If you can&rsquo;t collect the client id, which Google uses to match all of that user&rsquo;s behavior in Google Analytics with the data that you want to see, you will need to send a User ID. If you aren&rsquo;t using an authentication system where your customers have id&rsquo;s associated with their accounts, you can just add the id generated from your CRM and send that along with the revenue data. You will need one or the other, otherwise Google Analytics will not register the event data that you will be sending to it&rsquo;s servers.</p>
+<p>Brand marketing continues to be difficult to measure since brand marketing is more about communicating values to an audience. The ROI on that kind of advertising is measured far down the line whereas direct marketing is about getting conversions and selling right off the bat.</p>
 
-<p>Lastly, you will need to create a calculated metric that will divide the revenue with the cost.</p>
+<h2 id="measuring-your-marketing">Measuring Your Marketing</h2>
 
-<h2 id="create-a-report-in-google-analytics-to-show-attribution-data-with-revenue-and-roa">Create a report in Google Analytics to show attribution data with revenue and ROA</h2>
+<p>Companies of the past used to throw millions into their advertising budget without ever getting any kind of accurate indication of how those efforts rolled over into sales.</p>
 
-<p>In Google Analytics you will need to create a report that lists the custom metric you created with revenue and the calculated metric along with the cost of advertising.</p>
+<p>Today, those companies are fading and a new generation of companies are springing up with the tools to measure their direct marketing efforts to maximize their profits.</p>
 
-<p><br></p>
+<p>With a set of tools and a bit of configuration, you can be well on your way to measuring the ROI on your direct marketing efforts to compete with the new generation of guirella marketers taking down old encumbents.</p>
 
-<p><img class="img-responsive img-thumbnail" src="/img/blog/201811/revenue.png" alt="google analytics track offline sales" /></p>
+<h2 id="using-salesforce-google-analytics-to-measure-your-results">Using Salesforce &amp; Google Analytics To Measure Your Results</h2>
 
-<p><br></p>
+<p>You don&rsquo;t have to use a CRM. You can use your POS, your ecommerce shop, or your ERP system. Anything you use to store transaction data. In our example, we&rsquo;ll use Salesforce since it&rsquo;s the most common CRM and Google Analytics since it&rsquo;s the most widely available analytics tool.</p>
 
-<p>And there you have it. Now you can track the ROI of all your advertising in Google Analytics along with all of your sales that happen offline.</p>
+<p>You&rsquo;ll need to first follow <a href="https://support.google.com/analytics/answer/7584446?hl=en" target="_blank">these instructions</a> to configure your Leads and Opportunites to be able to store data that is provided by Google Analytics. For detailed instructions, continue reading.</p>
 
-<p>If you want to see a demo <a href="/meet/">let us know!</a></p>
+<h3 id="create-lead-opportunity-fields-in-salesforce">Create Lead &amp; Opportunity Fields In Salesforce</h3>
+
+<ol>
+<li>Navigate to the Object Manager Tab and select the &ldquo;Lead&rdquo; object</li>
+<li>Select &ldquo;Fields &amp; Relationships&rdquo;</li>
+<li>Select &ldquo;New&rdquo;</li>
+<li>Select &ldquo;Text&rdquo; in the radio options and then select &ldquo;Next&rdquo;</li>
+
+<li><p>Fill in the form as follows:</p>
+
+<ul>
+<li>Field Label = GA Client ID</li>
+<li>Length = 255</li>
+<li>Field Name = GACLIENTID</li>
+</ul>
+
+<p><img class="img-responsive img-thumbnail" src="/img/blog/201811/lead-gclid.png" alt="salesforce gclid leads" /></p></li>
+
+<li><p>Leave all the default fields in the subsequent pages and save</p></li>
+
+<li><p>Repeat with Leads, Accounts, and Opportunities with these three fields:</p>
+
+<ul>
+<li>GACLIENTID</li>
+<li>GAUSERID</li>
+<li>GATRACKID</li>
+<li>GAREVENUEID</li>
+</ul></li>
+
+<li><p>&ldquo;Set History Tracking&rdquo; for all new fields</p>
+
+<p><img class="img-responsive img-thumbnail" src="/img/blog/201811/lead-history.png" alt="salesforce gclid set lead history" /></p></li>
+
+<li><p>&ldquo;Map Lead Fields&rdquo; between Lead, Account, and Opportunity fields</p>
+
+<p><img class="img-responsive img-thumbnail" src="/img/blog/201811/lead-map.png" alt="salesforce gclid map leads" /></p></li>
+</ol>
+
+<h3 id="create-custom-dimensions-metrics-in-google-analytics">Create Custom Dimensions &amp; Metrics In Google Analytics</h3>
+
+<p>This part is easy. We created a <a href="https://app.attribut.io" target="_blank">simple tool</a> to help you create these fields in your Google Analytics Property.</p>
+
+<p>You&rsquo;ll also want to send the Client ID &amp; User ID back to Google Analytics as a custom dimension if you want to run some more complex analyses of your campaigns. You can find instructions <a href="https://attribut.io/blog/2017/04/27/track-conversions-with-google-analytics-client-id/">here</a>.</p>
+
+<h3 id="create-a-web-to-lead-form">Create a Web-To-Lead Form</h3>
+
+<ol>
+<li><p>In Salesforce navigate to Platform Tools &gt; Feature Settings &gt; Marketing &gt; Web-to-Lead and create a new form.</p>
+
+<p><img class="img-responsive img-thumbnail" src="/img/blog/201811/lead-form-1.png" alt="salesforce gclid lead form start" /></p></li>
+
+<li><p>Add the fields you want for your form making sure to add the fields we created earlier.</p>
+
+<p><img class="img-responsive img-thumbnail" src="/img/blog/201811/lead-form-2.png" alt="salesforce gclid lead form setup" /></p></li>
+
+<li><p>Add the rendered html form to our website and make the tracking fields hidden.</p></li>
+
+<li><p>Grab the Client ID from Google Analytics along with User ID (If you have it) and auto-populate the hidden fields. If you&rsquo;re using Google Tag Manager, you&rsquo;re code will differ than what is presented below. You need to make the Client ID available as a cookie and grab the cookie and populate the hidden field. As for the Tracking ID, you can either manually add it to the form as a value or dynamically populate it.</p>
+
+<p><img class="img-responsive img-thumbnail" src="/img/blog/201811/lead-form-html.png" alt="salesforce gclid lead form setup" /></p></li>
+</ol>
+
+<h2 id="send-revenue-data-to-google-analytics">Send Revenue Data To Google Analytics</h2>
+
+<p>In the <a href="/blog/2018/11/21/the-ultimate-guide-to-measure-roi-on-your-direct-marketing-efforts-with-salesforce-and-google-analytics-1/">Part 1 of Measuring Roi With Salesforce and Google Analytics</a>, we provided a step by step guide on configuring Google Analytics and setting up a Web-to-lead form with Salesforce and getting all of that configured on your website. In this post, we&rsquo;re going to set Salesforce up to send revenue data to Google Analytics</p>
+
+<h3 id="configure-remote-site-settings-in-salesforce">Configure remote site settings in Salesforce</h3>
+
+<ol>
+<li>Navigate to Setup &gt; Settings &gt; Security &gt; Remote Site Settings and create a new setting
+<img class="img-responsive img-thumbnail" src="/img/blog/201812/sf-new-remote-site.png" alt="salesforce send revenue to google analytics" /></li>
+<li>Create new setting as seen below:
+<img class="img-responsive img-thumbnail" src="/img/blog/201812/sf-new-remote-site-create.png" alt="salesforce send revenue to google analytics" /></li>
+</ol>
+
+<h3 id="create-apex-class-in-salesforce">Create Apex Class in Salesforce</h3>
+
+<p>We&rsquo;re going to need to create an Apex class to handle our get requests to Google Analytics via the Measurement Protocol. Keep in mind that the client id is a required field and revenue data sent without this field will not be registered in Google Analytics.</p>
+
+<p>Go to Setup &gt; Developer Console &gt; File &gt; New &gt; Apex Class and create a new class with an invocable method with invocable variables that sends a get request to Google Analytics with the varialbes that we will map from our Opportunity.</p>
+
+<p>Now navigate to Setup &gt; Platform Tools &gt; Process Automation &gt; Process Builder and create a new process. You can create an action that will be triggered when an Opportunity is Won and map the fields of that opportunity to the Apex Class that we just created as shown below:</p>
+
+<p><img class="img-responsive img-thumbnail" src="/img/blog/201812/sf-process-builder.png" alt="salesforce opportunity won send google analytics" /></p>
+
+<p>And that&rsquo;s it. Now you can send revenue data to Google Analytics every time your sales agents close a deal and you can do a detailed cost analysis based on your advertising campaigns and even identify the most profitable keywords to really take your marketing efforts to the next level.</p>
+
+<p>If you would like a demonstration of collecting analytics for your leads, <a href="/meet/">book a demo here</a>.</p>
 
                         </div>
 

@@ -176,11 +176,11 @@
     </item>
     
     <item>
-      <title>The Ultimate Guide to Measure ROI On Your Direct Marketing Efforts With Salesforce &amp; Google Analytics</title>
-      <link>https://attribut.io/the-ultimate-guide-to-measure-roi-on-your-direct-marketing-efforts-with-salesforce-and-google-analytics/</link>
+      <title>The Ultimate Guide to Measure ROI with Salesforce &amp; Google Analytics</title>
+      <link>https://attribut.io/the-ultimate-guide-to-measure-roi-with-salesforce-and-google-analytics/</link>
       <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://attribut.io/the-ultimate-guide-to-measure-roi-on-your-direct-marketing-efforts-with-salesforce-and-google-analytics/</guid>
+      <guid>https://attribut.io/the-ultimate-guide-to-measure-roi-with-salesforce-and-google-analytics/</guid>
       <description>
 
 &lt;h2 id=&#34;brand-marketing-vs-direct-marketing&#34;&gt;Brand Marketing VS Direct Marketing&lt;/h2&gt;
@@ -448,11 +448,11 @@
     </item>
     
     <item>
-      <title>Track Conversions With Google Analytics&#39; Client ID</title>
-      <link>https://attribut.io/track-conversions-with-google-analytics-client-id/</link>
+      <title>Track Conversions With Google Analytics&#39; Client ID &amp; User ID</title>
+      <link>https://attribut.io/track-conversions-with-google-analytics-client-id-and-user-id/</link>
       <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://attribut.io/track-conversions-with-google-analytics-client-id/</guid>
+      <guid>https://attribut.io/track-conversions-with-google-analytics-client-id-and-user-id/</guid>
       <description>
 
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
@@ -503,26 +503,18 @@
 
 &lt;p&gt;You&amp;rsquo;ll want to add the following code as an ammendment to the default embed code that Google Analytics provides. So if you have the default Universal Analytics snippet installed on your website, you&amp;rsquo;ll want to modify it like so:&lt;/p&gt;
 
+&lt;h3 id=&#34;universal-analytics-implementation-of-client-id&#34;&gt;Universal Analytics Implementation of Client ID&lt;/h3&gt;
+
 &lt;p&gt;&lt;em&gt;Before&lt;/em&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;(function(i,s,o,g,r,a,m){i[&#39;GoogleAnalyticsObject&#39;]=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,&#39;script&#39;,&#39;https://www.google-analytics.com/analytics.js&#39;,&#39;ga&#39;);
-
-ga(&#39;create&#39;, &#39;UA-XXXXXXX-1&#39;, &#39;auto&#39;);
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;ga(&#39;create&#39;, &#39;UA-XXXXXXX-1&#39;, &#39;auto&#39;);
 ga(&#39;send&#39;, &#39;pageview&#39;);
 
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;em&gt;After&lt;/em&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;(function(i,s,o,g,r,a,m){i[&#39;GoogleAnalyticsObject&#39;]=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,&#39;script&#39;,&#39;https://www.google-analytics.com/analytics.js&#39;,&#39;ga&#39;);
-
-ga(&#39;create&#39;, &#39;UA-XXXXXXX-1&#39;, &#39;auto&#39;);
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;ga(&#39;create&#39;, &#39;UA-XXXXXXX-1&#39;, &#39;auto&#39;);
 ga(function(tracker) {
   var clientId = tracker.get(&#39;clientId&#39;);
   ga(&#39;set&#39;, &#39;dimension1&#39;, clientId);
@@ -530,11 +522,97 @@ ga(function(tracker) {
 });
 &lt;/code&gt;&lt;/pre&gt;
 
+&lt;p&gt;You also have the option of sending the client id as a non-interaction event via Google Analytics like so:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;ga(&#39;create&#39;, &#39;UA-XXXXXXX-1&#39;, &#39;auto&#39;);
+ga(function(tracker) {
+  var clientId = tracker.get(&#39;clientId&#39;);
+  tracker.set({dimension1: clientId});
+  tracker.send(&#39;event&#39;, {
+    nonInteraction: true
+  });
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;gtag-implementation-of-client-id&#34;&gt;Gtag Implementation of Client ID&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Before&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;gtag(&#39;config&#39;, &#39;UA-XXXXXXX-1&#39;);
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;After&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;gtag(&#39;config&#39;, &#39;UA-XXXXXXX-1&#39;, {
+  &#39;custom_map&#39;: {
+    &#39;dimension1&#39;: &#39;clientId&#39;
+  }
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;google-tag-manager-implementation-of-client-id&#34;&gt;Google Tag Manager Implementation of Client ID&lt;/h3&gt;
+
+&lt;p&gt;You have the option of either setting a field with the name customTask and adding the code to extract the client id in your Google Analytics Setting Variable or to send the client id as a non-interaction event on all Window Loaded Page Views.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201704/gtm-clientid.png&#34; alt=&#34;add client id to google analytics&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;To set the customTask field, create a custom javascript variable and add the code as follows:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;function() {
+  return function(model) {
+    model.set(&#39;dimension2&#39;, model.get(&#39;clientId&#39;));
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To set as a non-interaction event, create a custom javascript variable like so:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;function() {
+  try {
+    var trackers = ga.getAll();
+    var i, len;
+    for (i = 0, len = trackers.length; i &amp;lt; len; i += 1) {
+      if (trackers[i].get(&#39;trackingId&#39;) === {{GA Property ID}}) {
+        var clientId = trackers[i].get(&#39;clientId&#39;);
+        return clientId;
+      }
+    }
+  } catch(e) {
+  	return &#39;(not set)&#39;;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;difference-between-client-id-and-user-id&#34;&gt;Difference Between Client ID and User ID&lt;/h2&gt;
+
+&lt;p&gt;Depending on whether you have an authenitcation system on your website, you may have the added option of tracking your users. The benefit of doing so in the context of attribution is that you can stitch cross device sessions together. By default Google Analytics separates &amp;ldquo;Users&amp;rdquo; based on the cookies that it sets in your visitor&amp;rsquo;s browsers (Our beloved Client ID). But in an age of multiple device usage, it leaves a big hole in proper attribution techniques.&lt;/p&gt;
+
+&lt;p&gt;If you have an optinon to also send User ID data to Google Analytics for tracking, it&amp;rsquo;s a must for in-depth attribution techniques.&lt;/p&gt;
+
+&lt;p&gt;Google Analytics has an option where you can set an id for Users in the the admin section under Property &amp;gt; Tracking Info &amp;gt; User-ID.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201704/ga-userid-setting.png&#34; alt=&#34;add client id to google analytics&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;What you get is an additional View where you can track the behavior of your logged-in users. Unfortunately, it doesn&amp;rsquo;t automatically stitch all of the activity of a particular browser with another browser when a user is logged in.&lt;/p&gt;
+
+&lt;p&gt;You will need to do this manually by not only setting the userID field in Google Analytics but also creating a custom dimension for User ID and sending that data alongside the standard configuration variable for User ID provided by Google Analytics so you can query that data at a later time.&lt;/p&gt;
+
+&lt;p&gt;What you end up with is the option of pulling User ID and Client ID from Google Analytics and tracking all of the sessions for a particular user. Where once you had a dark void of direct sessions, you can now extract additional session data from all of the devices that your users used to log in to your site.&lt;/p&gt;
+
 &lt;h2 id=&#34;need-help-setting-up-your-custom-dimensions&#34;&gt;Need Help Setting Up Your Custom Dimensions?&lt;/h2&gt;
 
 &lt;p&gt;Sometimes it&amp;rsquo;s not always so simple to configure custom dimensions. Your developer may have set up your analytics in a custom way ot you might be using Google Tag Manager to manage all of your js snippets.&lt;/p&gt;
 
-&lt;p&gt;If you need help to &lt;a href=&#34;https://attribut.io/meet/&#34;&gt;install your custom dimesions. Request a consultation today!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you need help to &lt;a href=&#34;https://attribut.io/meet/&#34;&gt;install your custom dimesions. Talk to an expert today&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
