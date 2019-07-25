@@ -275,3 +275,10 @@ p.small {
 .affix-bottom {
     position: relative
 }
+h4.callout {
+    text-align: center;;
+    color: grey;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.3;
+}
