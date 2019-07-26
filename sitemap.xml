@@ -3,6 +3,15 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/multi-touch-attribution/</loc>
+	    <lastmod>2019-07-26T00:00:00+00:00</lastmod>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/do-paid-ads-really-work/</loc>
 	    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
 	    <changefreq>daily</changefreq>
@@ -84,7 +93,16 @@
   	
 	  <url>
 	    <loc>https://attribut.io/</loc>
-	    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
+	    <lastmod>2019-07-26T00:00:00+00:00</lastmod>
+	    <changefreq>daily</changefreq>
+	    <priority>0</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/tags/attribution/</loc>
+	    <lastmod>2019-07-26T00:00:00+00:00</lastmod>
 	    <changefreq>daily</changefreq>
 	    <priority>0</priority>
 	  </url>
@@ -93,7 +111,7 @@
   	
 	  <url>
 	    <loc>https://attribut.io/categories/attribution/</loc>
-	    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
+	    <lastmod>2019-07-26T00:00:00+00:00</lastmod>
 	    <changefreq>daily</changefreq>
 	    <priority>0</priority>
 	  </url>
@@ -102,7 +120,7 @@
   	
 	  <url>
 	    <loc>https://attribut.io/blog/</loc>
-	    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
+	    <lastmod>2019-07-26T00:00:00+00:00</lastmod>
 	    <changefreq>daily</changefreq>
 	    <priority>0</priority>
 	  </url>
