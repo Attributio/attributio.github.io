@@ -449,10 +449,10 @@
     
     <item>
       <title>Track Conversions With Google Analytics&#39; Client ID &amp; User ID</title>
-      <link>https://attribut.io/track-conversions-with-google-analytics-client-id-and-user-id/</link>
+      <link>https://attribut.io/track-conversions-with-google-analytics-client-id/</link>
       <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://attribut.io/track-conversions-with-google-analytics-client-id-and-user-id/</guid>
+      <guid>https://attribut.io/track-conversions-with-google-analytics-client-id/</guid>
       <description>
 
 &lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
@@ -501,7 +501,7 @@
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;p&gt;You&amp;rsquo;ll want to add the following code as an ammendment to the default embed code that Google Analytics provides. So if you have the default Universal Analytics snippet installed on your website, you&amp;rsquo;ll want to modify it like so:&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;ll want to add the following code as an ammendment to the default embed code that Google Analytics provides. So if you have the default Universal Analytics snippet installed on your website, you&amp;rsquo;ll want to modify it as hown in the examples below. You can also see the &lt;a href=&#34;https://developers.google.com/analytics/devguides/collection/analyticsjs/cookies-user-id#getting_the_client_id_from_the_cookie&#34;&gt;documentation provided by google&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;universal-analytics-implementation-of-client-id&#34;&gt;Universal Analytics Implementation of Client ID&lt;/h3&gt;
 
@@ -602,7 +602,7 @@ ga(function(tracker) {
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;p&gt;What you get is an additional View where you can track the behavior of your logged-in users. Unfortunately, it doesn&amp;rsquo;t automatically stitch all of the activity of a particular browser with another browser when a user is logged in.&lt;/p&gt;
+&lt;p&gt;What you get is an additional View where you can track the behavior of your logged-in users. Unfortunately, it doesn&amp;rsquo;t automatically stitch all of the activity of a particular browser with another browser when a user is logged in. You can see more in &lt;a href=&#34;https://support.google.com/analytics/answer/6205850?hl=en&#34;&gt;google&amp;rsquo;s documentation for user id here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;You will need to do this manually by not only setting the userID field in Google Analytics but also creating a custom dimension for User ID and sending that data alongside the standard configuration variable for User ID provided by Google Analytics so you can query that data at a later time.&lt;/p&gt;
 
