@@ -309,6 +309,12 @@
 
 &lt;p&gt;When you&amp;rsquo;re ready to start looking at where your conversions are coming from, you&amp;rsquo;ll want to connect the information related to where they came from and how they interacted with your site. Unfortunately, you wont have that data. And you&amp;rsquo;ll have to wait until you&amp;rsquo;ve collected enough data to make any kind of assessment on conversions.&lt;/p&gt;
 
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201704/zoho-client-id.png&#34; alt=&#34;google analytics client id in zoho crm&#34; /&gt;
+&lt;div class=&#34;text-center small&#34;&gt;Data collected in a CRM with custom session data and outgoing link to Google Analytics User Explorer&lt;/div&gt;
+&lt;hr&gt;&lt;/p&gt;
+
 &lt;p&gt;Assuming that you are collecting your visitor&amp;rsquo;s client id when they convert, you can query as far back as you like on that user to visualize every step they took to convert. You can also view all of the channels that they navigated to before converting.&lt;/p&gt;
 
 &lt;h2 id=&#34;how-to-add-client-id-as-a-custom-dimension&#34;&gt;How to Add Client ID as a Custom Dimension&lt;/h2&gt;
