@@ -573,11 +573,21 @@
       <guid>https://attribut.io/track-conversions-with-google-analytics-client-id/</guid>
       <description>
 
-&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Google Analytics is an underutilized tool and there are a few basic things you can do to gain more insight into your conversions. Last year in March of 2016 Google made their new &lt;a href=&#34;https://support.google.com/analytics/answer/6339208?hl=en&#34; target=&#34;_blank&#34;&gt;User Explorer&lt;/a&gt; available to the public. It&amp;rsquo;s a great tool but unfortunately, you can&amp;rsquo;t drill down into other dimensions with this tool yet. Also, you can&amp;rsquo;t combine this information with other dimensions or metrics like where the user came from.&lt;/p&gt;
 
-&lt;p&gt;Google Analytics is an underutilized tool and there are a few basic things you can do to gain more insight into your conversions. Last year in March of 2016 Google made their new &lt;a href=&#34;https://support.google.com/analytics/answer/6339208?hl=en&#34;&gt;User Explorer&lt;/a&gt; available to the public. It&amp;rsquo;s a great tool but unfortunately, you can&amp;rsquo;t drill down into other dimensions with this tool yet. Also, you can&amp;rsquo;t combine this information with other dimensions or metrics like where the user came from.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201704/user-report.png&#34; alt=&#34;google analytics client id user report&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;p&gt;What the User Explorer essentially does is aggregate users based on the client id that google collects in the form of a cookie set in your visitor&amp;rsquo;s browser. Google uses this cookie internally but doesn&amp;rsquo;t make it accessible to Google Analytic&amp;rsquo;s users. The only way to access the client id is by exposing it and sending it to your Google Analytics property as a custom dimension.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201704/user-list.png&#34; alt=&#34;google analytics client id user report list&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;why-you-need-to-add-client-id-now&#34;&gt;Why You Need to Add Client ID Now&lt;/h2&gt;
 
@@ -742,49 +752,38 @@ ga(function(tracker) {
       <guid>https://attribut.io/tos/</guid>
       <description>
 
-&lt;h3 id=&#34;1-terms&#34;&gt;1. Terms&lt;/h3&gt;
+&lt;h3 id=&#34;terms&#34;&gt;Terms&lt;/h3&gt;
 
-&lt;p&gt;By accessing the website at &lt;a href=&#34;https://attribut.io&#34;&gt;https://attribut.io&lt;/a&gt;, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.&lt;/p&gt;
+&lt;p&gt;By accessing the website at &lt;a href=&#34;https://attribut.io&#34;&gt;https://attribut.io&lt;/a&gt;, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site including all services rendered. The materials contained in this website are protected by applicable copyright and trademark law.&lt;/p&gt;
 
-&lt;h3 id=&#34;2-use-license&#34;&gt;2. Use License&lt;/h3&gt;
+&lt;h3 id=&#34;intellectual-property&#34;&gt;Intellectual Property&lt;/h3&gt;
 
-&lt;ol&gt;
-&lt;li&gt;Permission is granted to temporarily download one copy of the materials (information or software) on Attributio&amp;rsquo;s website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
+&lt;p&gt;The Service and it&amp;rsquo;s internal contents will remain the exclusive property of Attributio. You shall not attempt to unpack, reverse engineer, duplicate our Service. The Service is protected by laws of the United States of America and foreign countries. Our brands and trademarks may not be used in connection with any product or service without the prior written consent of Attributio.&lt;/p&gt;
 
-&lt;ol&gt;
-&lt;li&gt;modify or copy the materials;&lt;/li&gt;
-&lt;li&gt;use the materials for any commercial purpose, or for any public display (commercial or non-commercial);&lt;/li&gt;
-&lt;li&gt;attempt to decompile or reverse engineer any software contained on Attributio&amp;rsquo;s website;&lt;/li&gt;
-&lt;li&gt;remove any copyright or other proprietary notations from the materials; or&lt;/li&gt;
-&lt;li&gt;transfer the materials to another person or &amp;ldquo;mirror&amp;rdquo; the materials on any other server.&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
-&lt;li&gt;This license shall automatically terminate if you violate any of these restrictions and may be terminated by Attributio at any time. Upon terminating your viewing of these materials or upon the termination of this license, you must destroy any downloaded materials in your possession whether in electronic or printed format.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;3-disclaimer&#34;&gt;3. Disclaimer&lt;/h3&gt;
+&lt;h3 id=&#34;disclaimer&#34;&gt;Disclaimer&lt;/h3&gt;
 
 &lt;ol&gt;
 &lt;li&gt;The materials on Attributio&amp;rsquo;s website are provided on an &amp;lsquo;as is&amp;rsquo; basis. Attributio makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.&lt;/li&gt;
 &lt;li&gt;Further, Attributio does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&#34;4-limitations&#34;&gt;4. Limitations&lt;/h3&gt;
+&lt;h3 id=&#34;limitations&#34;&gt;Limitations&lt;/h3&gt;
 
 &lt;p&gt;In no event shall Attributio or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on Attributio&amp;rsquo;s website, even if Attributio or a Attributio authorized representative has been notified orally or in writing of the possibility of such damage. Because some jurisdictions do not allow limitations on implied warranties, or limitations of liability for consequential or incidental damages, these limitations may not apply to you.&lt;/p&gt;
 
-&lt;h3 id=&#34;5-accuracy-of-materials&#34;&gt;5. Accuracy of materials&lt;/h3&gt;
+&lt;h3 id=&#34;accuracy-of-materials&#34;&gt;Accuracy of materials&lt;/h3&gt;
 
 &lt;p&gt;The materials appearing on Attributio&amp;rsquo;s website could include technical, typographical, or photographic errors. Attributio does not warrant that any of the materials on its website are accurate, complete or current. Attributio may make changes to the materials contained on its website at any time without notice. However Attributio does not make any commitment to update the materials.&lt;/p&gt;
 
-&lt;h3 id=&#34;6-links&#34;&gt;6. Links&lt;/h3&gt;
+&lt;h3 id=&#34;links&#34;&gt;Links&lt;/h3&gt;
 
 &lt;p&gt;Attributio has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by Attributio of the site. Use of any such linked website is at the user&amp;rsquo;s own risk.&lt;/p&gt;
 
-&lt;h3 id=&#34;7-modifications&#34;&gt;7. Modifications&lt;/h3&gt;
+&lt;h3 id=&#34;modifications&#34;&gt;Modifications&lt;/h3&gt;
 
 &lt;p&gt;Attributio may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these terms of service.&lt;/p&gt;
 
-&lt;h3 id=&#34;8-governing-law&#34;&gt;8. Governing Law&lt;/h3&gt;
+&lt;h3 id=&#34;governing-law&#34;&gt;Governing Law&lt;/h3&gt;
 
 &lt;p&gt;These terms and conditions are governed by and construed in accordance with the laws of California and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.&lt;/p&gt;
 

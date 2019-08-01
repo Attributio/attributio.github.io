@@ -10,11 +10,11 @@
   <meta name="author" content="" />
 
   
-  <meta name="keywords" content="google analytics conversion tracking, google analytics attribution, custom attribution model with google analytics">
+  <meta name="keywords" content="google analytics client id, client id google analytics, google client id, clientid google analytics, client id in google analytics, get google analytics client id, client id google">
   
 
   
-  <meta name="description" content="Use avaialble cookies in Google Analytics to track your customer&#39;s behavior along with their conversions from the source.">
+  <meta name="description" content="Google Analytics provides a unique session id called the Client ID that you can use to track individual visitors in your conversion forms.">
   
 
   <meta name="generator" content="Hugo 0.19" />
@@ -212,11 +212,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div id="post-content">
                           
 
-<h2 id="introduction">Introduction</h2>
+<p>Google Analytics is an underutilized tool and there are a few basic things you can do to gain more insight into your conversions. Last year in March of 2016 Google made their new <a href="https://support.google.com/analytics/answer/6339208?hl=en" target="_blank">User Explorer</a> available to the public. It&rsquo;s a great tool but unfortunately, you can&rsquo;t drill down into other dimensions with this tool yet. Also, you can&rsquo;t combine this information with other dimensions or metrics like where the user came from.</p>
 
-<p>Google Analytics is an underutilized tool and there are a few basic things you can do to gain more insight into your conversions. Last year in March of 2016 Google made their new <a href="https://support.google.com/analytics/answer/6339208?hl=en">User Explorer</a> available to the public. It&rsquo;s a great tool but unfortunately, you can&rsquo;t drill down into other dimensions with this tool yet. Also, you can&rsquo;t combine this information with other dimensions or metrics like where the user came from.</p>
+<p><br></p>
+
+<p><img class="img-responsive img-thumbnail" src="/img/blog/201704/user-report.png" alt="google analytics client id user report" /></p>
+
+<p><br></p>
 
 <p>What the User Explorer essentially does is aggregate users based on the client id that google collects in the form of a cookie set in your visitor&rsquo;s browser. Google uses this cookie internally but doesn&rsquo;t make it accessible to Google Analytic&rsquo;s users. The only way to access the client id is by exposing it and sending it to your Google Analytics property as a custom dimension.</p>
+
+<p><br></p>
+
+<p><img class="img-responsive img-thumbnail" src="/img/blog/201704/user-list.png" alt="google analytics client id user report list" /></p>
+
+<p><br></p>
 
 <h2 id="why-you-need-to-add-client-id-now">Why You Need to Add Client ID Now</h2>
 
