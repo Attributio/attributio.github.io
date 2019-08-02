@@ -18,8 +18,6 @@
       <guid>https://attribut.io/multi-touch-attribution/</guid>
       <description>
 
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201907/multi-touch-attribution-banner.png&#34; alt=&#34;how to multi touch attribution&#34; /&gt;&lt;/p&gt;
-
 &lt;h2 id=&#34;what-is-marketing-attribution&#34;&gt;What is marketing attribution?&lt;/h2&gt;
 
 &lt;p&gt;In a nutshell, marketing attribution is giving credit to the source that leads to a sale.&lt;/p&gt;
@@ -151,8 +149,6 @@
       
       <guid>https://attribut.io/do-paid-ads-really-work/</guid>
       <description>
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201907/paid-ads-banner.png&#34; alt=&#34;what digital marketing channels convert?&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;what-channels-convert&#34;&gt;What Channels Convert?&lt;/h2&gt;
 
@@ -663,7 +659,7 @@
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;p&gt;You&amp;rsquo;ll want to add the following code as an ammendment to the default embed code that Google Analytics provides. So if you have the default Universal Analytics snippet installed on your website, you&amp;rsquo;ll want to modify it as hown in the examples below. You can also see the &lt;a href=&#34;https://developers.google.com/analytics/devguides/collection/analyticsjs/cookies-user-id#getting_the_client_id_from_the_cookie&#34;&gt;documentation provided by google&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;ll want to add the following code as an ammendment to the default embed code that Google Analytics provides. So if you have the default Universal Analytics snippet installed on your website, you&amp;rsquo;ll want to modify it as shown in the examples below. You can also see the &lt;a href=&#34;https://developers.google.com/analytics/devguides/collection/analyticsjs/cookies-user-id#getting_the_client_id_from_the_cookie&#34;&gt;documentation provided by google&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;universal-analytics-implementation-of-client-id&#34;&gt;Universal Analytics Implementation of Client ID&lt;/h3&gt;
 

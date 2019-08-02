@@ -351,7 +351,7 @@
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;p&gt;You&amp;rsquo;ll want to add the following code as an ammendment to the default embed code that Google Analytics provides. So if you have the default Universal Analytics snippet installed on your website, you&amp;rsquo;ll want to modify it as hown in the examples below. You can also see the &lt;a href=&#34;https://developers.google.com/analytics/devguides/collection/analyticsjs/cookies-user-id#getting_the_client_id_from_the_cookie&#34;&gt;documentation provided by google&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;ll want to add the following code as an ammendment to the default embed code that Google Analytics provides. So if you have the default Universal Analytics snippet installed on your website, you&amp;rsquo;ll want to modify it as shown in the examples below. You can also see the &lt;a href=&#34;https://developers.google.com/analytics/devguides/collection/analyticsjs/cookies-user-id#getting_the_client_id_from_the_cookie&#34;&gt;documentation provided by google&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;universal-analytics-implementation-of-client-id&#34;&gt;Universal Analytics Implementation of Client ID&lt;/h3&gt;
 
