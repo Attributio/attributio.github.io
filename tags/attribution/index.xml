@@ -17,6 +17,8 @@
       <guid>https://attribut.io/multi-touch-attribution/</guid>
       <description>
 
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201907/multi-touch-attribution-banner.png&#34; alt=&#34;how to multi touch attribution&#34; /&gt;&lt;/p&gt;
+
 &lt;h2 id=&#34;what-is-marketing-attribution&#34;&gt;What is marketing attribution?&lt;/h2&gt;
 
 &lt;p&gt;In a nutshell, marketing attribution is giving credit to the source that leads to a sale.&lt;/p&gt;
@@ -26,6 +28,12 @@
 &lt;h2 id=&#34;what-does-attribution-mean-in-marketing&#34;&gt;What does attribution mean in marketing?&lt;/h2&gt;
 
 &lt;p&gt;Marketing is more art than science. However, with proper attribution, professional marketers can come closer to making marketing more scientific by collecting and measuring where their sales and conversions are coming from.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201907/what-attribution-marketing.png&#34; alt=&#34;what is marketing attribution&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
 &lt;p&gt;By collecting, storing, and measuring the origin of sales and conversions, marketers can allocate advertising budgets based on the best performing campaigns thereby increasing revenue for the company and minimizing waste on marketing efforts that doesn&amp;rsquo;t generate sales.&lt;/p&gt;
 
@@ -40,6 +48,8 @@
 &lt;p&gt;Single-touch attribution is the practice of giving credit to a single source.&lt;/p&gt;
 
 &lt;p&gt;As an example, Google Analytics relies on what&amp;rsquo;s called a last-click non-direct attribution model which essentially means that the last source of a visit to your website is given credit for the sale.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201907/what-single-touch-attribution.png&#34; alt=&#34;what is single touch attribution&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;first-touch-attribution&#34;&gt;First-touch Attribution&lt;/h3&gt;
 
@@ -60,6 +70,8 @@
 &lt;p&gt;It can be as simple as only considering the first and last touch points or as complex as assigning weights based on customer behavior during a touchpoint and calculating which sources deserve more credit.&lt;/p&gt;
 
 &lt;p&gt;The most common types of multi-touch attribution are first and last touch attribution, linear attribution or even-distribution attribution, time-decay attribution, and a variety of custom attribution models.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201907/what-multi-touch-attribution.png&#34; alt=&#34;what is multi touch attribution&#34; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;linear-attribution&#34;&gt;Linear Attribution&lt;/h3&gt;
 
@@ -91,6 +103,8 @@
 
 &lt;p&gt;There are some attribution tools available in the market. But considering the fragmented nature of the software and platforms we use, it&amp;rsquo;s difficult to implement any one tool competently.&lt;/p&gt;
 
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201907/marketing-attribution-tools.png&#34; alt=&#34;marketing attribution tools&#34; /&gt;&lt;/p&gt;
+
 &lt;h3 id=&#34;google-analytics&#34;&gt;Google Analytics&lt;/h3&gt;
 
 &lt;p&gt;Google Analytics is the most common tool available for attribution. They also provide some options for &lt;a href=&#34;https://support.google.com/analytics/answer/1662518?hl=en&#34;&gt;multi-channel attribution and single-touch attribution reports&lt;/a&gt;. However, the functionality and insights are limited to Channel Groupings and it&amp;rsquo;s difficult to actually glean any insight without heavy customization and data processing.&lt;/p&gt;
@@ -118,6 +132,8 @@
 &lt;h2 id=&#34;calculating-roi&#34;&gt;Calculating ROI&lt;/h2&gt;
 
 &lt;p&gt;The point of attribution is to calculate ROI or ROA (return on ad spend). What you can learn from attribution reports is what channels lead to sales. And from there you can either increase your budget for the campaigns that have a good ROA and decrease the budget for the campaigns that have little return.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201907/calculate-roi.png&#34; alt=&#34;calculate roi of digital marketing, adwords&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;You can use tools like Google Analytics to do this. Outside of their &lt;a href=&#34;https://support.google.com/analytics/answer/1009612?hl=en&#34;&gt;Ecommerce Tracking&lt;/a&gt;, you can either set custom metrics or even goals and send revenue data from your CRM.&lt;/p&gt;
 
