@@ -926,6 +926,14 @@ ga(function(tracker) {
 
 &lt;p&gt;There are many scenarios you can imagine for a custom fit attribution model for your company.&lt;/p&gt;
 
+&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
+
+&lt;p&gt;It is recommended to use SSL for all traffic to your site. Ensure that all non-ssl links are redirected to a standard SSL encrypted version of your site either containing the subdomain www or not.&lt;/p&gt;
+
+&lt;p&gt;If visitors to your site jump between non-encrypted and encrypted versions of your site or between subdomains, session data will not be consistent and original attribution data will be lost.&lt;/p&gt;
+
+&lt;p&gt;When configuring redirects, all url parameters must be retained. If they are lost on redirect, session data will not properly be stored.&lt;/p&gt;
+
 &lt;h2 id=&#34;google-analytics&#34;&gt;Google Analytics&lt;/h2&gt;
 
 &lt;p&gt;We encourage the use of Google Analytics to compare attribution data stored in your CRM with our tool. Although our tool is independent of Google Analytics, Google Analytics has so much data available that we recommend using it in conjunction with our tool for comparisons. That is why we configure your Analytics to store unique visitor data based on ids provided by Google so you can have all the data you could ever need.&lt;/p&gt;

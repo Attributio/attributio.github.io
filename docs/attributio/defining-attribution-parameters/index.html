@@ -212,6 +212,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             
                                 <li class="toc-entry toc-h2"><a href="https://attribut.io/docs/attributio/defining-attribution-parameters/#custom%20sessions">Custom sessions</a></li>
                             
+                                <li class="toc-entry toc-h2"><a href="https://attribut.io/docs/attributio/defining-attribution-parameters/#requirements">Requirements</a></li>
+                            
                                 <li class="toc-entry toc-h2"><a href="https://attribut.io/docs/attributio/defining-attribution-parameters/#google-analytics">Google analytics</a></li>
                             
                             </ul>
@@ -303,6 +305,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <p>Often visitors convert after doing a branded paid or organic search. We typically do not want that information as attribution will typically be credited to Google where little weight should be placed. In these cases, we can set conditions to ignore certain paid branded clicks as Last Impressions and store the previous session with more valuable data.</p>
 
 <p>There are many scenarios you can imagine for a custom fit attribution model for your company.</p>
+
+<h2 id="requirements">Requirements</h2>
+
+<p>It is recommended to use SSL for all traffic to your site. Ensure that all non-ssl links are redirected to a standard SSL encrypted version of your site either containing the subdomain www or not.</p>
+
+<p>If visitors to your site jump between non-encrypted and encrypted versions of your site or between subdomains, session data will not be consistent and original attribution data will be lost.</p>
+
+<p>When configuring redirects, all url parameters must be retained. If they are lost on redirect, session data will not properly be stored.</p>
 
 <h2 id="google-analytics">Google Analytics</h2>
 
