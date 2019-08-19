@@ -356,20 +356,24 @@
     </item>
     
     <item>
-      <title>How to Unblock Google Analytics in Wordpress</title>
-      <link>https://attribut.io/how-to-unblock-google-analytics-in-wordpress/</link>
+      <title>How to Unblock Google Analytics</title>
+      <link>https://attribut.io/unblock-google/</link>
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://attribut.io/how-to-unblock-google-analytics-in-wordpress/</guid>
+      <guid>https://attribut.io/unblock-google/</guid>
       <description>
 
 &lt;h2 id=&#34;adblockers&#34;&gt;Adblockers&lt;/h2&gt;
 
-&lt;p&gt;Adblocking is on the rise. And with it comes not only the removal of ads but the blocking of popular web traffic tracking tools like Google Analytics. Some reports suggest that more than 10% of all web traffic is now being blocked from services like Google Analytics and this can be a major issue for businesses that rely on accurate data to make good business decisions.&lt;/p&gt;
+&lt;p&gt;Adblocking is on the rise. And with it comes not only the removal of ads but the blocking of popular web traffic tracking tools like Google Analytics.&lt;/p&gt;
+
+&lt;p&gt;Some reports suggest that more than 10% of all web traffic is now being blocked from services like Google Analytics and this can be a major issue for businesses that rely on accurate data to make good business decisions.&lt;/p&gt;
 
 &lt;h2 id=&#34;specific-problems&#34;&gt;Specific Problems&lt;/h2&gt;
 
-&lt;p&gt;You might find that conversions that are being reported in Google Analytics don&amp;rsquo;t actually reflect the conversions that you are seeing in the backend of your website. This could be for a variety of reasons, one of which is that Google Analytics is being blocked by those particular users that are using adblocking software.&lt;/p&gt;
+&lt;p&gt;You might find that the conversions being reported in Google Analytics don&amp;rsquo;t actually reflect the conversions that you are seeing in the backend of your website.&lt;/p&gt;
+
+&lt;p&gt;This could be for a variety of reasons, one of which is that Google Analytics is being blocked by those particular users that are using adblocking software.&lt;/p&gt;
 
 &lt;h2 id=&#34;a-simple-solution&#34;&gt;A simple solution&lt;/h2&gt;
 
@@ -389,7 +393,15 @@
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;p&gt;If you need help unblocking your google analytics on your website, we have experts standing by to &lt;a href=&#34;https://attribut.io/meet/&#34;&gt;configure your analytics for optimal tracking. Meet Your Expert Today!&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;analytics-tracking-alternatives&#34;&gt;Analytics tracking alternatives&lt;/h2&gt;
+
+&lt;p&gt;Due to the popularity of Google Analytics, there are quite a few resources to block popular platforms like Google and Facebook. And rather than trying to unblock Google, you can roll out your own Analytics.&lt;/p&gt;
+
+&lt;p&gt;By storing sessions on your visitor&amp;rsquo;s browser and stroing them in your database, CRM, or externally hosted form builder, you can collect source, medium, campaign, and even keyword data.&lt;/p&gt;
+
+&lt;p&gt;As a free tool Google Analytics is great. But it takes time to familiarize yourself with all of the bells and whistles and takes an expert to configure proper tracking.&lt;/p&gt;
+
+&lt;p&gt;By creating custom scripts to suit your needs, you don&amp;rsquo;t need to unblock google analytics, you can start tracking sesssions on your own and collect the data you need to grow your business.&lt;/p&gt;
 </description>
     </item>
     
