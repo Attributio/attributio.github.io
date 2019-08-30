@@ -43,7 +43,8 @@ body p {
 }
 
 .home-carousel {
-  background: url('../img/startup-0.svg'), url('../img/photogrid.jpg'), center center repeat;
+  /*background: url('../img/startup-0.svg'), url('../img/photogrid.jpg'), center center repeat;*/
+  background: none;
 }
 
 .page-carousel {
