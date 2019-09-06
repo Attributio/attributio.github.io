@@ -20,15 +20,23 @@ body p {
   min-height: 230px;
 }
 
+.home-carousel .owl-carousel {
+  padding-top: 40px;
+}
+
+.home-carousel .copy {
+  padding-left: 40px;
+}
+
 .home-carousel h1 {
   font-weight: 500;
   text-transform: none;
-  font-size: 36px;
+  font-size: 38px;
   letter-spacing: 0.00em;
 }
 
 .home-carousel p {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 500;
   padding: 0;
   text-transform: none;
