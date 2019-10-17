@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Attribution on Attributio | Business Intelligence &amp; Analytics Experts</title>
-    <link>https://attribut.io/categories/attribution/index.xml</link>
-    <description>Recent content in Attribution on Attributio | Business Intelligence &amp; Analytics Experts</description>
+    <title>attribution on Attributio | Business Intelligence &amp; Analytics Experts</title>
+    <link>https://attribut.io/categories/attribution/</link>
+    <description>Recent content in attribution on Attributio | Business Intelligence &amp; Analytics Experts</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright &amp;copy; 2019 Attributio. All rights reserved.</copyright>
-    <atom:link href="https://attribut.io/categories/attribution/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://attribut.io/categories/attribution/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>How to Acheive Multi-Touch Attribution For Your Company</title>
@@ -15,130 +17,9 @@
       <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://attribut.io/multi-touch-attribution/</guid>
-      <description>
-
-&lt;h2 id=&#34;what-is-marketing-attribution&#34;&gt;What is marketing attribution?&lt;/h2&gt;
-
-&lt;p&gt;In a nutshell, marketing attribution is giving credit to the source that leads to a sale.&lt;/p&gt;
-
-&lt;p&gt;The source can consist of ads, referrals, campaigns, or even salesmen. And the sale can be anything from an action on your website to a conversion that generates leads to an actual purchase.&lt;/p&gt;
-
-&lt;h2 id=&#34;what-does-attribution-mean-in-marketing&#34;&gt;What does attribution mean in marketing?&lt;/h2&gt;
-
-&lt;p&gt;Marketing is more art than science. However, with proper attribution, professional marketers can come closer to making marketing more scientific by collecting and measuring where their sales and conversions are coming from.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201907/what-attribution-marketing.png&#34; alt=&#34;what is marketing attribution&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;By collecting, storing, and measuring the origin of sales and conversions, marketers can allocate advertising budgets based on the best performing campaigns thereby increasing revenue for the company and minimizing waste on marketing efforts that doesn&amp;rsquo;t generate sales.&lt;/p&gt;
-
-&lt;h2 id=&#34;what-can-you-learn-from-attribution-reports&#34;&gt;What can you learn from attribution reports?&lt;/h2&gt;
-
-&lt;p&gt;Attribution reports typically consist of either a single source of a sale or multiple sources.&lt;/p&gt;
-
-&lt;p&gt;Most analytics platforms like Google Analytics will provide a single source attribution report.&lt;/p&gt;
-
-&lt;h2 id=&#34;what-is-single-touch-attribution&#34;&gt;What is single-touch attribution?&lt;/h2&gt;
-
-&lt;p&gt;Single-touch attribution is the practice of giving credit to a single source.&lt;/p&gt;
-
-&lt;p&gt;As an example, Google Analytics relies on what&amp;rsquo;s called a last-click non-direct attribution model which essentially means that the last source of a visit to your website is given credit for the sale.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201907/what-single-touch-attribution.png&#34; alt=&#34;what is single touch attribution&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;first-touch-attribution&#34;&gt;First-touch Attribution&lt;/h3&gt;
-
-&lt;p&gt;First-touch attribution consists of giving credit to the first source that a customer interacted with before making a purchase. Although this seems obvious, most analytics reports do not provide this data.&lt;/p&gt;
-
-&lt;h3 id=&#34;last-touch-attribution&#34;&gt;Last-touch Attribution&lt;/h3&gt;
-
-&lt;p&gt;Last-touch attribution consists of giving credit to the last source that led to a purchase by a customer. By default this is the model used by most analytics providers because it is the easiest to measure and the easiest to understand.&lt;/p&gt;
-
-&lt;p&gt;However, most marketers find that a last-click attribution model is insufficient for their needs.&lt;/p&gt;
-
-&lt;p&gt;A typical customer comes across a particular product or brand multiple times before making a purchase. And each interaction leaves a different impression on the customer before a sale is made. Therefore, a multi-touch attribution model is necessary to get an accurate view through conversions.&lt;/p&gt;
-
-&lt;h2 id=&#34;what-is-multi-touch-attribution&#34;&gt;What is multi-touch attribution?&lt;/h2&gt;
-
-&lt;p&gt;Multi-touch attribution is the science of measuring and giving credit to touch-points in a customer&amp;rsquo;s journey to a purchase.&lt;/p&gt;
-
-&lt;p&gt;It can be as simple as only considering the first and last touch points or as complex as assigning weights based on customer behavior during a touchpoint and calculating which sources deserve more credit.&lt;/p&gt;
-
-&lt;p&gt;The most common types of multi-touch attribution are first and last touch attribution, linear attribution or even-distribution attribution, time-decay attribution, and a variety of custom attribution models.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201907/what-multi-touch-attribution.png&#34; alt=&#34;what is multi touch attribution&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;linear-attribution&#34;&gt;Linear Attribution&lt;/h3&gt;
-
-&lt;p&gt;Linear attribution is a common form of multi-touch attribution because it&amp;rsquo;s the easiest to understand. Due to the many possible ways to calculate attribution, linear attribution or an even distribution of credit to each individual touch-point along a customer&amp;rsquo;s journey is assigned.&lt;/p&gt;
-
-&lt;p&gt;For smaller companies that neither have the budget nor the resources to explore more in-depth models, this model is a step above the typical single-touch attribution model most companies utilize.&lt;/p&gt;
-
-&lt;p&gt;However, for larger companies a more sophisticated model is necessary.&lt;/p&gt;
-
-&lt;h3 id=&#34;time-decay-attribution&#34;&gt;Time-decay Attribution&lt;/h3&gt;
-
-&lt;p&gt;Time-decay attribution assigns attribution based on the most recent interactions by a customer or visitor. The further away in time the interaction was, the less credit that source receives for the conversion.&lt;/p&gt;
-
-&lt;p&gt;The time-decay attribution model is useful because it reflects the amount of time it takes for people to be comfortable with making a purchase. And often times, the last few impressions have a strong impact on the decision to make a purchase.&lt;/p&gt;
-
-&lt;p&gt;However, depending on the type of purchase or conversion, time is often a necessary part of making a decision and doesn&amp;rsquo;t take into consideration the value of each individual interaction.&lt;/p&gt;
-
-&lt;h3 id=&#34;custom-attribution&#34;&gt;Custom Attribution&lt;/h3&gt;
-
-&lt;p&gt;Every customer journey is different. And every product or service offered by a company is different. Therefore, every attribution model should fit the unique circumstances of those differences.&lt;/p&gt;
-
-&lt;p&gt;In internet marketing a customer journey might including seeing an advertisement on Youtube and clicking through, seeing an ad on Facebook and clicking through, searching on Google and reading about the brand, waiting some time, then searching on Google again when needed and clicking on a Branded Search on Google for that product.&lt;/p&gt;
-
-&lt;p&gt;The last-click attribution model will give credit to google / cpc but the more you drill down, the more you&amp;rsquo;ll discover that the Branded Search ppc campaign should be given less credit.&lt;/p&gt;
-
-&lt;p&gt;If brand discovery was the goal, we might discover that the Youtube and Facebook ads should be given more credit for the conversion. And the marketing budget should be assigned accordingly.&lt;/p&gt;
-
-&lt;h2 id=&#34;marketing-attribution-tools&#34;&gt;Marketing attribution tools&lt;/h2&gt;
-
-&lt;p&gt;There are some attribution tools available in the market. But considering the fragmented nature of the software and platforms we use, it&amp;rsquo;s difficult to implement any one tool competently.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201907/marketing-attribution-tools.png&#34; alt=&#34;marketing attribution tools&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;google-analytics&#34;&gt;Google Analytics&lt;/h3&gt;
-
-&lt;p&gt;Google Analytics is the most common tool available for attribution. They also provide some options for &lt;a href=&#34;https://support.google.com/analytics/answer/1662518?hl=en&#34;&gt;multi-channel attribution and single-touch attribution reports&lt;/a&gt;. However, the functionality and insights are limited to Channel Groupings and it&amp;rsquo;s difficult to actually glean any insight without heavy customization and data processing.&lt;/p&gt;
-
-&lt;h3 id=&#34;crm-attribution&#34;&gt;CRM Attribution&lt;/h3&gt;
-
-&lt;p&gt;If you have conversion forms online whether it&amp;rsquo;s a request for quote or simply an inquiry though a contact form, you can collect your visitor&amp;rsquo;s session data in your CRM like Salesforce or Pipedrive when they convert.&lt;/p&gt;
-
-&lt;p&gt;Hubspot has some attribution in it&amp;rsquo;s marketing platform and is worth taking a look at. Pipedrive analytics and attribution can be achieved with some configuration. All that is needed is the ability to store session data in the CRM&amp;rsquo;s database.&lt;/p&gt;
-
-&lt;h3 id=&#34;ecommerce-attribution&#34;&gt;Ecommerce Attribution&lt;/h3&gt;
-
-&lt;p&gt;Similar to CRM Attribution, you can store visitor session data in your ecommerce database when a customer makes a purchase. Assuming that you have collected all of the session data that is valuable to your business, you can run reports based on any attribution model that fits your company&amp;rsquo;s needs.&lt;/p&gt;
-
-&lt;p&gt;The more popular platforms like Shopify can integrate attribution and analytics. Attribution for WooCommerce alongside analytics can also be achieved with the proper configurations, session storage and processing.&lt;/p&gt;
-
-&lt;h3 id=&#34;cms-attribution&#34;&gt;CMS Attribution&lt;/h3&gt;
-
-&lt;p&gt;You can implement a session tracking tool in popular CMS platforms like Wix for analytics and attribution. Attribution for Wordpress or attribution for Squarespace can also be implemented.&lt;/p&gt;
-
-&lt;h3 id=&#34;utm-parameter-attribution&#34;&gt;UTM Parameter Attribution&lt;/h3&gt;
-
-&lt;p&gt;You can store utm parameters for all of your campaigns in sessions in your browser and store that data in your database and process that data for proper attribution. The difficult part of implementing this type of strategy is determining how much data should be stored in your visitors&amp;rsquo; browser relative to the data you want to extract.&lt;/p&gt;
-
-&lt;h2 id=&#34;calculating-roi&#34;&gt;Calculating ROI&lt;/h2&gt;
-
-&lt;p&gt;The point of attribution is to calculate ROI or ROA (return on ad spend). What you can learn from attribution reports is what channels lead to sales. And from there you can either increase your budget for the campaigns that have a good ROA and decrease the budget for the campaigns that have little return.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201907/calculate-roi.png&#34; alt=&#34;calculate roi of digital marketing, adwords&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You can use tools like Google Analytics to do this. Outside of their &lt;a href=&#34;https://support.google.com/analytics/answer/1009612?hl=en&#34;&gt;Ecommerce Tracking&lt;/a&gt;, you can either set custom metrics or even goals and send revenue data from your CRM.&lt;/p&gt;
-
-&lt;p&gt;You can also use tools within your CRM to calculate proper attribution and ROI.&lt;/p&gt;
-
-&lt;p&gt;Depending on how accurate you want your calculations to be, you could roll out a custom solution in your own database so your marketing team can increase sales and scale your company.&lt;/p&gt;
-</description>
+      <description>What is marketing attribution? In a nutshell, marketing attribution is giving credit to the source that leads to a sale.
+The source can consist of ads, referrals, campaigns, or even salesmen. And the sale can be anything from an action on your website to a conversion that generates leads to an actual purchase.
+What does attribution mean in marketing? Marketing is more art than science. However, with proper attribution, professional marketers can come closer to making marketing more scientific by collecting and measuring where their sales and conversions are coming from.</description>
     </item>
     
     <item>
@@ -147,50 +28,8 @@
       <pubDate>Tue, 02 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://attribut.io/do-paid-ads-really-work/</guid>
-      <description>
-
-&lt;h2 id=&#34;what-channels-convert&#34;&gt;What Channels Convert?&lt;/h2&gt;
-
-&lt;p&gt;If you&amp;rsquo;ve dabbled in digital advertising and content marketing, you might find that your advertisers&amp;rsquo; attribution reports don&amp;rsquo;t line up. That&amp;rsquo;s because they want credit for your conversions so you&amp;rsquo;ll spend more on their platforms.&lt;/p&gt;
-
-&lt;p&gt;If you&amp;rsquo;ve ever looked at a Google Analytics report, you&amp;rsquo;ll find that either you have a lot of Direct traffic or if you have some content, you get a lot of conversions through Organic traffic. The problem with these reports is that attribution is often defined within a 30 day window and attribution is based on a last-click model so you&amp;rsquo;ll never really know where your visitors originated from.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201907/what-channels-convert.png&#34; alt=&#34;what digital marketing channels convert?&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;branded-search-filtering&#34;&gt;Branded Search Filtering&lt;/h3&gt;
-
-&lt;p&gt;You might have created Branded Paid Search Ads on Adwords to separate visitors that are aware of your Brand. But that doesn&amp;rsquo;t tell you where your customers actually come from. You might have even gone the extra mile and created custom Channel Groupings for your Organic Searches to exclude keywords from your brand. If so, kudos to you.&lt;/p&gt;
-
-&lt;p&gt;If you&amp;rsquo;ve done any of the above, you&amp;rsquo;ll discover that a lot of your conversions aren&amp;rsquo;t actually coming from your CPC campaigns or even from your Organic searches since these customers are already aware of your brand and are deliberately searching for you with a higher intent to convert. And quite frankly, even when we add a Branded Organic Search Channel in Google Analytics, we can never be quite certain if Google makes all of your branded keywords available to filter out in the first place.&lt;/p&gt;
-
-&lt;h2 id=&#34;own-your-analytics&#34;&gt;Own Your Analytics&lt;/h2&gt;
-
-&lt;p&gt;A better approach to segmenting your conversions for Channels that bring in new customers, is to collect your own analytics. You don&amp;rsquo;t have to implement any complex database to store Analytics and pay an exhorbitant amount of money to build out an analytics system. All you need to do is to store your visitors&amp;rsquo; session data on their browser and store that data when your visitors convert.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201907/own-your-analytics.png&#34; alt=&#34;own your analytics&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;what-data-to-store&#34;&gt;What Data to Store&lt;/h3&gt;
-
-&lt;p&gt;You don&amp;rsquo;t want to store too much data on your visitors&amp;rsquo; browser but you want enough information to help you make better decisions about where to allocate your marketing budget. So what data should you store? The standard utm parameters that you tag on all your campaigns is a start and you can add additional data like page visits, session duration, and location data should you find it relevant (&lt;a href=&#34;https://attribut.io/docs/attributio/defining-attribution-parameters/&#34;&gt;See here for more&lt;/a&gt;). The key is to store the data that is relevant to you based on the sessions that are relevant and leaving out things that don&amp;rsquo;t matter like Direct Sessions and Branded Searches.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201907/what-data-to-store.png&#34; alt=&#34;what attribution data to store&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;landing-page-based-segmentation&#34;&gt;Landing Page Based Segmentation&lt;/h3&gt;
-
-&lt;p&gt;You can go one extra step by storing referrer data and using that to determine whether a person visited your site based on whether they visited your homepage or a content related page. By doing this, you can get extra information that Google won&amp;rsquo;t give you &amp;ndash; keyword data. Since Google doesn&amp;rsquo;t like to share keyword data for Organic Searches, you can work backwords by determining which keywords certain pages on your site are most prominent and attribute those visits to those keywords rather than visitors that were already brand aware.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201907/landing-page-segmentation.png&#34; alt=&#34;identify keywords based on landing pages&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You can ignore First Interaction or Last Interaction Session data that includes Google Organic Searches as a source and medium by determining if they visited your homepage vs if they visited a content related page first. You could even ignore entirely any sessions that include the homepage as a landing page if the source and medium is google/organic. By doing this, you reduce the amount of data you store on your visitors&amp;rsquo; browsers and you can more easily filter through sessions to assign attribution.&lt;/p&gt;
-
-&lt;h2 id=&#34;sifting-through-sessions&#34;&gt;Sifting Through Sessions&lt;/h2&gt;
-
-&lt;p&gt;Now this is where things get interesting. You can do a whole lot of analysis with the session data that you store. Typically collecting First and Last Interaction Session data is way more than companies typically have at their disposal but if you spend a significant amount of money on advertising, you&amp;rsquo;re going to want more. You could, for example, give weighted scores to sources, mediums, campaigns, and even keywords to all of the relevant sessions that assisted in conversions and you could even apply your own filters to determine which channels should be given more weight.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201907/sifting-through-sessions.png&#34; alt=&#34;stich sessions for better attribution&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;These reports take time to set up but the most important part of the puzzle is to implement your analytics strategy so that you have enough data to make sense of your conversions. And if you need help, &lt;a href=&#34;https://attribut.io/meet/&#34;&gt;we&amp;rsquo;re here for that&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>What Channels Convert? If you&amp;rsquo;ve dabbled in digital advertising and content marketing, you might find that your advertisers&amp;rsquo; attribution reports don&amp;rsquo;t line up. That&amp;rsquo;s because they want credit for your conversions so you&amp;rsquo;ll spend more on their platforms.
+If you&amp;rsquo;ve ever looked at a Google Analytics report, you&amp;rsquo;ll find that either you have a lot of Direct traffic or if you have some content, you get a lot of conversions through Organic traffic.</description>
     </item>
     
   </channel>

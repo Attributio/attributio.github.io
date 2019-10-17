@@ -1,10 +1,72 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/</loc>
+	    <lastmod>2019-08-19T00:00:00+00:00</lastmod>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/categories/attribution/</loc>
+	    <lastmod>2019-07-26T00:00:00+00:00</lastmod>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/tags/attribution/</loc>
+	    <lastmod>2019-07-26T00:00:00+00:00</lastmod>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/blog/</loc>
+	    <lastmod>2019-08-19T00:00:00+00:00</lastmod>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/categories/</loc>
+	    <lastmod>2019-08-19T00:00:00+00:00</lastmod>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
   
   	
 	  <url>
 	    <loc>https://attribut.io/multi-touch-attribution/</loc>
 	    <lastmod>2019-07-26T00:00:00+00:00</lastmod>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/tags/</loc>
+	    <lastmod>2019-08-19T00:00:00+00:00</lastmod>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/tags/advertising-google-attribution/</loc>
+	    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -21,6 +83,15 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/docs/</loc>
+	    <lastmod>2018-12-18T00:00:00+00:00</lastmod>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/docs/salesforce/marketing-analytics/</loc>
 	    <lastmod>2018-12-18T00:00:00+00:00</lastmod>
 	    <changefreq>daily</changefreq>
@@ -30,8 +101,71 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/tags/crm/</loc>
+	    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/tags/google-analytics/</loc>
+	    <lastmod>2019-08-19T00:00:00+00:00</lastmod>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/categories/google-analytics/</loc>
+	    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/tags/offline-sales/</loc>
+	    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/tags/roa/</loc>
+	    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/tags/salesforce/</loc>
+	    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/the-ultimate-guide-to-measure-roi-with-salesforce-and-google-analytics/</loc>
 	    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/categories/tutorial/</loc>
+	    <lastmod>2019-08-19T00:00:00+00:00</lastmod>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -75,71 +209,9 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/tags/advertising-google-attribution/</loc>
-	    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
-	    <changefreq>daily</changefreq>
-	    <priority>0</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
 	    <loc>https://attribut.io/tos/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/</loc>
-	    <lastmod>2019-07-26T00:00:00+00:00</lastmod>
-	    <changefreq>daily</changefreq>
-	    <priority>0</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/tags/attribution/</loc>
-	    <lastmod>2019-07-26T00:00:00+00:00</lastmod>
-	    <changefreq>daily</changefreq>
-	    <priority>0</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/categories/attribution/</loc>
-	    <lastmod>2019-07-26T00:00:00+00:00</lastmod>
-	    <changefreq>daily</changefreq>
-	    <priority>0</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/blog/</loc>
-	    <lastmod>2019-07-26T00:00:00+00:00</lastmod>
-	    <changefreq>daily</changefreq>
-	    <priority>0</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/categories/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/tags/crm/</loc>
-	    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
-	    <changefreq>daily</changefreq>
-	    <priority>0</priority>
 	  </url>
 	  
   
@@ -161,34 +233,47 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/docs/</loc>
-	    <lastmod>2018-12-18T00:00:00+00:00</lastmod>
+	    <loc>https://attribut.io/platform/call-tracking/callfire/</loc>
 	    <changefreq>daily</changefreq>
-	    <priority>0</priority>
+	    <priority>0.5</priority>
 	  </url>
 	  
   
   	
 	  <url>
-	    <loc>https://attribut.io/tags/google-analytics/</loc>
-	    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+	    <loc>https://attribut.io/platform/call-tracking/callhippo/</loc>
 	    <changefreq>daily</changefreq>
-	    <priority>0</priority>
+	    <priority>0.5</priority>
 	  </url>
 	  
   
   	
 	  <url>
-	    <loc>https://attribut.io/categories/google-analytics/</loc>
-	    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+	    <loc>https://attribut.io/platform/call-tracking/callrail/</loc>
 	    <changefreq>daily</changefreq>
-	    <priority>0</priority>
+	    <priority>0.5</priority>
 	  </url>
 	  
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/cms/atutor/</loc>
+	    <loc>https://attribut.io/platform/call-tracking/calltrackingmetrics/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/call-tracking/ringcentral/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/call-tracking/twilio/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -244,6 +329,22 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/cms/atutor/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/b2evolution/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/platform/cms/backdropcms/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
@@ -260,6 +361,14 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/cms/blosxom/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/platform/cms/bricolage/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
@@ -269,22 +378,6 @@
   	
 	  <url>
 	    <loc>https://attribut.io/platform/cms/browsercms/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/cms/cmsmadesimple/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/cms/cmsimple/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -316,7 +409,31 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/cms/cmsmadesimple/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/cmsimple/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/platform/cms/compositec1/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/concrete5/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -396,14 +513,6 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/cms/dspace/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
 	    <loc>https://attribut.io/platform/cms/daisycms/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
@@ -428,7 +537,7 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/cms/dotnetnuke/</loc>
+	    <loc>https://attribut.io/platform/cms/dot/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -452,7 +561,23 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/cms/dotnetnuke/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/platform/cms/drupal/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/dspace/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -468,15 +593,7 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/cms/emc/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/cms/eprints/</loc>
+	    <loc>https://attribut.io/platform/cms/easydita/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -500,7 +617,31 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/cms/emc/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/platform/cms/enonic/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/eprints/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/exo/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -517,6 +658,14 @@
   	
 	  <url>
 	    <loc>https://attribut.io/platform/cms/expressionengine/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/ezpublish/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -748,14 +897,6 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/cms/modx/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
 	    <loc>https://attribut.io/platform/cms/mambo/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
@@ -796,7 +937,23 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/cms/modx/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/platform/cms/moinmoin/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/mojoportal/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -836,6 +993,14 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/cms/nubuilder/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/platform/cms/nucleus/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
@@ -853,14 +1018,6 @@
   	
 	  <url>
 	    <loc>https://attribut.io/platform/cms/o3spaces/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/cms/oucampus/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -948,6 +1105,14 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/cms/oucampus/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/platform/cms/pageframer/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
@@ -964,6 +1129,14 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/cms/papayacms/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/platform/cms/percussion/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
@@ -972,7 +1145,39 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/cms/ph7cms/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/platform/cms/phire/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/phpwebsite/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/phpwiki/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/pimcore/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -1068,30 +1273,6 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/cms/smw/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/cms/spine/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/cms/spip/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
 	    <loc>https://attribut.io/platform/cms/serendipity/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
@@ -1132,6 +1313,14 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/cms/smw/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/platform/cms/solodev/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
@@ -1140,7 +1329,7 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/cms/twiki/</loc>
+	    <loc>https://attribut.io/platform/cms/spine/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -1148,7 +1337,7 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/cms/typo3/</loc>
+	    <loc>https://attribut.io/platform/cms/spip/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -1212,7 +1401,31 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/cms/twiki/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/platform/cms/typo/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/typo3/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/ucoz/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -1276,22 +1489,6 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/cms/xoops/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/cms/xwiki/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
 	    <loc>https://attribut.io/platform/cms/xaitporter/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
@@ -1308,175 +1505,23 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/cms/xoops/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/xwiki/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/platform/cms/yellow/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/cms/b2evolution/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/cms/blosxom/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/cms/concrete5/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/cms/dot/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/cms/exo/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/cms/ezpublish/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/cms/easydita/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/cms/mojoportal/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/cms/nubuilder/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/cms/ph7cms/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/cms/papayacms/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/cms/phpwebsite/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/cms/phpwiki/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/cms/pimcore/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/cms/ucoz/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/call-tracking/callfire/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/call-tracking/callhippo/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/call-tracking/callrail/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/call-tracking/calltrackingmetrics/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/call-tracking/ringcentral/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/call-tracking/twilio/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -1501,14 +1546,6 @@
   	
 	  <url>
 	    <loc>https://attribut.io/platform/ecommerce/3dcart/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/ecommerce/ashop/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -1572,6 +1609,14 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/ashop/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/platform/ecommerce/aspdotnetstorefront/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
@@ -1589,14 +1634,6 @@
   	
 	  <url>
 	    <loc>https://attribut.io/platform/ecommerce/avangate/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/ecommerce/bvcommerce/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -1636,7 +1673,7 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/ecommerce/cscart/</loc>
+	    <loc>https://attribut.io/platform/ecommerce/bvcommerce/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -1700,7 +1737,7 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/ecommerce/cubecart/</loc>
+	    <loc>https://attribut.io/platform/ecommerce/cscart/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -1708,7 +1745,7 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/ecommerce/dpd/</loc>
+	    <loc>https://attribut.io/platform/ecommerce/cubecart/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -1732,6 +1769,14 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/dpd/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/platform/ecommerce/e-bee/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
@@ -1741,6 +1786,14 @@
   	
 	  <url>
 	    <loc>https://attribut.io/platform/ecommerce/edd/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/ecrater/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -1765,6 +1818,14 @@
   	
 	  <url>
 	    <loc>https://attribut.io/platform/ecommerce/eshopsgalore/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/estoreadvanced/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -2028,6 +2089,14 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/k-ecommerce/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/platform/ecommerce/kalio/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
@@ -2196,6 +2265,14 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/mshopper/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/platform/ecommerce/mycloudgrocer/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
@@ -2228,15 +2305,7 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/ecommerce/oscommerce/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/ecommerce/oxid/</loc>
+	    <loc>https://attribut.io/platform/ecommerce/nopcommerce/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -2245,6 +2314,30 @@
   	
 	  <url>
 	    <loc>https://attribut.io/platform/ecommerce/opencart/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/oscommerce/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/oscmax/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/oxid/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -2396,38 +2489,6 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/ecommerce/shoprocket/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/ecommerce/shopsite/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/ecommerce/shoptab/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/ecommerce/shopvisible/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
 	    <loc>https://attribut.io/platform/ecommerce/shopify/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
@@ -2460,6 +2521,38 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/shoprocket/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/shopsite/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/shoptab/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/shopvisible/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/platform/ecommerce/shoutcms/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
@@ -2477,6 +2570,14 @@
   	
 	  <url>
 	    <loc>https://attribut.io/platform/ecommerce/sidecommerce/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/simplecart/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -2660,6 +2761,14 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/ucoz/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/platform/ecommerce/ultracart/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
@@ -2677,14 +2786,6 @@
   	
 	  <url>
 	    <loc>https://attribut.io/platform/ecommerce/upshot/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/ecommerce/vp-cart/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -2749,6 +2850,14 @@
   	
 	  <url>
 	    <loc>https://attribut.io/platform/ecommerce/volusion/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/vp-cart/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -2836,14 +2945,6 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/ecommerce/znode/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
 	    <loc>https://attribut.io/platform/ecommerce/zencart/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
@@ -2860,63 +2961,7 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/ecommerce/ecrater/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/ecommerce/estoreadvanced/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/ecommerce/k-ecommerce/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/ecommerce/mshopper/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/ecommerce/nopcommerce/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/ecommerce/oscmax/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/ecommerce/simplecart/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/ecommerce/ucoz/</loc>
+	    <loc>https://attribut.io/platform/ecommerce/znode/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -2980,6 +3025,14 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/live-chat/intercom/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/platform/live-chat/livechat/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
@@ -3020,14 +3073,6 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/live-chat/intercom/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
 	    <loc>https://attribut.io/platform/payment/stripe/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
@@ -3044,23 +3089,15 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/base/cms/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/base/crm/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
 	    <loc>https://attribut.io/platform/base/call-tracking/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/base/cms/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -3076,6 +3113,14 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/base/crm/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/platform/base/custom/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
@@ -3084,7 +3129,7 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/base/erp/</loc>
+	    <loc>https://attribut.io/platform/base/ecommerce/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -3092,7 +3137,7 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/base/ecommerce/</loc>
+	    <loc>https://attribut.io/platform/base/erp/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -3157,6 +3202,14 @@
   	
 	  <url>
 	    <loc>https://attribut.io/platform/crm/allprowebtools/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/amocrm/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -3420,7 +3473,7 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/crm/leadmaster/</loc>
+	    <loc>https://attribut.io/platform/crm/iseeit/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -3429,6 +3482,14 @@
   	
 	  <url>
 	    <loc>https://attribut.io/platform/crm/leadmachine/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/leadmaster/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -3564,6 +3625,14 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/crm/pardot/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/platform/crm/pipedrive/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
@@ -3644,23 +3713,7 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/crm/sapcrm/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
 	    <loc>https://attribut.io/platform/crm/sagecrm/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/crm/salesnexus/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -3685,6 +3738,22 @@
   	
 	  <url>
 	    <loc>https://attribut.io/platform/crm/salesnet/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/salesnexus/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/sapcrm/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -3780,7 +3849,7 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/crm/worketc/</loc>
+	    <loc>https://attribut.io/platform/crm/workbooks/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -3788,7 +3857,7 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/crm/workbooks/</loc>
+	    <loc>https://attribut.io/platform/crm/worketc/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -3820,30 +3889,6 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/platform/crm/amocrm/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/crm/iseeit/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/platform/crm/pardot/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0.5</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
 	    <loc>https://attribut.io/join/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
@@ -3868,36 +3913,9 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/tags/offline-sales/</loc>
-	    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
-	    <changefreq>daily</changefreq>
-	    <priority>0</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
 	    <loc>https://attribut.io/platform/</loc>
 	    <changefreq>daily</changefreq>
-	    <priority>0</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/tags/roa/</loc>
-	    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
-	    <changefreq>daily</changefreq>
-	    <priority>0</priority>
-	  </url>
-	  
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/tags/salesforce/</loc>
-	    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
-	    <changefreq>daily</changefreq>
-	    <priority>0</priority>
+	    <priority>0.5</priority>
 	  </url>
 	  
   
@@ -3910,24 +3928,7 @@
 	  
   
   	
-	  <url>
-	    <loc>https://attribut.io/tags/</loc>
-	    <changefreq>daily</changefreq>
-	    <priority>0</priority>
-	  </url>
-	  
   
   	
-  
-  	
-  
-  	
-	  <url>
-	    <loc>https://attribut.io/categories/tutorial/</loc>
-	    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
-	    <changefreq>daily</changefreq>
-	    <priority>0</priority>
-	  </url>
-	  
   
 </urlset>

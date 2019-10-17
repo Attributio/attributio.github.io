@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Google Analytics on Attributio | Business Intelligence &amp; Analytics Experts</title>
-    <link>https://attribut.io/tags/google-analytics/index.xml</link>
-    <description>Recent content in Google Analytics on Attributio | Business Intelligence &amp; Analytics Experts</description>
+    <title>google analytics on Attributio | Business Intelligence &amp; Analytics Experts</title>
+    <link>https://attribut.io/tags/google-analytics/</link>
+    <description>Recent content in google analytics on Attributio | Business Intelligence &amp; Analytics Experts</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright &amp;copy; 2019 Attributio. All rights reserved.</copyright>
-    <atom:link href="https://attribut.io/tags/google-analytics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Nov 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://attribut.io/tags/google-analytics/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>The Ultimate Guide to Measure ROI with Salesforce &amp; Google Analytics</title>
@@ -15,123 +17,10 @@
       <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://attribut.io/the-ultimate-guide-to-measure-roi-with-salesforce-and-google-analytics/</guid>
-      <description>
-
-&lt;h2 id=&#34;brand-marketing-vs-direct-marketing&#34;&gt;Brand Marketing VS Direct Marketing&lt;/h2&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;You can&amp;rsquo;t manage what you can&amp;rsquo;t measure.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;- Peter Drucker&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;We live in an age when we can measure just about everything. The fact that many of us aren&amp;rsquo;t measuring our direct marketing efforts is detrimental to our businesses.&lt;/p&gt;
-
-&lt;p&gt;Brand marketing continues to be difficult to measure since brand marketing is more about communicating values to an audience. The ROI on that kind of advertising is measured far down the line whereas direct marketing is about getting conversions and selling right off the bat.&lt;/p&gt;
-
-&lt;h2 id=&#34;measuring-your-marketing&#34;&gt;Measuring Your Marketing&lt;/h2&gt;
-
-&lt;p&gt;Companies of the past used to throw millions into their advertising budget without ever getting any kind of accurate indication of how those efforts rolled over into sales.&lt;/p&gt;
-
-&lt;p&gt;Today, those companies are fading and a new generation of companies are springing up with the tools to measure their direct marketing efforts to maximize their profits.&lt;/p&gt;
-
-&lt;p&gt;With a set of tools and a bit of configuration, you can be well on your way to measuring the ROI on your direct marketing efforts to compete with the new generation of guirella marketers taking down old encumbents.&lt;/p&gt;
-
-&lt;h2 id=&#34;using-salesforce-google-analytics-to-measure-your-results&#34;&gt;Using Salesforce &amp;amp; Google Analytics To Measure Your Results&lt;/h2&gt;
-
-&lt;p&gt;You don&amp;rsquo;t have to use a CRM. You can use your POS, your ecommerce shop, or your ERP system. Anything you use to store transaction data. In our example, we&amp;rsquo;ll use Salesforce since it&amp;rsquo;s the most common CRM and Google Analytics since it&amp;rsquo;s the most widely available analytics tool.&lt;/p&gt;
-
-&lt;p&gt;You&amp;rsquo;ll need to first follow &lt;a href=&#34;https://support.google.com/analytics/answer/7584446?hl=en&#34; target=&#34;_blank&#34;&gt;these instructions&lt;/a&gt; to configure your Leads and Opportunites to be able to store data that is provided by Google Analytics. For detailed instructions, continue reading.&lt;/p&gt;
-
-&lt;h3 id=&#34;create-lead-opportunity-fields-in-salesforce&#34;&gt;Create Lead &amp;amp; Opportunity Fields In Salesforce&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Navigate to the Object Manager Tab and select the &amp;ldquo;Lead&amp;rdquo; object&lt;/li&gt;
-&lt;li&gt;Select &amp;ldquo;Fields &amp;amp; Relationships&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Select &amp;ldquo;New&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Select &amp;ldquo;Text&amp;rdquo; in the radio options and then select &amp;ldquo;Next&amp;rdquo;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Fill in the form as follows:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Field Label = GA Client ID&lt;/li&gt;
-&lt;li&gt;Length = 255&lt;/li&gt;
-&lt;li&gt;Field Name = GACLIENTID&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201811/lead-gclid.png&#34; alt=&#34;salesforce gclid leads&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Leave all the default fields in the subsequent pages and save&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Repeat with Leads, Accounts, and Opportunities with these three fields:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;GACLIENTID&lt;/li&gt;
-&lt;li&gt;GAUSERID&lt;/li&gt;
-&lt;li&gt;GATRACKID&lt;/li&gt;
-&lt;li&gt;GAREVENUEID&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&amp;ldquo;Set History Tracking&amp;rdquo; for all new fields&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201811/lead-history.png&#34; alt=&#34;salesforce gclid set lead history&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&amp;ldquo;Map Lead Fields&amp;rdquo; between Lead, Account, and Opportunity fields&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201811/lead-map.png&#34; alt=&#34;salesforce gclid map leads&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;create-custom-dimensions-metrics-in-google-analytics&#34;&gt;Create Custom Dimensions &amp;amp; Metrics In Google Analytics&lt;/h3&gt;
-
-&lt;p&gt;This part is easy. We created a &lt;a href=&#34;https://app.attribut.io&#34; target=&#34;_blank&#34;&gt;simple tool&lt;/a&gt; to help you create these fields in your Google Analytics Property.&lt;/p&gt;
-
-&lt;p&gt;You&amp;rsquo;ll also want to send the Client ID &amp;amp; User ID back to Google Analytics as a custom dimension if you want to run some more complex analyses of your campaigns. You can find instructions &lt;a href=&#34;https://attribut.io/blog/2017/04/27/track-conversions-with-google-analytics-client-id/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;create-a-web-to-lead-form&#34;&gt;Create a Web-To-Lead Form&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;In Salesforce navigate to Platform Tools &amp;gt; Feature Settings &amp;gt; Marketing &amp;gt; Web-to-Lead and create a new form.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201811/lead-form-1.png&#34; alt=&#34;salesforce gclid lead form start&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Add the fields you want for your form making sure to add the fields we created earlier.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201811/lead-form-2.png&#34; alt=&#34;salesforce gclid lead form setup&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Add the rendered html form to our website and make the tracking fields hidden.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Grab the Client ID from Google Analytics along with User ID (If you have it) and auto-populate the hidden fields. If you&amp;rsquo;re using Google Tag Manager, you&amp;rsquo;re code will differ than what is presented below. You need to make the Client ID available as a cookie and grab the cookie and populate the hidden field. As for the Tracking ID, you can either manually add it to the form as a value or dynamically populate it.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201811/lead-form-html.png&#34; alt=&#34;salesforce gclid lead form setup&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;send-revenue-data-to-google-analytics&#34;&gt;Send Revenue Data To Google Analytics&lt;/h2&gt;
-
-&lt;p&gt;In the &lt;a href=&#34;https://attribut.io/blog/2018/11/21/the-ultimate-guide-to-measure-roi-on-your-direct-marketing-efforts-with-salesforce-and-google-analytics-1/&#34;&gt;Part 1 of Measuring Roi With Salesforce and Google Analytics&lt;/a&gt;, we provided a step by step guide on configuring Google Analytics and setting up a Web-to-lead form with Salesforce and getting all of that configured on your website. In this post, we&amp;rsquo;re going to set Salesforce up to send revenue data to Google Analytics&lt;/p&gt;
-
-&lt;h3 id=&#34;configure-remote-site-settings-in-salesforce&#34;&gt;Configure remote site settings in Salesforce&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Navigate to Setup &amp;gt; Settings &amp;gt; Security &amp;gt; Remote Site Settings and create a new setting
-&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201812/sf-new-remote-site.png&#34; alt=&#34;salesforce send revenue to google analytics&#34; /&gt;&lt;/li&gt;
-&lt;li&gt;Create new setting as seen below:
-&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201812/sf-new-remote-site-create.png&#34; alt=&#34;salesforce send revenue to google analytics&#34; /&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;create-apex-class-in-salesforce&#34;&gt;Create Apex Class in Salesforce&lt;/h3&gt;
-
-&lt;p&gt;We&amp;rsquo;re going to need to create an Apex class to handle our get requests to Google Analytics via the Measurement Protocol. Keep in mind that the client id is a required field and revenue data sent without this field will not be registered in Google Analytics.&lt;/p&gt;
-
-&lt;p&gt;Go to Setup &amp;gt; Developer Console &amp;gt; File &amp;gt; New &amp;gt; Apex Class and create a new class with an invocable method with invocable variables that sends a get request to Google Analytics with the varialbes that we will map from our Opportunity.&lt;/p&gt;
-
-&lt;p&gt;Now navigate to Setup &amp;gt; Platform Tools &amp;gt; Process Automation &amp;gt; Process Builder and create a new process. You can create an action that will be triggered when an Opportunity is Won and map the fields of that opportunity to the Apex Class that we just created as shown below:&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201812/sf-process-builder.png&#34; alt=&#34;salesforce opportunity won send google analytics&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;And that&amp;rsquo;s it. Now you can send revenue data to Google Analytics every time your sales agents close a deal and you can do a detailed cost analysis based on your advertising campaigns and even identify the most profitable keywords to really take your marketing efforts to the next level.&lt;/p&gt;
-
-&lt;p&gt;If you would like a demonstration of collecting analytics for your leads, &lt;a href=&#34;https://attribut.io/meet/&#34;&gt;book a demo here&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <description>Brand Marketing VS Direct Marketing  You can&amp;rsquo;t manage what you can&amp;rsquo;t measure.
+- Peter Drucker
+ We live in an age when we can measure just about everything. The fact that many of us aren&amp;rsquo;t measuring our direct marketing efforts is detrimental to our businesses.
+Brand marketing continues to be difficult to measure since brand marketing is more about communicating values to an audience. The ROI on that kind of advertising is measured far down the line whereas direct marketing is about getting conversions and selling right off the bat.</description>
     </item>
     
     <item>
@@ -140,34 +29,7 @@
       <pubDate>Mon, 19 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://attribut.io/tracking-offline-sales-in-google-analytics/</guid>
-      <description>
-
-&lt;h2 id=&#34;configure-your-lead-generation-forms-to-store-google-s-cookies&#34;&gt;Configure your lead generation forms to store Google&amp;rsquo;s cookies&lt;/h2&gt;
-
-&lt;p&gt;If you&amp;rsquo;re collecting leads online and converting them over the phone through your CRM, you need to collect a cookie that Google Analytics sets on your website to identify that user. Once you store that unique id in your CRM, you can send a webhook to Google Analytics with that id via their &lt;a href=&#34;https://developers.google.com/analytics/devguides/collection/protocol/v1/parameters&#34;&gt;Measurement Protocol&lt;/a&gt; whenever a deal has been completed.&lt;/p&gt;
-
-&lt;h2 id=&#34;configure-google-analytics-to-store-revenue-data&#34;&gt;Configure Google Analytics to store revenue data&lt;/h2&gt;
-
-&lt;p&gt;You will also need to create a custom metric in your Google Analytics property to represent revenue data (you can do this easily with our &lt;a href=&#34;app.attribut.io&#34;&gt;app&lt;/a&gt;). Once that has been set, you can send the client id that was captured during the online lead conversion process along with the total value of that deal to Google Anaytics to get a picture of your ROI.&lt;/p&gt;
-
-&lt;p&gt;If you can&amp;rsquo;t collect the client id, which Google uses to match all of that user&amp;rsquo;s behavior in Google Analytics with the data that you want to see, you will need to send a User ID. If you aren&amp;rsquo;t using an authentication system where your customers have id&amp;rsquo;s associated with their accounts, you can just add the id generated from your CRM and send that along with the revenue data. You will need one or the other, otherwise Google Analytics will not register the event data that you will be sending to it&amp;rsquo;s servers.&lt;/p&gt;
-
-&lt;p&gt;Lastly, you will need to create a calculated metric that will divide the revenue with the cost.&lt;/p&gt;
-
-&lt;h2 id=&#34;create-a-report-in-google-analytics-to-show-attribution-data-with-revenue-and-roa&#34;&gt;Create a report in Google Analytics to show attribution data with revenue and ROA&lt;/h2&gt;
-
-&lt;p&gt;In Google Analytics you will need to create a report that lists the custom metric you created with revenue and the calculated metric along with the cost of advertising.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201811/revenue.png&#34; alt=&#34;google analytics track offline sales&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;And there you have it. Now you can track the ROI of all your advertising in Google Analytics along with all of your sales that happen offline.&lt;/p&gt;
-
-&lt;p&gt;If you want to see a demo &lt;a href=&#34;https://attribut.io/meet/&#34;&gt;let us know!&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Configure your lead generation forms to store Google&amp;rsquo;s cookies If you&amp;rsquo;re collecting leads online and converting them over the phone through your CRM, you need to collect a cookie that Google Analytics sets on your website to identify that user. Once you store that unique id in your CRM, you can send a webhook to Google Analytics with that id via their Measurement Protocol whenever a deal has been completed.</description>
     </item>
     
     <item>
@@ -176,48 +38,9 @@
       <pubDate>Mon, 25 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>https://attribut.io/unblock-google/</guid>
-      <description>
-
-&lt;h2 id=&#34;adblockers&#34;&gt;Adblockers&lt;/h2&gt;
-
-&lt;p&gt;Adblocking is on the rise. And with it comes not only the removal of ads but the blocking of popular web traffic tracking tools like Google Analytics.&lt;/p&gt;
-
-&lt;p&gt;Some reports suggest that more than 10% of all web traffic is now being blocked from services like Google Analytics and this can be a major issue for businesses that rely on accurate data to make good business decisions.&lt;/p&gt;
-
-&lt;h2 id=&#34;specific-problems&#34;&gt;Specific Problems&lt;/h2&gt;
-
-&lt;p&gt;You might find that the conversions being reported in Google Analytics don&amp;rsquo;t actually reflect the conversions that you are seeing in the backend of your website.&lt;/p&gt;
-
-&lt;p&gt;This could be for a variety of reasons, one of which is that Google Analytics is being blocked by those particular users that are using adblocking software.&lt;/p&gt;
-
-&lt;h2 id=&#34;a-simple-solution&#34;&gt;A simple solution&lt;/h2&gt;
-
-&lt;p&gt;By hosting the Universal Analytics Script on your server and creating a proxy to send hit data to Google Analytics, the &lt;a href=&#34;https://wordpress.org/plugins/attributio-unblock-analytics/&#34;&gt;Attribution Unblock Analytics plugin&lt;/a&gt; will ensure that when Google Analytics is being blocked, a backup script will load and fire the standard scripts and any custom hit data you add to the plugin.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201806/attributio-plugin.png&#34; alt=&#34;unblock google analytics plugin for wordpress&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;As seen in the example below, a common extension used to block Google Analytics is detected and triggers the self hosted Analytics script and sends hit data along with any custom scripts added to the backend to the proxy created by the plugin and routes it back to Google.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201806/analytics-unblock.png&#34; alt=&#34;unblock adblockers google analytics&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;analytics-tracking-alternatives&#34;&gt;Analytics tracking alternatives&lt;/h2&gt;
-
-&lt;p&gt;Due to the popularity of Google Analytics, there are quite a few resources to block popular platforms like Google and Facebook. And rather than trying to unblock Google, you can roll out your own Analytics.&lt;/p&gt;
-
-&lt;p&gt;By storing sessions on your visitor&amp;rsquo;s browser and stroing them in your database, CRM, or externally hosted form builder, you can collect source, medium, campaign, and even keyword data.&lt;/p&gt;
-
-&lt;p&gt;As a free tool Google Analytics is great. But it takes time to familiarize yourself with all of the bells and whistles and takes an expert to configure proper tracking.&lt;/p&gt;
-
-&lt;p&gt;By creating custom scripts to suit your needs, you don&amp;rsquo;t need to unblock google analytics, you can start tracking sesssions on your own and collect the data you need to grow your business.&lt;/p&gt;
-</description>
+      <description>Adblockers Adblocking is on the rise. And with it comes not only the removal of ads but the blocking of popular web traffic tracking tools like Google Analytics.
+Some reports suggest that more than 10% of all web traffic is now being blocked from services like Google Analytics and this can be a major issue for businesses that rely on accurate data to make good business decisions.
+Specific Problems You might find that the conversions being reported in Google Analytics don&amp;rsquo;t actually reflect the conversions that you are seeing in the backend of your website.</description>
     </item>
     
     <item>
@@ -226,71 +49,8 @@
       <pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://attribut.io/tracking-goals-with-subdomains-in-google-analytics/</guid>
-      <description>
-
-&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-
-&lt;p&gt;Sometimes your conversion funnel spans multiple domains or subdomains. If you need to track destination url goals on a subdomain for an existing universal analytics property, you can follow the steps below to distinguish between root domain visitors and subdomain visitors along with goals that might have the same url path. This is not to be confused with cross-domain tracking which requires different configuration settings.&lt;/p&gt;
-
-&lt;h2 id=&#34;step-1-set-cookie-domain-to-auto&#34;&gt;Step 1 - Set cookie domain to auto&lt;/h2&gt;
-
-&lt;p&gt;Add the universal analytics tracking code from your root domain to your subdomain and ensure that the cookie domain is set to auto (by default it is set in universal analytics unless you are using GTM).&lt;/p&gt;
-
-&lt;h2 id=&#34;step-2-add-a-referral-exclusion-list&#34;&gt;Step 2 - Add a referral exclusion list&lt;/h2&gt;
-
-&lt;p&gt;Add your subdomain to the referral exclusion list. That way, Google doesn&amp;rsquo;t set the referrer as your subdomain when your visitors jump between your root domain and subdomain, when it should be set to the originating source like an ad or search.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201705/add_referral_exclusion.png&#34; alt=&#34;gogole analytics referral exclusion for subdomain&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;step-3-add-a-filter-to-your-ga-view&#34;&gt;Step 3 - Add a filter to your GA view&lt;/h2&gt;
-
-&lt;p&gt;Add a subdomain filter to your view. Since the most common goals are destination goals and Google Analytics utilizes the Request URI (path) as the match value, we need to distinguish between subdomain paths and root domain paths. Google by default only matches against the path information so we need to modify the path data to include the subdomain in our filter.&lt;/p&gt;
-
-&lt;p&gt;You want to select the advanced filter and extract the hostname (your subdomain) and concatenate it with the request uri (your path), and store it as the new path. In the example below we only do this for subdomains. You could do this for every path &lt;a href=&#34;https://support.google.com/analytics/answer/1012243?hl=en&#34;&gt;shown here&lt;/a&gt; .&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201705/subdomain_page_filter.png&#34; alt=&#34;view filter for hostname path google analytics sub domain&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;step-4-set-goals&#34;&gt;Step 4 - Set goals&lt;/h2&gt;
-
-&lt;p&gt;Set up your goals with the destination path if you have the default requrest uri set, or with the hostname included if your filter is set up that way. See the examples below for a path only set up for the root domain and a hostname and path set up for the subdomain.&lt;/p&gt;
-
-&lt;p&gt;Notice that they share the same path and Google Analytics would have counted them as the same goal if we did not explicitly make that distinction in our filtered view.&lt;/p&gt;
-
-&lt;div class=&#34;row&#34;&gt;
-&lt;div class=&#34;col-md-6&#34;&gt;
-&lt;h4&gt;Root Domain Goal&lt;/h4&gt;
-&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201705/root_domain_goal.png&#34; alt=&#34;root domain goal for google analytics&#34; /&gt;
-&lt;/div&gt;
-
-&lt;div class=&#34;col-md-6&#34;&gt;
-&lt;h4&gt;Subdomain Goal&lt;/h4&gt;
-&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201705/subdomain_goal.png&#34; alt=&#34;subdomain goal for google analytics&#34; /&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&#34;step-5-set-autolinker-for-cross-domain-only&#34;&gt;Step 5 - Set autolinker (for cross domain only)&lt;/h2&gt;
-
-&lt;p&gt;If you have a different domain but want to track it under the same property, you need to configure Google Analytics to allow linker like so:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;  ga(&#39;create&#39;, &#39;UA-XXXXXXX-Y&#39;, &#39;auto&#39;, {&#39;allowLinker&#39;: true});
-  ga(&#39;require&#39;, &#39;linker&#39;);
-  ga(&#39;linker:autoLink&#39;, [&#39;example-2.com&#39;]);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;In Google Tag Manager you will need to set the Field Name of Fields to Set add &amp;ldquo;allowLinker&amp;rdquo; as the Field Name and set the Value to &amp;ldquo;true&amp;rdquo;. Under Cross Domain Tracking, add a comma separated list of domains that you want to share the client id under the Auto Link Domains field.&lt;/p&gt;
-
-&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;There you have it. Now you&amp;rsquo;re ready to start tracking across multiple subdomains. If you need help tracking your goals across multiple domains or subdomains to collect analytics for your leads &lt;a href=&#34;https://attribut.io/meet/&#34;&gt;request a consultation today!&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Introduction Sometimes your conversion funnel spans multiple domains or subdomains. If you need to track destination url goals on a subdomain for an existing universal analytics property, you can follow the steps below to distinguish between root domain visitors and subdomain visitors along with goals that might have the same url path. This is not to be confused with cross-domain tracking which requires different configuration settings.
+Step 1 - Set cookie domain to auto Add the universal analytics tracking code from your root domain to your subdomain and ensure that the cookie domain is set to auto (by default it is set in universal analytics unless you are using GTM).</description>
     </item>
     
     <item>
@@ -299,183 +59,7 @@
       <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>https://attribut.io/track-conversions-with-google-analytics-client-id/</guid>
-      <description>
-
-&lt;p&gt;Google Analytics is an underutilized tool and there are a few basic things you can do to gain more insight into your conversions. Last year in March of 2016 Google made their new &lt;a href=&#34;https://support.google.com/analytics/answer/6339208?hl=en&#34; target=&#34;_blank&#34;&gt;User Explorer&lt;/a&gt; available to the public. It&amp;rsquo;s a great tool but unfortunately, you can&amp;rsquo;t drill down into other dimensions with this tool yet. Also, you can&amp;rsquo;t combine this information with other dimensions or metrics like where the user came from.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201704/user-report.png&#34; alt=&#34;google analytics client id user report&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;What the User Explorer essentially does is aggregate users based on the client id that google collects in the form of a cookie set in your visitor&amp;rsquo;s browser. Google uses this cookie internally but doesn&amp;rsquo;t make it accessible to Google Analytic&amp;rsquo;s users. The only way to access the client id is by exposing it and sending it to your Google Analytics property as a custom dimension.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201704/user-list.png&#34; alt=&#34;google analytics client id user report list&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;why-you-need-to-add-client-id-now&#34;&gt;Why You Need to Add Client ID Now&lt;/h2&gt;
-
-&lt;p&gt;When you&amp;rsquo;re ready to start looking at where your conversions are coming from, you&amp;rsquo;ll want to connect the information related to where they came from and how they interacted with your site. Unfortunately, you wont have that data. And you&amp;rsquo;ll have to wait until you&amp;rsquo;ve collected enough data to make any kind of assessment on conversions.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201704/zoho-client-id.png&#34; alt=&#34;google analytics client id in zoho crm&#34; /&gt;
-&lt;div class=&#34;text-center small&#34;&gt;Data collected in a CRM with custom session data and outgoing link to Google Analytics User Explorer&lt;/div&gt;
-&lt;hr&gt;&lt;/p&gt;
-
-&lt;p&gt;Assuming that you are collecting your visitor&amp;rsquo;s client id when they convert, you can query as far back as you like on that user to visualize every step they took to convert. You can also view all of the channels that they navigated to before converting.&lt;/p&gt;
-
-&lt;h2 id=&#34;how-to-add-client-id-as-a-custom-dimension&#34;&gt;How to Add Client ID as a Custom Dimension&lt;/h2&gt;
-
-&lt;p&gt;You can add the client ID as a custom diemsion in google analytics by navigating to the admin section of your account and selecting the web property you want to modify/&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201704/property_custom_definitions.png&#34; alt=&#34;add custom dimension to google analytics&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;Select Custom Definitions / Custom Dimensions and click on the &amp;ldquo;New Custom Dimension&amp;rdquo; button.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201704/custom_dimensions_new.png&#34; alt=&#34;add client id to google analytics&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;You want to add the name &amp;ldquo;Client ID&amp;rdquo; and set the scope to Session. You can add it as a Hit or User if you like but Session based granularity is appropriate since a session encompasses hits when a visitor interacts with your site and user based collection might miss some session interactions you&amp;rsquo;ll want to observe at a later time.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201704/session_based_client_id.png&#34; alt=&#34;add session based client id to google analytics&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;Then you can set the custom dimesion value to your website according to the dimension id that google provides.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201704/client_id_embed.png&#34; alt=&#34;add custom dimension client id to website embed code&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;You&amp;rsquo;ll want to add the following code as an ammendment to the default embed code that Google Analytics provides. So if you have the default Universal Analytics snippet installed on your website, you&amp;rsquo;ll want to modify it as shown in the examples below. You can also see the &lt;a href=&#34;https://developers.google.com/analytics/devguides/collection/analyticsjs/cookies-user-id#getting_the_client_id_from_the_cookie&#34;&gt;documentation provided by google&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;universal-analytics-implementation-of-client-id&#34;&gt;Universal Analytics Implementation of Client ID&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Before&lt;/em&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;ga(&#39;create&#39;, &#39;UA-XXXXXXX-1&#39;, &#39;auto&#39;);
-ga(&#39;send&#39;, &#39;pageview&#39;);
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;em&gt;After&lt;/em&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;ga(&#39;create&#39;, &#39;UA-XXXXXXX-1&#39;, &#39;auto&#39;);
-ga(function(tracker) {
-  var clientId = tracker.get(&#39;clientId&#39;);
-  ga(&#39;set&#39;, &#39;dimension1&#39;, clientId);
-  ga(&#39;send&#39;, &#39;pageview&#39;);
-});
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;You also have the option of sending the client id as a non-interaction event via Google Analytics like so:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;ga(&#39;create&#39;, &#39;UA-XXXXXXX-1&#39;, &#39;auto&#39;);
-ga(function(tracker) {
-  var clientId = tracker.get(&#39;clientId&#39;);
-  tracker.set({dimension1: clientId});
-  tracker.send(&#39;event&#39;, {
-    nonInteraction: true
-  });
-});
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;gtag-implementation-of-client-id&#34;&gt;Gtag Implementation of Client ID&lt;/h3&gt;
-
-&lt;p&gt;&lt;em&gt;Before&lt;/em&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;gtag(&#39;config&#39;, &#39;UA-XXXXXXX-1&#39;);
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;em&gt;After&lt;/em&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;gtag(&#39;config&#39;, &#39;UA-XXXXXXX-1&#39;, {
-  &#39;custom_map&#39;: {
-    &#39;dimension1&#39;: &#39;clientId&#39;
-  }
-});
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;google-tag-manager-implementation-of-client-id&#34;&gt;Google Tag Manager Implementation of Client ID&lt;/h3&gt;
-
-&lt;p&gt;You have the option of either setting a field with the name customTask and adding the code to extract the client id in your Google Analytics Setting Variable or to send the client id as a non-interaction event on all Window Loaded Page Views.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201704/gtm-clientid.png&#34; alt=&#34;add client id to google analytics&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;To set the customTask field, create a custom javascript variable and add the code as follows:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;function() {
-  return function(model) {
-    model.set(&#39;dimension2&#39;, model.get(&#39;clientId&#39;));
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;To set as a non-interaction event, create a custom javascript variable like so:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;function() {
-  try {
-    var trackers = ga.getAll();
-    var i, len;
-    for (i = 0, len = trackers.length; i &amp;lt; len; i += 1) {
-      if (trackers[i].get(&#39;trackingId&#39;) === {{GA Property ID}}) {
-        var clientId = trackers[i].get(&#39;clientId&#39;);
-        return clientId;
-      }
-    }
-  } catch(e) {
-  	return &#39;(not set)&#39;;
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;difference-between-client-id-and-user-id&#34;&gt;Difference Between Client ID and User ID&lt;/h2&gt;
-
-&lt;p&gt;Depending on whether you have an authenitcation system on your website, you may have the added option of tracking your users. The benefit of doing so in the context of attribution is that you can stitch cross device sessions together. By default Google Analytics separates &amp;ldquo;Users&amp;rdquo; based on the cookies that it sets in your visitor&amp;rsquo;s browsers (Our beloved Client ID). But in an age of multiple device usage, it leaves a big hole in proper attribution techniques.&lt;/p&gt;
-
-&lt;p&gt;If you have an optinon to also send User ID data to Google Analytics for tracking, it&amp;rsquo;s a must for in-depth attribution techniques.&lt;/p&gt;
-
-&lt;p&gt;Google Analytics has an option where you can set an id for Users in the the admin section under Property &amp;gt; Tracking Info &amp;gt; User-ID.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201704/ga-userid-setting.png&#34; alt=&#34;add client id to google analytics&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;What you get is an additional View where you can track the behavior of your logged-in users. Unfortunately, it doesn&amp;rsquo;t automatically stitch all of the activity of a particular browser with another browser when a user is logged in. You can see more in &lt;a href=&#34;https://support.google.com/analytics/answer/6205850?hl=en&#34;&gt;google&amp;rsquo;s documentation for user id here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;You will need to do this manually by not only setting the userID field in Google Analytics but also creating a custom dimension for User ID and sending that data alongside the standard configuration variable for User ID provided by Google Analytics so you can query that data at a later time.&lt;/p&gt;
-
-&lt;p&gt;What you end up with is the option of pulling User ID and Client ID from Google Analytics and tracking all of the sessions for a particular user. Where once you had a dark void of direct sessions, you can now extract additional session data from all of the devices that your users used to log in to your site.&lt;/p&gt;
-
-&lt;h2 id=&#34;need-help-setting-up-your-custom-dimensions&#34;&gt;Need Help Setting Up Your Custom Dimensions?&lt;/h2&gt;
-
-&lt;p&gt;Sometimes it&amp;rsquo;s not always so simple to configure custom dimensions. Your developer may have set up your analytics in a custom way ot you might be using Google Tag Manager to manage all of your js snippets.&lt;/p&gt;
-
-&lt;p&gt;If you need help to &lt;a href=&#34;https://attribut.io/meet/&#34;&gt;install your custom dimesions. Talk to an expert today&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Google Analytics is an underutilized tool and there are a few basic things you can do to gain more insight into your conversions. Last year in March of 2016 Google made their new User Explorer available to the public. It&amp;rsquo;s a great tool but unfortunately, you can&amp;rsquo;t drill down into other dimensions with this tool yet. Also, you can&amp;rsquo;t combine this information with other dimensions or metrics like where the user came from.</description>
     </item>
     
   </channel>

@@ -2,13 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on Attributio | Business Intelligence &amp; Analytics Experts</title>
-    <link>https://attribut.io/docs/index.xml</link>
+    <link>https://attribut.io/docs/</link>
     <description>Recent content in Docs on Attributio | Business Intelligence &amp; Analytics Experts</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright &amp;copy; 2019 Attributio. All rights reserved.</copyright>
     <lastBuildDate>Tue, 18 Dec 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://attribut.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://attribut.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Salesforce Marketing Analytics App Documentation</title>
@@ -16,121 +17,10 @@
       <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://attribut.io/docs/salesforce/marketing-analytics/</guid>
-      <description>
+      <description>Installation Follow the link provided to you and select the option to &amp;ldquo;Install for All Users&amp;rdquo;.
 
-&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
-
-&lt;p&gt;Follow the link provided to you and select the option to &amp;ldquo;Install for All Users&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/docs/salesforce/install-marketing-analytics-screen.png&#34; alt=&#34;install salesforce marketing analytics attribution app&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;configure-remote-site-settings&#34;&gt;Configure remote site settings&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Navigate to Setup &amp;gt; Settings &amp;gt; Security &amp;gt; Remote Site Settings and create a new setting
-&lt;br&gt;&lt;br&gt;
-&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201812/sf-new-remote-site.png&#34; alt=&#34;salesforce send revenue to google analytics&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Add the following Remote Site URL:
-&lt;br&gt;&lt;br&gt;
-&lt;code&gt;&lt;a href=&#34;https://www.google-analytics.com&#34;&gt;https://www.google-analytics.com&lt;/a&gt;&lt;/code&gt;
-&lt;br&gt;&lt;br&gt;
-&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/blog/201812/sf-new-remote-site-create.png&#34; alt=&#34;salesforce send revenue to google analytics&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;configure-lead-mappings&#34;&gt;Configure Lead Mappings&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Select Setup under the gear icon on the top right of your screen.&lt;/li&gt;
-&lt;li&gt;In the navigation pane to the left go to Platform Tools &amp;gt; Objects and Fields &amp;gt; Object Manager.&lt;/li&gt;
-&lt;li&gt;Select Lead.&lt;/li&gt;
-&lt;li&gt;Select Fields &amp;amp; Relationships and on the top right corner, select Map Lead Fields.&lt;/li&gt;
-&lt;li&gt;Map GA Client ID, GA Revenue ID, GA Tracking ID, and GA User ID to their respective fields from Leads to Accounts and Opportunities.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/docs/salesforce/map-leads-fields.png&#34; alt=&#34;map leads fields for salesforce marketing analytics attribution app&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;configure-web-to-lead-form&#34;&gt;Configure Web-To-Lead Form&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Navigate to Platform Tools &amp;gt; Feature Settings &amp;gt; Marketing &amp;gt; Web-to-Lead.&lt;/li&gt;
-&lt;li&gt;Create new form.&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Add GA Client ID, GA Revenue ID, GA Tracking ID, and GA User ID to our new form and create.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/docs/salesforce/web-to-lead-setup.png&#34; alt=&#34;create web to lead form salesforce attribution google analytics gclid&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Modify the input fields for GA Client ID, GA Revenue ID, GA Tracking ID, and GA User ID by removing the the label, maxlength, and size fields and convert the input type field to hidden and add those fields to your form.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Before&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/docs/salesforce/web-to-lead-setup-before.png&#34; alt=&#34;create web to lead form salesforce attribution google analytics gclid before&#34; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;After&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/docs/salesforce/web-to-lead-setup-after.png&#34; alt=&#34;create web to lead form salesforce attribution google analytics gclid after&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;You will need to use some javascript to retreive the client id from Google Analytics and add it to your hidden field. You can find detailed instructions &lt;a href=&#34;https://attribut.io/blog/2017/04/27/track-conversions-with-google-analytics-client-id/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;You can manually set the values of GA Revenue ID &amp;amp; GA Tracking ID in the form.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;configure-ga-activity-link&#34;&gt;Configure GA Activity Link&lt;/h2&gt;
-
-&lt;p&gt;In order to view your Lead&amp;rsquo;s activity on your website via Google Analytics, you&amp;rsquo;ll need to add a custom setting and add the custom link object provided by this app into your desired layout in Leads, Accounts, and Opportunities.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Find the unique path for visitor activity in Google Analytics&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Log into Google Analytics&lt;/li&gt;
-&lt;li&gt;Navigate to Audience &amp;gt; User Explorer and select a random CLient ID&lt;/li&gt;
-&lt;li&gt;Note the ID in the url path after &amp;ldquo;visitors-user-activity&amp;rdquo;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/docs/salesforce/ga-visitor-user-activity-link.png&#34; alt=&#34;google analytics visitor activity link id&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Now in Salesforce, navigate to Platform Tools &amp;gt; Custom Code &amp;gt; Custom Settings&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Select Manage for Attributio Settings&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Select New and add the ID extracted from Google Analytics to GA Activity Link ID field in Salesforce Custom Settings&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/docs/salesforce/ga-activity-link-id-setting.png&#34; alt=&#34;google analytics visitor activity link id for salesforce&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Finally, add the GA Activity Link to a Page Layout under Platform Tools &amp;gt; Objects and Fields &amp;gt; Object Manager &amp;gt; {The object you want to add the link}&amp;gt; Page Layout&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Drag and drop the GA Activity Link into the Custom Links section&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&#34;img-responsive img-thumbnail&#34; src=&#34;https://attribut.io/img/docs/salesforce/ga-activity-link-page-layout.png&#34; alt=&#34;google analytics visitor activity custom link for salesforce&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Finally, navigate to the view of your page layout and if you added the GA Activity Link ID under custom settings and your Object has an id for the GA Client ID field present, you should have a valid link to view the activity of that user in Google Analytics.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;workflow&#34;&gt;Workflow&lt;/h2&gt;
-
-&lt;p&gt;If the Marketing Analytics App has been properly configured, your website should be collecting the client id provided by Google Analytics and storing it as a custom field under Leads. During the Lead Conversion and Opportunity Qualification Proccess, you should be able to view all of the details regarding your Lead and Opportunity&amp;rsquo;s activity on your website, from how they got there (what ads, keywords, campaigns, or referrals), to what pieces of content they visited before converting on your website form.&lt;/p&gt;
-
-&lt;p&gt;In addition, when an Opportunity is Won and the amount and client id fields are present, that revenue data will be available in custom reports in Google Analytics for further anaysis on determining ROI on Ads and Marketing campaigns.&lt;/p&gt;
-
-&lt;h2 id=&#34;versions&#34;&gt;Versions&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;v 1.0 First Release&lt;/li&gt;
-&lt;li&gt;v 1.1 Removed Remote SIte Settings for manual installation by user.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+Configure remote site settings  Navigate to Setup &amp;gt; Settings &amp;gt; Security &amp;gt; Remote Site Settings and create a new setting  Add the following Remote Site URL: https://www.google-analytics.com   
+Configure Lead Mappings  Select Setup under the gear icon on the top right of your screen. In the navigation pane to the left go to Platform Tools &amp;gt; Objects and Fields &amp;gt; Object Manager.</description>
     </item>
     
     <item>
@@ -139,101 +29,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://attribut.io/docs/attributio/defining-attribution-parameters/</guid>
-      <description>
-
-&lt;h2 id=&#34;sessions&#34;&gt;Sessions&lt;/h2&gt;
-
-&lt;p&gt;The most common type of session is &lt;a href=&#34;https://support.google.com/analytics/answer/2731565?hl=en&#34; target=&#34;_blank&#34;&gt;defined by Google&lt;/a&gt; based on time or by a change in campaign. In Google Analytics a new session is created during 30 minutes of inactivity.&lt;/p&gt;
-
-&lt;p&gt;By default, our sessions are not based on time so you may see session durations in excess of days. This is to minimize the amount of data stored in your visitor&amp;rsquo;s browsers regarding their session data and not storing additional data for every visit past 30 minutes of inactivity if the source, medium, or campaign has not changed. This means that you will see a limited amount of direct traffic as a source in your conversions.&lt;/p&gt;
-
-&lt;h3 id=&#34;definitions&#34;&gt;Definitions&lt;/h3&gt;
-
-&lt;p&gt;Our definition of a session is based on First and Last Interaction data and is based on a change of either of the following:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;A change in source&lt;/li&gt;
-&lt;li&gt;A change in medium&lt;/li&gt;
-&lt;li&gt;A change in campaign&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;URL parameters utilize the same &amp;ldquo;utm_&amp;rdquo; structure that Google Analytics recommends. You can use a &lt;a href=&#34;https://ga-dev-tools.appspot.com/campaign-url-builder/&#34;&gt;free tool&lt;/a&gt; to do the same.&lt;/p&gt;
-
-&lt;h3 id=&#34;default-fields&#34;&gt;Default Fields&lt;/h3&gt;
-
-&lt;p&gt;&lt;table class=&#34;table table-sm table-borderless&#34;&gt;
-    &lt;tr&gt;
-        &lt;td&gt;First Interaction Referrer&lt;/td&gt;
-        &lt;td&gt;Last Interaction Referrer&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;First Interaction Source&lt;/td&gt;
-        &lt;td&gt;Last Interaction Source&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;First Interaction Medium&lt;/td&gt;
-        &lt;td&gt;Last Interaction Medium&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;First Interaction Campaign&lt;/td&gt;
-        &lt;td&gt;Last Interaction Campaign&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;First Interaction Content&lt;/td&gt;
-        &lt;td&gt;Last Interaction Content&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;First Interaction Term&lt;/td&gt;
-        &lt;td&gt;Last Interaction Term&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;First Interaction Landing Page&lt;/td&gt;
-        &lt;td&gt;Last Interaction Landing Page&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;First Interaction Session Duration&lt;/td&gt;
-        &lt;td&gt;Last Interaction Session Duration&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-        &lt;td&gt;First Interaction Page Visits&lt;/td&gt;
-        &lt;td&gt;Last Interaction Page Visits&lt;/td&gt;
-    &lt;/tr&gt;
- &lt;/table&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;custom-fields&#34;&gt;Custom Fields&lt;/h3&gt;
-
-&lt;p&gt;Include additionals fields as follows:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Journey By Source&lt;/li&gt;
-&lt;li&gt;Journey By Medium&lt;/li&gt;
-&lt;li&gt;Journey By Campaign&lt;/li&gt;
-&lt;li&gt;Exclude Sources&lt;/li&gt;
-&lt;li&gt;Exclude Mediums&lt;/li&gt;
-&lt;li&gt;Exclude Campaigns&lt;/li&gt;
-&lt;li&gt;Device&lt;/li&gt;
-&lt;li&gt;Browser&lt;/li&gt;
-&lt;li&gt;Location&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;custom-sessions&#34;&gt;Custom Sessions&lt;/h2&gt;
-
-&lt;p&gt;Often visitors convert after doing a branded paid or organic search. We typically do not want that information as attribution will typically be credited to Google where little weight should be placed. In these cases, we can set conditions to ignore certain paid branded clicks as Last Impressions and store the previous session with more valuable data.&lt;/p&gt;
-
-&lt;p&gt;There are many scenarios you can imagine for a custom fit attribution model for your company.&lt;/p&gt;
-
-&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
-
-&lt;p&gt;It is recommended to use SSL for all traffic to your site. Ensure that all non-ssl links are redirected to a standard SSL encrypted version of your site either containing the subdomain www or not.&lt;/p&gt;
-
-&lt;p&gt;If visitors to your site jump between non-encrypted and encrypted versions of your site or between subdomains, session data will not be consistent and original attribution data will be lost.&lt;/p&gt;
-
-&lt;p&gt;When configuring redirects, all url parameters must be retained. If they are lost on redirect, session data will not properly be stored.&lt;/p&gt;
-
-&lt;h2 id=&#34;google-analytics&#34;&gt;Google Analytics&lt;/h2&gt;
-
-&lt;p&gt;We encourage the use of Google Analytics to compare attribution data stored in your CRM with our tool. Although our tool is independent of Google Analytics, Google Analytics has so much data available that we recommend using it in conjunction with our tool for comparisons. That is why we configure your Analytics to store unique visitor data based on ids provided by Google so you can have all the data you could ever need.&lt;/p&gt;
-</description>
+      <description>Sessions The most common type of session is defined by Google based on time or by a change in campaign. In Google Analytics a new session is created during 30 minutes of inactivity.
+By default, our sessions are not based on time so you may see session durations in excess of days. This is to minimize the amount of data stored in your visitor&amp;rsquo;s browsers regarding their session data and not storing additional data for every visit past 30 minutes of inactivity if the source, medium, or campaign has not changed.</description>
     </item>
     
   </channel>
