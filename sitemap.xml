@@ -110,8 +110,8 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/categories/google-analytics/</loc>
-	    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+	    <loc>https://attribut.io/tags/google-analytics/</loc>
+	    <lastmod>2019-08-19T00:00:00+00:00</lastmod>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -119,8 +119,8 @@
   
   	
 	  <url>
-	    <loc>https://attribut.io/tags/google-analytics/</loc>
-	    <lastmod>2019-08-19T00:00:00+00:00</lastmod>
+	    <loc>https://attribut.io/categories/google-analytics/</loc>
+	    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -3922,6 +3922,14 @@
   	
 	  <url>
 	    <loc>https://attribut.io/get/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/docs/stripe/stripe-checkout-session-data-from-payment-links/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
