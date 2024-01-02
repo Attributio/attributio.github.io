@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on Attributio | Business Intelligence &amp; Analytics Experts</title>
@@ -7,41 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 18 Dec 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://attribut.io/docs/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://attribut.io/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Salesforce Marketing Analytics App Documentation</title>
       <link>https://attribut.io/docs/salesforce/marketing-analytics/</link>
       <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/docs/salesforce/marketing-analytics/</guid>
-      <description>Installation Follow the link provided to you and select the option to &amp;ldquo;Install for All Users&amp;rdquo;.
-
-Configure remote site settings  Navigate to Setup &amp;gt; Settings &amp;gt; Security &amp;gt; Remote Site Settings and create a new setting  Add the following Remote Site URL: https://www.google-analytics.com   
-Configure Lead Mappings  Select Setup under the gear icon on the top right of your screen. In the navigation pane to the left go to Platform Tools &amp;gt; Objects and Fields &amp;gt; Object Manager.</description>
+      <description>Installation Follow the link provided to you and select the option to &amp;ldquo;Install for All Users&amp;rdquo;.&#xA;Configure remote site settings Navigate to Setup &amp;gt; Settings &amp;gt; Security &amp;gt; Remote Site Settings and create a new setting Add the following Remote Site URL: https://www.google-analytics.com Configure Lead Mappings Select Setup under the gear icon on the top right of your screen. In the navigation pane to the left go to Platform Tools &amp;gt; Objects and Fields &amp;gt; Object Manager.</description>
     </item>
-    
     <item>
       <title>Defining Attribution Parameters</title>
       <link>https://attribut.io/docs/attributio/defining-attribution-parameters/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/docs/attributio/defining-attribution-parameters/</guid>
-      <description>Sessions The most common type of session is defined by Google based on time or by a change in campaign. In Google Analytics a new session is created during 30 minutes of inactivity.
-By default, our sessions are not based on time so you may see session durations in excess of days. This is to minimize the amount of data stored in your visitor&amp;rsquo;s browsers regarding their session data and not storing additional data for every visit past 30 minutes of inactivity if the source, medium, or campaign has not changed.</description>
+      <description>Sessions The most common type of session is defined by Google based on time or by a change in campaign. In Google Analytics a new session is created during 30 minutes of inactivity.&#xA;By default, our sessions are not based on time so you may see session durations in excess of days. This is to minimize the amount of data stored in your visitor&amp;rsquo;s browsers regarding their session data and not storing additional data for every visit past 30 minutes of inactivity if the source, medium, or campaign has not changed.</description>
     </item>
-    
     <item>
       <title>Stripe Checkout Session Data From Payment Links</title>
       <link>https://attribut.io/docs/stripe/stripe-checkout-session-data-from-payment-links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/docs/stripe/stripe-checkout-session-data-from-payment-links/</guid>
-      <description>Stripe Checkout Session Data from Stripe Payment Links Stripe continues to make transactions easier for anyone that wants to collect payments online. Anyone that signs up with Stripe can create a product and payment link and Stripe will handle the entire checkout process. This makes it fast and easy to start collecting payments by embedding payment links on your website, emails, or even SMS!
-That&amp;rsquo;s great for simple invoices where you know your customer but for marketers and entrepreneurs that want to quickly create a product and payment link and run marketing campaigns to gain traction need a little help with conversion tracking.</description>
+      <description>Stripe Checkout Session Data from Stripe Payment Links Stripe continues to make transactions easier for anyone that wants to collect payments online. Anyone that signs up with Stripe can create a product and payment link and Stripe will handle the entire checkout process. This makes it fast and easy to start collecting payments by embedding payment links on your website, emails, or even SMS!&#xA;That&amp;rsquo;s great for simple invoices where you know your customer but for marketers and entrepreneurs that want to quickly create a product and payment link and run marketing campaigns to gain traction need a little help with conversion tracking.</description>
     </item>
-    
   </channel>
 </rss>

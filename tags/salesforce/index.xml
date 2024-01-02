@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>salesforce on Attributio | Business Intelligence &amp; Analytics Experts</title>
@@ -7,21 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 21 Nov 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://attribut.io/tags/salesforce/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://attribut.io/tags/salesforce/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Ultimate Guide to Measure ROI with Salesforce &amp; Google Analytics</title>
       <link>https://attribut.io/the-ultimate-guide-to-measure-roi-with-salesforce-and-google-analytics/</link>
       <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/the-ultimate-guide-to-measure-roi-with-salesforce-and-google-analytics/</guid>
-      <description>Brand Marketing VS Direct Marketing  You can&amp;rsquo;t manage what you can&amp;rsquo;t measure.
-- Peter Drucker
- We live in an age when we can measure just about everything. The fact that many of us aren&amp;rsquo;t measuring our direct marketing efforts is detrimental to our businesses.
-Brand marketing continues to be difficult to measure since brand marketing is more about communicating values to an audience. The ROI on that kind of advertising is measured far down the line whereas direct marketing is about getting conversions and selling right off the bat.</description>
+      <description>Brand Marketing VS Direct Marketing You can&amp;rsquo;t manage what you can&amp;rsquo;t measure.&#xA;- Peter Drucker&#xA;We live in an age when we can measure just about everything. The fact that many of us aren&amp;rsquo;t measuring our direct marketing efforts is detrimental to our businesses.&#xA;Brand marketing continues to be difficult to measure since brand marketing is more about communicating values to an audience. The ROI on that kind of advertising is measured far down the line whereas direct marketing is about getting conversions and selling right off the bat.</description>
     </item>
-    
   </channel>
 </rss>

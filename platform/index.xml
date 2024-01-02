@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Platform on Attributio | Business Intelligence &amp; Analytics Experts</title>
@@ -6,4122 +6,3205 @@
     <description>Recent content in Platform on Attributio | Business Intelligence &amp; Analytics Experts</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    
-	<atom:link href="https://attribut.io/platform/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://attribut.io/platform/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Google Analytics Call Tracking For CallFire - Attributio</title>
       <link>https://attribut.io/platform/call-tracking/callfire/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/call-tracking/callfire/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Call Tracking For CallHippo - Attributio</title>
       <link>https://attribut.io/platform/call-tracking/callhippo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/call-tracking/callhippo/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Call Tracking For CallRail - Attributio</title>
       <link>https://attribut.io/platform/call-tracking/callrail/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/call-tracking/callrail/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Call Tracking For CallTrackingMetrics - Attributio</title>
       <link>https://attribut.io/platform/call-tracking/calltrackingmetrics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/call-tracking/calltrackingmetrics/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Call Tracking For RingCentral - Attributio</title>
       <link>https://attribut.io/platform/call-tracking/ringcentral/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/call-tracking/ringcentral/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Call Tracking For Twilio - Attributio</title>
       <link>https://attribut.io/platform/call-tracking/twilio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/call-tracking/twilio/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Accrisoft Freedom - Attributio</title>
       <link>https://attribut.io/platform/cms/accrisoft/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/accrisoft/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Alfresco - Attributio</title>
       <link>https://attribut.io/platform/cms/alfresco/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/alfresco/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Altitude3 - Attributio</title>
       <link>https://attribut.io/platform/cms/altitude3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/altitude3/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Ametys CMS - Attributio</title>
       <link>https://attribut.io/platform/cms/ametys/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/ametys/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Apache Lenya - Attributio</title>
       <link>https://attribut.io/platform/cms/apachelenya/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/apachelenya/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Apache Roller - Attributio</title>
       <link>https://attribut.io/platform/cms/apacheroller/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/apacheroller/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For ATutor - Attributio</title>
       <link>https://attribut.io/platform/cms/atutor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/atutor/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For b2evolution - Attributio</title>
       <link>https://attribut.io/platform/cms/b2evolution/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/b2evolution/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Backdropcms - Attributio</title>
       <link>https://attribut.io/platform/cms/backdropcms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/backdropcms/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For BetterCMS - Attributio</title>
       <link>https://attribut.io/platform/cms/bettercms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/bettercms/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For blosxom - Attributio</title>
       <link>https://attribut.io/platform/cms/blosxom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/blosxom/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Bricolage - Attributio</title>
       <link>https://attribut.io/platform/cms/bricolage/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/bricolage/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For BrowserCMS - Attributio</title>
       <link>https://attribut.io/platform/cms/browsercms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/browsercms/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Cascade Cloud - Attributio</title>
       <link>https://attribut.io/platform/cms/cascadecloud/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/cascadecloud/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Cascade Server - Attributio</title>
       <link>https://attribut.io/platform/cms/cascadeserver/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/cascadeserver/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Clickability - Attributio</title>
       <link>https://attribut.io/platform/cms/clickability/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/clickability/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For CMS Made Simple - Attributio</title>
       <link>https://attribut.io/platform/cms/cmsmadesimple/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/cmsmadesimple/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For CMSimple - Attributio</title>
       <link>https://attribut.io/platform/cms/cmsimple/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/cmsimple/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Composite C1 - Attributio</title>
       <link>https://attribut.io/platform/cms/compositec1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/compositec1/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For concrete5 - Attributio</title>
       <link>https://attribut.io/platform/cms/concrete5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/concrete5/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Contao - Attributio</title>
       <link>https://attribut.io/platform/cms/contao/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/contao/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Contegro - Attributio</title>
       <link>https://attribut.io/platform/cms/contegro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/contegro/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Content SORT - Attributio</title>
       <link>https://attribut.io/platform/cms/contentsort/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/contentsort/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For ContentBox Modular CMS - Attributio</title>
       <link>https://attribut.io/platform/cms/contentbox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/contentbox/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Contentful - Attributio</title>
       <link>https://attribut.io/platform/cms/contentful/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/contentful/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Contentverse - Attributio</title>
       <link>https://attribut.io/platform/cms/contentverse/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/contentverse/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For CoreMedia WCM - Attributio</title>
       <link>https://attribut.io/platform/cms/coremeadia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/coremeadia/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Cotonti - Attributio</title>
       <link>https://attribut.io/platform/cms/cotonti/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/cotonti/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For CrownPeak CMS - Attributio</title>
       <link>https://attribut.io/platform/cms/crownpeak/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/crownpeak/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Daisy - Attributio</title>
       <link>https://attribut.io/platform/cms/daisycms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/daisycms/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For DocLogix - Attributio</title>
       <link>https://attribut.io/platform/cms/doclogix/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/doclogix/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For DokuWiki - Attributio</title>
       <link>https://attribut.io/platform/cms/dokuwiki/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/dokuwiki/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For dot.orange - Attributio</title>
       <link>https://attribut.io/platform/cms/dot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/dot/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Dotclear - Attributio</title>
       <link>https://attribut.io/platform/cms/dotclear/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/dotclear/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Dotcms - Attributio</title>
       <link>https://attribut.io/platform/cms/dotcms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/dotcms/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For DotNetNuke - Attributio</title>
       <link>https://attribut.io/platform/cms/dotnetnuke/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/dotnetnuke/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Drupal - Attributio</title>
       <link>https://attribut.io/platform/cms/drupal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/drupal/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For DSpace - Attributio</title>
       <link>https://attribut.io/platform/cms/dspace/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/dspace/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For DynPG - Attributio</title>
       <link>https://attribut.io/platform/cms/dynpg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/dynpg/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For easyDITA - Attributio</title>
       <link>https://attribut.io/platform/cms/easydita/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/easydita/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Ektron CMS - Attributio</title>
       <link>https://attribut.io/platform/cms/ektron/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/ektron/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Elcom CMS - Attributio</title>
       <link>https://attribut.io/platform/cms/elcom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/elcom/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For EMC DocumentumECM - Attributio</title>
       <link>https://attribut.io/platform/cms/emc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/emc/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Enonic - Attributio</title>
       <link>https://attribut.io/platform/cms/enonic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/enonic/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For EPrints - Attributio</title>
       <link>https://attribut.io/platform/cms/eprints/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/eprints/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For eXo Cloud - Attributio</title>
       <link>https://attribut.io/platform/cms/exo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/exo/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Exponent CMS - Attributio</title>
       <link>https://attribut.io/platform/cms/exponent/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/exponent/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For ExpressionEngine - Attributio</title>
       <link>https://attribut.io/platform/cms/expressionengine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/expressionengine/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For eZ Publish - Attributio</title>
       <link>https://attribut.io/platform/cms/ezpublish/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/ezpublish/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For FarCry CMS - Attributio</title>
       <link>https://attribut.io/platform/cms/farcry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/farcry/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Foswiki - Attributio</title>
       <link>https://attribut.io/platform/cms/foswiki/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/foswiki/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Frontis Archive Publishing System - Attributio</title>
       <link>https://attribut.io/platform/cms/frontis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/frontis/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Geeklog - Attributio</title>
       <link>https://attribut.io/platform/cms/geeklog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/geeklog/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For GetSimple CMS - Attributio</title>
       <link>https://attribut.io/platform/cms/getsimple/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/getsimple/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Ghost - Attributio</title>
       <link>https://attribut.io/platform/cms/ghost/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/ghost/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Habari - Attributio</title>
       <link>https://attribut.io/platform/cms/habari/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/habari/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Hippo CMS - Attributio</title>
       <link>https://attribut.io/platform/cms/hippocms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/hippocms/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Huddle - Attributio</title>
       <link>https://attribut.io/platform/cms/huddle/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/huddle/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Hyland OnBase ECM - Attributio</title>
       <link>https://attribut.io/platform/cms/hyland/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/hyland/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Ikiwiki - Attributio</title>
       <link>https://attribut.io/platform/cms/ikiwiki/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/ikiwiki/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For ImpressCMS - Attributio</title>
       <link>https://attribut.io/platform/cms/impresscms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/impresscms/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For ImpressPages - Attributio</title>
       <link>https://attribut.io/platform/cms/impresspages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/impresspages/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Instapage - Attributio</title>
       <link>https://attribut.io/platform/cms/instapage/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/instapage/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Jadu - Attributio</title>
       <link>https://attribut.io/platform/cms/jadu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/jadu/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Jahia Community Distribution - Attributio</title>
       <link>https://attribut.io/platform/cms/jahia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/jahia/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Jamroom - Attributio</title>
       <link>https://attribut.io/platform/cms/jamroom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/jamroom/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Joomla - Attributio</title>
       <link>https://attribut.io/platform/cms/joomla/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/joomla/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Kajona - Attributio</title>
       <link>https://attribut.io/platform/cms/kajona/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/kajona/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Kentico CMS - Attributio</title>
       <link>https://attribut.io/platform/cms/kentico/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/kentico/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For KickoffLabs - Attributio</title>
       <link>https://attribut.io/platform/cms/kickofflabs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/kickofflabs/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Known - Attributio</title>
       <link>https://attribut.io/platform/cms/known/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/known/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Kooboo - Attributio</title>
       <link>https://attribut.io/platform/cms/kooboo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/kooboo/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For LanderApp - Attributio</title>
       <link>https://attribut.io/platform/cms/landerapp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/landerapp/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For LeadPages - Attributio</title>
       <link>https://attribut.io/platform/cms/leadpages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/leadpages/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Librex - Attributio</title>
       <link>https://attribut.io/platform/cms/librex/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/librex/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Liferay - Attributio</title>
       <link>https://attribut.io/platform/cms/liferay/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/liferay/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For LogicalDOC - Attributio</title>
       <link>https://attribut.io/platform/cms/logicaldoc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/logicaldoc/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Mambo - Attributio</title>
       <link>https://attribut.io/platform/cms/mambo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/mambo/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For MediaWiki - Attributio</title>
       <link>https://attribut.io/platform/cms/mediawiki/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/mediawiki/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Mezzanine - Attributio</title>
       <link>https://attribut.io/platform/cms/mezzanine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/mezzanine/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For MiaCMS - Attributio</title>
       <link>https://attribut.io/platform/cms/miacms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/miacms/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Midgard CMS - Attributio</title>
       <link>https://attribut.io/platform/cms/midgard/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/midgard/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For MODX - Attributio</title>
       <link>https://attribut.io/platform/cms/modx/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/modx/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For MoinMoin - Attributio</title>
       <link>https://attribut.io/platform/cms/moinmoin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/moinmoin/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For mojoPortal - Attributio</title>
       <link>https://attribut.io/platform/cms/mojoportal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/mojoportal/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Moodle - Attributio</title>
       <link>https://attribut.io/platform/cms/moodle/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/moodle/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Movable Type - Attributio</title>
       <link>https://attribut.io/platform/cms/movable/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/movable/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Mura CMS - Attributio</title>
       <link>https://attribut.io/platform/cms/mura/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/mura/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Novius OS - Attributio</title>
       <link>https://attribut.io/platform/cms/novius/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/novius/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For nuBuilder - Attributio</title>
       <link>https://attribut.io/platform/cms/nubuilder/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/nubuilder/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Nucleus CMS - Attributio</title>
       <link>https://attribut.io/platform/cms/nucleus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/nucleus/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Nuxeo EP - Attributio</title>
       <link>https://attribut.io/platform/cms/nuxeo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/nuxeo/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For O3Spaces - Attributio</title>
       <link>https://attribut.io/platform/cms/o3spaces/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/o3spaces/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Ocportal - Attributio</title>
       <link>https://attribut.io/platform/cms/ocportal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/ocportal/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For OctoberCMS - Attributio</title>
       <link>https://attribut.io/platform/cms/octobercms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/octobercms/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Onxshop - Attributio</title>
       <link>https://attribut.io/platform/cms/onxshop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/onxshop/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For OpenACS - Attributio</title>
       <link>https://attribut.io/platform/cms/openacs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/openacs/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For OpenCms - Attributio</title>
       <link>https://attribut.io/platform/cms/opencms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/opencms/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For OpenKM - Attributio</title>
       <link>https://attribut.io/platform/cms/openkm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/openkm/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For OpenText ECM Suite - Attributio</title>
       <link>https://attribut.io/platform/cms/opentext/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/opentext/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For OpenWGA - Attributio</title>
       <link>https://attribut.io/platform/cms/openwga/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/openwga/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Oracle WebCenter Content - Attributio</title>
       <link>https://attribut.io/platform/cms/oraclewebcenter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/oraclewebcenter/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Orchard Project - Attributio</title>
       <link>https://attribut.io/platform/cms/orchardproject/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/orchardproject/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For OU Campus - Attributio</title>
       <link>https://attribut.io/platform/cms/oucampus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/oucampus/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For PageFramer - Attributio</title>
       <link>https://attribut.io/platform/cms/pageframer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/pageframer/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For PageWiz - Attributio</title>
       <link>https://attribut.io/platform/cms/pagewiz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/pagewiz/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For papaya CMS - Attributio</title>
       <link>https://attribut.io/platform/cms/papayacms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/papayacms/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Percussion CMS - Attributio</title>
       <link>https://attribut.io/platform/cms/percussion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/percussion/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For pH7CMS - Attributio</title>
       <link>https://attribut.io/platform/cms/ph7cms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/ph7cms/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Phire CMS - Attributio</title>
       <link>https://attribut.io/platform/cms/phire/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/phire/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For phpWebSite - Attributio</title>
       <link>https://attribut.io/platform/cms/phpwebsite/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/phpwebsite/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For phpWiki - Attributio</title>
       <link>https://attribut.io/platform/cms/phpwiki/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/phpwiki/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For pimcore - Attributio</title>
       <link>https://attribut.io/platform/cms/pimcore/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/pimcore/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For PivotX - Attributio</title>
       <link>https://attribut.io/platform/cms/pivotx/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/pivotx/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Pixie - Attributio</title>
       <link>https://attribut.io/platform/cms/pixie/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/pixie/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Plone - Attributio</title>
       <link>https://attribut.io/platform/cms/plone/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/plone/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Pluck - Attributio</title>
       <link>https://attribut.io/platform/cms/pluck/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/pluck/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For PmWiki - Attributio</title>
       <link>https://attribut.io/platform/cms/pmwiki/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/pmwiki/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Polopoly Web CMS - Attributio</title>
       <link>https://attribut.io/platform/cms/polopoly/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/polopoly/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For ProcessWire - Attributio</title>
       <link>https://attribut.io/platform/cms/processwire/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/processwire/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Pulse CMS - Attributio</title>
       <link>https://attribut.io/platform/cms/pulsecms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/pulsecms/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Radiant - Attributio</title>
       <link>https://attribut.io/platform/cms/radiant/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/radiant/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For RavenNuke CMS - Attributio</title>
       <link>https://attribut.io/platform/cms/ravennuke/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/ravennuke/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Refinery CMS - Attributio</title>
       <link>https://attribut.io/platform/cms/refinery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/refinery/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Serendipity - Attributio</title>
       <link>https://attribut.io/platform/cms/serendipity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/serendipity/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For SharePoint - Attributio</title>
       <link>https://attribut.io/platform/cms/sharepoint/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/sharepoint/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For SilverStripe - Attributio</title>
       <link>https://attribut.io/platform/cms/silverstripe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/silverstripe/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Sitecore - Attributio</title>
       <link>https://attribut.io/platform/cms/sitecore/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/sitecore/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Sitekit CMS - Attributio</title>
       <link>https://attribut.io/platform/cms/sitekit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/sitekit/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For SMW - Attributio</title>
       <link>https://attribut.io/platform/cms/smw/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/smw/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Solodev - Attributio</title>
       <link>https://attribut.io/platform/cms/solodev/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/solodev/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For SPINE - Attributio</title>
       <link>https://attribut.io/platform/cms/spine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/spine/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For SPIP - Attributio</title>
       <link>https://attribut.io/platform/cms/spip/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/spip/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For TangoCMS - Attributio</title>
       <link>https://attribut.io/platform/cms/tangocms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/tangocms/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Telligent Community - Attributio</title>
       <link>https://attribut.io/platform/cms/telligent/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/telligent/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For TerminalFour - Attributio</title>
       <link>https://attribut.io/platform/cms/terminalfour/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/terminalfour/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Textpattern - Attributio</title>
       <link>https://attribut.io/platform/cms/textpattern/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/textpattern/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Thingamablog - Attributio</title>
       <link>https://attribut.io/platform/cms/thingamablog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/thingamablog/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For TiddlyWiki - Attributio</title>
       <link>https://attribut.io/platform/cms/tiddlywiki/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/tiddlywiki/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Tiki Wiki CMS Groupware - Attributio</title>
       <link>https://attribut.io/platform/cms/tikiwiki/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/tikiwiki/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For TWiki - Attributio</title>
       <link>https://attribut.io/platform/cms/twiki/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/twiki/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Typo - Attributio</title>
       <link>https://attribut.io/platform/cms/typo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/typo/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For TYPO3 - Attributio</title>
       <link>https://attribut.io/platform/cms/typo3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/typo3/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For uCoz - Attributio</title>
       <link>https://attribut.io/platform/cms/ucoz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/ucoz/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Umbraco - Attributio</title>
       <link>https://attribut.io/platform/cms/umbraco/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/umbraco/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Unbounce - Attributio</title>
       <link>https://attribut.io/platform/cms/unbounce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/unbounce/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For WebGUI - Attributio</title>
       <link>https://attribut.io/platform/cms/webgui/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/webgui/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Webnodes CMS - Attributio</title>
       <link>https://attribut.io/platform/cms/webnodescms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/webnodescms/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Windows Live - Attributio</title>
       <link>https://attribut.io/platform/cms/windowslive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/windowslive/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Wolf CMS - Attributio</title>
       <link>https://attribut.io/platform/cms/wolfcms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/wolfcms/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Wordpress - Attributio</title>
       <link>https://attribut.io/platform/cms/wordpress/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/wordpress/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For XaitPorter - Attributio</title>
       <link>https://attribut.io/platform/cms/xaitporter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/xaitporter/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Xaraya - Attributio</title>
       <link>https://attribut.io/platform/cms/xaraya/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/xaraya/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For XOOPS - Attributio</title>
       <link>https://attribut.io/platform/cms/xoops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/xoops/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For XWiki - Attributio</title>
       <link>https://attribut.io/platform/cms/xwiki/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/xwiki/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics CMS Tracking For Yellow - Attributio</title>
       <link>https://attribut.io/platform/cms/yellow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/cms/yellow/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For 1AutomationWiz - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/1automationwiz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/1automationwiz/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For 2Checkout - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/2checkout/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/2checkout/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For 3DCart - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/3dcart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/3dcart/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For AbanteCart - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/abantecart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/abantecart/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For AbleCommerce - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/ablecommerce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/ablecommerce/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Actinic - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/actinic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/actinic/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Airsquare - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/airsquare/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/airsquare/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For AllProWebTools - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/allprowebtools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/allprowebtools/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Aplus - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/aplus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/aplus/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Arastta - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/arastta/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/arastta/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For AShop - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/ashop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/ashop/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For AspDotNetStorefront - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/aspdotnetstorefront/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/aspdotnetstorefront/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Avactis - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/avactis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/avactis/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Avangate - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/avangate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/avangate/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Big Cartel - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/bigcartel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/bigcartel/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Bigcommerce - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/bigcommerce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/bigcommerce/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For BlueSnap - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/bluesnap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/bluesnap/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For BroadLeaf Commerce - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/broadleaf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/broadleaf/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For BV Commerce - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/bvcommerce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/bvcommerce/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Cart42 - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/cart42/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/cart42/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Cart66 - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/cart66/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/cart66/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Celery - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/celery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/celery/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Clarity Ecommerce - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/clarity/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/clarity/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For CleverBridge - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/cleverbridge/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/cleverbridge/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Commercev3 - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/commercev3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/commercev3/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For CoreCommerce - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/corecommerce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/corecommerce/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For CS-Cart - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/cscart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/cscart/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For CubeCart - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/cubecart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/cubecart/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Demandware - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/demandware/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/demandware/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Digital River Global Commerce - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/digitalriver/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/digitalriver/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For DPD - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/dpd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/dpd/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For E-bee - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/e-bee/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/e-bee/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Easy Digital Downloads - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/edd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/edd/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For eCRATER - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/ecrater/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/ecrater/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Ecwid - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/ecwid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/ecwid/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Eonic - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/eonic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/eonic/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Eshopsgalore - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/eshopsgalore/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/eshopsgalore/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For eStoreAdvanced - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/estoreadvanced/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/estoreadvanced/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Etsy - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/etsy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/etsy/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For ExlCart - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/exlcart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/exlcart/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Expandly - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/expandly/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/expandly/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Fashmark - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/fashmark/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/fashmark/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For FastSpring - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/fastspring/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/fastspring/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For FlickRocket - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/flickrocket/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/flickrocket/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Flying Cart - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/flyingcart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/flyingcart/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Fortune3 - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/fortune3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/fortune3/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For FoxyCart - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/foxycart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/foxycart/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Freshbooks - Attributio</title>
       <link>https://attribut.io/platform/accounting/freshbooks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/accounting/freshbooks/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For GoCart - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/gocart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/gocart/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For GoDaddy - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/godaddy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/godaddy/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For GoECart - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/goecart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/goecart/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For GoLiveCart - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/golivecart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/golivecart/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Goodsie - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/goodsie/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/goodsie/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For GrandNode - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/grandnode/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/grandnode/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Gumroad - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/gumroad/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/gumroad/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For HighWire - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/highwire/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/highwire/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For HotCakesCommerce - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/hotcakescommerce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/hotcakescommerce/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Hybris - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/hybris/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/hybris/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For IBM WebSphere Commerce - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/websphere/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/websphere/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For IceShop - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/iceshop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/iceshop/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For IndieMade - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/indiemade/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/indiemade/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For InstanteStore - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/instantestore/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/instantestore/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Intershop - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/intershop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/intershop/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For ItemHut - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/itemhut/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/itemhut/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Ixxo cart - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/ixxo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/ixxo/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Jadasite - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/jadasite/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/jadasite/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Jigoshop - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/jigoshop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/jigoshop/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Jimdo - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/jimdo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/jimdo/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Jooy - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/jooy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/jooy/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Jumpseller - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/jumpseller/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/jumpseller/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For k-eCommerce - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/k-ecommerce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/k-ecommerce/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Kalio - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/kalio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/kalio/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Kentico - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/kentico/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/kentico/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For KonaKart - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/konakart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/konakart/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Kong - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/kong/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/kong/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Kooomo - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/kooomo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/kooomo/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Ktools - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/ktools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/ktools/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For LemonStand - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/lemonstand/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/lemonstand/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For LightCMS - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/lightcms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/lightcms/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For LiteCommerce - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/litecommerce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/litecommerce/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For LiveCart - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/livecart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/livecart/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Loaded Commerce - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/loadedcommerce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/loadedcommerce/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For MadeFreshly - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/madefreshly/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/madefreshly/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Magento - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/magento/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/magento/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Marketlive - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/marketlive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/marketlive/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Merchium - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/merchium/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/merchium/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Miva Merchant - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/miva/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/miva/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Modular Merchant - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/modularmerchant/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/modularmerchant/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Moltin - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/moltin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/moltin/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Moonfruit - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/moonfruit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/moonfruit/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Mozu - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/mozu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/mozu/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Mr Site - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/mrsite/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/mrsite/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For mShopper - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/mshopper/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/mshopper/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For My Cloud Grocer - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/mycloudgrocer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/mycloudgrocer/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Neto - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/neto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/neto/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Netsuite SuiteCommerce - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/netsuite/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/netsuite/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Nexternal - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/nexternal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/nexternal/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For nopCommerce - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/nopcommerce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/nopcommerce/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For OpenCart - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/opencart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/opencart/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For OS Commerce - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/oscommerce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/oscommerce/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For osCMax - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/oscmax/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/oscmax/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For OXID eSales - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/oxid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/oxid/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For PayPro Global - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/paypro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/paypro/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Persollo - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/persollo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/persollo/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Pimcore - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/pimcore/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/pimcore/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For PinnacleCart - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/pinnaclecart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/pinnaclecart/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For PowerStores - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/powerstores/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/powerstores/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For PrestaShop - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/prestashop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/prestashop/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For ProductCart - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/productcart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/productcart/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Quickbooks - Attributio</title>
       <link>https://attribut.io/platform/accounting/quickbooks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/accounting/quickbooks/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Reaction Commerce - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/reactioncommerce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/reactioncommerce/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For RocketSpark - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/rocketspark/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/rocketspark/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For SamCart - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/samcart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/samcart/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Sana Commerce - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/sana/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/sana/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Schema - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/schema/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/schema/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For SearchFit - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/searchfit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/searchfit/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For SellBeing - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/sellbeing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/sellbeing/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Selz - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/selz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/selz/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For ShopFactory - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/shopfactory/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/shopfactory/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For ShopGo - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/shopgo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/shopgo/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Shopify - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/shopify/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/shopify/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Shopio - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/shopio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/shopio/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Shopizer - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/shopizer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/shopizer/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Shopping Cart Elite - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/shoppingcartelite/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/shoppingcartelite/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For ShopRocket - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/shoprocket/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/shoprocket/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For ShopSite - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/shopsite/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/shopsite/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For ShopTab - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/shoptab/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/shoptab/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For ShopVisible - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/shopvisible/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/shopvisible/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Shout CMS - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/shoutcms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/shoutcms/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Shuup - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/shuup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/shuup/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For SideCommerce - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/sidecommerce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/sidecommerce/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For simpleCart - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/simplecart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/simplecart/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Smoolis - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/smoolis/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/smoolis/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For SnipCart - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/snipcart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/snipcart/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Softslate - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/softslate/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/softslate/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For SolidCommerce - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/solidcommerce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/solidcommerce/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For SolidShops - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/solidshops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/solidshops/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For SparkPay - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/sparkpay/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/sparkpay/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Spree Commerce - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/spree/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/spree/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For SpreeCommerce - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/spreecommerce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/spreecommerce/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Spryker - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/spryker/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/spryker/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Squarespace Commerce - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/squarespace/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/squarespace/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For SquirrelCart - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/squirrelcart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/squirrelcart/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Stiva Shopping Cart - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/stiva/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/stiva/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Storenvy - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/storenvy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/storenvy/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Supadupa - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/supadupa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/supadupa/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For SureDone - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/suredone/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/suredone/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Sylius - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/sylius/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/sylius/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Tea Commerce - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/teacommerce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/teacommerce/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Thelia - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/thelia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/thelia/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Tictail - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/tictail/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/tictail/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For TomatoCart - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/tomatocart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/tomatocart/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Turnkey Web Tools - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/sunshop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/sunshop/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For UberCart - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/ubercart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/ubercart/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For uCoz - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/ucoz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/ucoz/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For UltraCart - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/ultracart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/ultracart/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For UnieMerchant - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/uniemerchant/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/uniemerchant/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Upshot Commerce - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/upshot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/upshot/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Vendio - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/vendio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/vendio/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For VeraCart - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/veracart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/veracart/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For VevoCart - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/vevocart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/vevocart/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For ViArt - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/viart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/viart/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Vilkas Group - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/vilkas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/vilkas/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For VirtoCommerce - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/virtocommerce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/virtocommerce/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For VirtueMart - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/virtuemart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/virtuemart/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Volusion - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/volusion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/volusion/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For VP-Cart - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/vp-cart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/vp-cart/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Wazala - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/wazala/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/wazala/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Weebly - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/weebly/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/weebly/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Wix - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/wix/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/wix/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Woocommerce - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/woocommerce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/woocommerce/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For X-Cart - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/x-cart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/x-cart/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Yahoo Store - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/yahoo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/yahoo/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For YesCart - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/yescart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/yescart/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Yokaboo - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/yokaboo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/yokaboo/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Yola - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/yola/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/yola/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For Yovigo - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/yovigo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/yovigo/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For ZenCart - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/zencart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/zencart/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For ZeusCArt - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/zeuscart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/zeuscart/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Ecommerce Tracking For ZNOde Storefront - Attributio</title>
       <link>https://attribut.io/platform/ecommerce/znode/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/ecommerce/znode/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Form Tracking For Click Funnels - Attributio</title>
       <link>https://attribut.io/platform/formbuilder/clickfunnels/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/formbuilder/clickfunnels/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Form Tracking For Contact Form 7 - Attributio</title>
       <link>https://attribut.io/platform/formbuilder/contactform7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/formbuilder/contactform7/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Form Tracking For Formidable Forms - Attributio</title>
       <link>https://attribut.io/platform/formbuilder/formidableforms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/formbuilder/formidableforms/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Form Tracking For Gravity Forms - Attributio</title>
       <link>https://attribut.io/platform/formbuilder/gravityforms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/formbuilder/gravityforms/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Form Tracking For WP Forms - Attributio</title>
       <link>https://attribut.io/platform/formbuilder/wpforms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/formbuilder/wpforms/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Live Chat Tracking For Crisp - Attributio</title>
       <link>https://attribut.io/platform/live-chat/crisp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/live-chat/crisp/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Live Chat Tracking For HappyFox - Attributio</title>
       <link>https://attribut.io/platform/live-chat/happyfox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/live-chat/happyfox/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Live Chat Tracking For intercom - Attributio</title>
       <link>https://attribut.io/platform/live-chat/intercom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/live-chat/intercom/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Live Chat Tracking For LiveChat - Attributio</title>
       <link>https://attribut.io/platform/live-chat/livechat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/live-chat/livechat/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Live Chat Tracking For Olark - Attributio</title>
       <link>https://attribut.io/platform/live-chat/olark/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/live-chat/olark/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Live Chat Tracking For PureChat - Attributio</title>
       <link>https://attribut.io/platform/live-chat/purechat/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/live-chat/purechat/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Live Chat Tracking For Snap Engage - Attributio</title>
       <link>https://attribut.io/platform/live-chat/snapengage/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/live-chat/snapengage/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Live Chat Tracking For Zopim - Attributio</title>
       <link>https://attribut.io/platform/live-chat/zopim/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/live-chat/zopim/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Payment Tracking For Stripe - Attributio</title>
       <link>https://attribut.io/platform/payment/stripe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/payment/stripe/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Tracking For Your Accounting - Attributio</title>
       <link>https://attribut.io/platform/base/accounting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/base/accounting/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Tracking For Your Call Tracking Software - Attributio</title>
       <link>https://attribut.io/platform/base/call-tracking/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/base/call-tracking/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Tracking For Your CMS - Attributio</title>
       <link>https://attribut.io/platform/base/cms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/base/cms/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Tracking For Your Contacts - Attributio</title>
       <link>https://attribut.io/platform/base/contacts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/base/contacts/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Tracking For Your CRM - Attributio</title>
       <link>https://attribut.io/platform/base/crm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/base/crm/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Tracking For Your Custom Software - Attributio</title>
       <link>https://attribut.io/platform/base/custom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/base/custom/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Tracking For Your Ecommerce - Attributio</title>
       <link>https://attribut.io/platform/base/ecommerce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/base/ecommerce/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Tracking For Your ERP - Attributio</title>
       <link>https://attribut.io/platform/base/erp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/base/erp/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Tracking For Your Leads - Attributio</title>
       <link>https://attribut.io/platform/base/leads/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/base/leads/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Tracking For Your Software - Attributio</title>
       <link>https://attribut.io/platform/base/software/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/base/software/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Tracking For Your Webpage - Attributio</title>
       <link>https://attribut.io/platform/base/webpage/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/base/webpage/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Google Analytics Tracking For Your Website - Attributio</title>
       <link>https://attribut.io/platform/base/website/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/base/website/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Act Essentials | Attributio</title>
       <link>https://attribut.io/platform/crm/actessentials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/actessentials/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For AddressTwo | Attributio</title>
       <link>https://attribut.io/platform/crm/addresstwo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/addresstwo/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Adempiere | Attributio</title>
       <link>https://attribut.io/platform/crm/adempiere/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/adempiere/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For AllProWebTools | Attributio</title>
       <link>https://attribut.io/platform/crm/allprowebtools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/allprowebtools/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For amoCRM | Attributio</title>
       <link>https://attribut.io/platform/crm/amocrm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/amocrm/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Appointly | Attributio</title>
       <link>https://attribut.io/platform/scheduling/appointly/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/scheduling/appointly/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Apptivo CRM | Attributio</title>
       <link>https://attribut.io/platform/crm/apptivo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/apptivo/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Avidian Prophet | Attributio</title>
       <link>https://attribut.io/platform/crm/avidian/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/avidian/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For BigContacts | Attributio</title>
       <link>https://attribut.io/platform/crm/bigcontacts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/bigcontacts/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Bitrix24 | Attributio</title>
       <link>https://attribut.io/platform/crm/bitrix24/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/bitrix24/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Bluenose | Attributio</title>
       <link>https://attribut.io/platform/crm/bluenose/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/bluenose/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For BoomTown! | Attributio</title>
       <link>https://attribut.io/platform/crm/boomtown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/boomtown/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Bpmonline | Attributio</title>
       <link>https://attribut.io/platform/crm/bpmonline/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/bpmonline/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Buddy CRM | Attributio</title>
       <link>https://attribut.io/platform/crm/buddycrm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/buddycrm/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Bullhorn | Attributio</title>
       <link>https://attribut.io/platform/crm/bullhorn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/bullhorn/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Calendly | Attributio</title>
       <link>https://attribut.io/platform/scheduling/calendly/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/scheduling/calendly/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For CampaignerCRM | Attributio</title>
       <link>https://attribut.io/platform/crm/campaignercrm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/campaignercrm/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Capsule | Attributio</title>
       <link>https://attribut.io/platform/crm/capsule/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/capsule/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Casengo | Attributio</title>
       <link>https://attribut.io/platform/crm/casengo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/casengo/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For CiviCRM | Attributio</title>
       <link>https://attribut.io/platform/crm/civicrm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/civicrm/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Close.io | Attributio</title>
       <link>https://attribut.io/platform/crm/close/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/close/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Commence | Attributio</title>
       <link>https://attribut.io/platform/crm/commence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/commence/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Contactually | Attributio</title>
       <link>https://attribut.io/platform/crm/contactually/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/contactually/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Copper CRM | Attributio</title>
       <link>https://attribut.io/platform/crm/copper/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/copper/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Dolibarr | Attributio</title>
       <link>https://attribut.io/platform/crm/dolibarr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/dolibarr/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Dynamics | Attributio</title>
       <link>https://attribut.io/platform/crm/dynamics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/dynamics/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Epesi | Attributio</title>
       <link>https://attribut.io/platform/crm/epesi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/epesi/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Fresh Sales | Attributio</title>
       <link>https://attribut.io/platform/crm/freshsales/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/freshsales/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For GoldMine | Attributio</title>
       <link>https://attribut.io/platform/crm/goldmine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/goldmine/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For GreenRope | Attributio</title>
       <link>https://attribut.io/platform/crm/greenrope/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/greenrope/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Hatchbuck | Attributio</title>
       <link>https://attribut.io/platform/crm/hatchbuck/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/hatchbuck/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Highrise | Attributio</title>
       <link>https://attribut.io/platform/crm/highrise/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/highrise/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For HubSpot CRM | Attributio</title>
       <link>https://attribut.io/platform/crm/hubspot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/hubspot/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For InfoFlo Software | Attributio</title>
       <link>https://attribut.io/platform/crm/infloflo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/infloflo/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Infor CRM | Attributio</title>
       <link>https://attribut.io/platform/crm/infor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/infor/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Infusionsoft | Attributio</title>
       <link>https://attribut.io/platform/crm/infusionsoft/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/infusionsoft/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Insightly | Attributio</title>
       <link>https://attribut.io/platform/crm/insightly/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/insightly/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For iSEEit | Attributio</title>
       <link>https://attribut.io/platform/crm/iseeit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/iseeit/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Leadmachine | Attributio</title>
       <link>https://attribut.io/platform/crm/leadmachine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/leadmachine/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For LeadMaster | Attributio</title>
       <link>https://attribut.io/platform/crm/leadmaster/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/leadmaster/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Lynkos | Attributio</title>
       <link>https://attribut.io/platform/crm/lynkos/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/lynkos/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Maximizer | Attributio</title>
       <link>https://attribut.io/platform/crm/maximizer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/maximizer/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Membrain | Attributio</title>
       <link>https://attribut.io/platform/crm/membrain/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/membrain/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Method:CRM | Attributio</title>
       <link>https://attribut.io/platform/crm/methodcrm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/methodcrm/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Microsoft Dynamics CRM | Attributio</title>
       <link>https://attribut.io/platform/crm/microsoftdynamicscrm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/microsoftdynamicscrm/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Mothernode | Attributio</title>
       <link>https://attribut.io/platform/crm/mothernode/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/mothernode/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Neolane | Attributio</title>
       <link>https://attribut.io/platform/crm/neolane/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/neolane/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For NeonCRM | Attributio</title>
       <link>https://attribut.io/platform/crm/neoncrm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/neoncrm/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For NetSuite CRM | Attributio</title>
       <link>https://attribut.io/platform/crm/netsuite/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/netsuite/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Nimble | Attributio</title>
       <link>https://attribut.io/platform/crm/nimble/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/nimble/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Nutshell | Attributio</title>
       <link>https://attribut.io/platform/crm/nutshell/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/nutshell/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Odoo | Attributio</title>
       <link>https://attribut.io/platform/crm/odoo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/odoo/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For OnContact | Attributio</title>
       <link>https://attribut.io/platform/crm/oncontact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/oncontact/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Ontraport | Attributio</title>
       <link>https://attribut.io/platform/crm/ontraport/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/ontraport/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Oracle CRM On Demand | Attributio</title>
       <link>https://attribut.io/platform/crm/oraclecrm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/oraclecrm/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Oracle Siebel | Attributio</title>
       <link>https://attribut.io/platform/crm/oraclesiebel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/oraclesiebel/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For pardot | Attributio</title>
       <link>https://attribut.io/platform/crm/pardot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/pardot/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Pipedrive | Attributio</title>
       <link>https://attribut.io/platform/crm/pipedrive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/pipedrive/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For PipelineDeals | Attributio</title>
       <link>https://attribut.io/platform/crm/pipelinedeals/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/pipelinedeals/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Pipeliner | Attributio</title>
       <link>https://attribut.io/platform/crm/pipeliner/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/pipeliner/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Pivotal | Attributio</title>
       <link>https://attribut.io/platform/crm/pivotal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/pivotal/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Podio | Attributio</title>
       <link>https://attribut.io/platform/crm/podio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/podio/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Prophet CRM | Attributio</title>
       <link>https://attribut.io/platform/crm/prophetcrm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/prophetcrm/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For ProsperWorks CRM | Attributio</title>
       <link>https://attribut.io/platform/crm/prosperworks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/prosperworks/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For QuickBase | Attributio</title>
       <link>https://attribut.io/platform/crm/quickbase/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/quickbase/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Really Simple Systems | Attributio</title>
       <link>https://attribut.io/platform/crm/rss/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/rss/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Relenta CRM | Attributio</title>
       <link>https://attribut.io/platform/crm/relenta/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/relenta/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Sage CRM | Attributio</title>
       <link>https://attribut.io/platform/crm/sagecrm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/sagecrm/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Salesforce | Attributio</title>
       <link>https://attribut.io/platform/crm/salesforce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/salesforce/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For SalesforceIQ | Attributio</title>
       <link>https://attribut.io/platform/crm/salesforceiq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/salesforceiq/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Salesnet | Attributio</title>
       <link>https://attribut.io/platform/crm/salesnet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/salesnet/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For SalesNexus | Attributio</title>
       <link>https://attribut.io/platform/crm/salesnexus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/salesnexus/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For SAP CRM | Attributio</title>
       <link>https://attribut.io/platform/crm/sapcrm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/sapcrm/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For ScheduleOnce | Attributio</title>
       <link>https://attribut.io/platform/scheduling/scheduleonce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/scheduling/scheduleonce/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For ShopVOX | Attributio</title>
       <link>https://attribut.io/platform/crm/shopvox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/shopvox/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Snapforce | Attributio</title>
       <link>https://attribut.io/platform/crm/snapforce/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/snapforce/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Streak | Attributio</title>
       <link>https://attribut.io/platform/crm/streak/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/streak/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For SugarCRM | Attributio</title>
       <link>https://attribut.io/platform/crm/sugarcrm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/sugarcrm/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For SuiteCRM | Attributio</title>
       <link>https://attribut.io/platform/crm/suitecrm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/suitecrm/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For SuperOffice | Attributio</title>
       <link>https://attribut.io/platform/crm/superoffice/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/superoffice/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For TeamLab | Attributio</title>
       <link>https://attribut.io/platform/crm/teamlab/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/teamlab/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For TeamWox | Attributio</title>
       <link>https://attribut.io/platform/crm/teamwox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/teamwox/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Tryton | Attributio</title>
       <link>https://attribut.io/platform/crm/tryton/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/tryton/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Vtiger CRM | Attributio</title>
       <link>https://attribut.io/platform/crm/vtiger/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/vtiger/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Workbooks | Attributio</title>
       <link>https://attribut.io/platform/crm/workbooks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/workbooks/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For WORKetc | Attributio</title>
       <link>https://attribut.io/platform/crm/worketc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/worketc/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For YouDontNeedaCrm | Attributio</title>
       <link>https://attribut.io/platform/crm/youdontneedacrm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/youdontneedacrm/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Zendesk Sell (Base CRM) | Attributio</title>
       <link>https://attribut.io/platform/crm/basecrm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/basecrm/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lead Analytics For Zoho CRM | Attributio</title>
       <link>https://attribut.io/platform/crm/zohocrm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://attribut.io/platform/crm/zohocrm/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

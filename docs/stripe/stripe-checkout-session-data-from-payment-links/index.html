@@ -16,8 +16,6 @@
   
   <meta name="description" content="Track attribution data for Stripe Payment Links by retrieving Stripe Checkout Session data to thank you redirect">
   
-
-  <meta name="generator" content="Hugo 0.58.3" />
   
   
 <script>var dataLayer = window.dataLayer = window.dataLayer || [];</script>
@@ -65,7 +63,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   
   <meta property="og:title" content="Stripe Checkout Session Data From Payment Links" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="/docs/stripe/stripe-checkout-session-data-from-payment-links//" />
 
   
     <meta property="og:image" content="img/attributio-logo-300.png" />
@@ -206,7 +203,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             
                                 <li class="toc-entry toc-h2"><a href="https://attribut.io/docs/stripe/stripe-checkout-session-data-from-payment-links/#redirect">Redirect</a></li>
                             
-                                <li class="toc-entry toc-h2"><a href="https://attribut.io/docs/stripe/stripe-checkout-session-data-from-payment-links/#api-key">Api key</a></li>
+                                <li class="toc-entry toc-h2"><a href="https://attribut.io/docs/stripe/stripe-checkout-session-data-from-payment-links/#api-key">API key</a></li>
                             
                                 <li class="toc-entry toc-h2"><a href="https://attribut.io/docs/stripe/stripe-checkout-session-data-from-payment-links/#get-data">Get data</a></li>
                             
@@ -217,66 +214,42 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="col-md-9" id="blog-post">
 
                         <div id="post-content">
-                          
-
-<h2 id="introduction">Stripe Checkout Session Data from Stripe Payment Links</h2>
-
+                          <h2 id="introduction">Stripe Checkout Session Data from Stripe Payment Links</h2>
 <p>Stripe continues to make transactions easier for anyone that wants to collect payments online. Anyone that signs up with Stripe can create a product and payment link and Stripe will handle the entire checkout process. This makes it fast and easy to start collecting payments by embedding payment links on your website, emails, or even SMS!</p>
-
 <p>That&rsquo;s great for simple invoices where you know your customer but for marketers and entrepreneurs that want to quickly create a product and payment link and run marketing campaigns to gain traction need a little help with conversion tracking.</p>
-
 <p>That&rsquo;s because by default, most tracking pixels like Google Analytics or affiliate programs requires a tag to be added on the site of origin when a conversion occurs with some information about the customer. The problem with Stripe Payment Links is that although you can redirect customers, the only data you can send back is the CHECKOUT_SESSION_ID. Ususally, analytics tools requries additional data like an email or transaction data to measure ROAS and attribution.</p>
-
-<p>That&rsquo;s why we created <a href="https://stripe.attribut.io" target="_blank">a simple tool to help you get data from Stripe</a> with the CHECKOUT_SESSION_ID once you are redirected back to your thank you page.</p>
-
+<p>That&rsquo;s why we created <!-- raw HTML omitted -->a simple tool to help you get data from Stripe<!-- raw HTML omitted --> with the CHECKOUT_SESSION_ID once you are redirected back to your thank you page.</p>
 <h2 id="redirect">Redirect and Pass CHECKOUT_SESSION_ID to Thank You Page</h2>
-
 <p>We&rsquo;re going to assume that you aleady know how to how to create Products and Payments in Stripe.</p>
-
-<p>The first thing you will need to do is to add the CHECKOUT_SESSION_ID parameter to your redirect link. You can <a href="https://stripe.com/docs/payments/payment-links#change-confirmation-behavior" target="_blank">read the docs for sending the CHECKOUT_SESSION_ID here</a>.</p>
-
-<p><img class="img-responsive img-thumbnail" src="/img/docs/stripe/stripe-confirmation-page-checkout-session-id.png" alt="add stripe checkout session id to confirmation redirect payment links" /></p>
-
+<p>The first thing you will need to do is to add the CHECKOUT_SESSION_ID parameter to your redirect link. You can <!-- raw HTML omitted -->read the docs for sending the CHECKOUT_SESSION_ID here<!-- raw HTML omitted -->.</p>
+<!-- raw HTML omitted -->
 <h2 id="api-key">Create Checkout Sessions API KEY</h2>
-
 <p>Now we need to create an api key exclusively for checkout sessions in Stripe and only provide read access. We do this to limit access to other sensitive data.</p>
-
-<p><img class="img-responsive img-thumbnail" src="/img/docs/stripe/create-stripe-checkout-sessions-api-key.png" alt="create stripe checkout sessions api key" /></p>
-
-<p>Now we can use this <a href="https://stripe.attribut.io" target="_blank">app to use CHECKOUT_SESSION_ID and api key to get data from stripe</a> in the checkout.session.completed event.</p>
-
+<!-- raw HTML omitted -->
+<p>Now we can use this <!-- raw HTML omitted -->app to use CHECKOUT_SESSION_ID and api key to get data from stripe<!-- raw HTML omitted --> in the checkout.session.completed event.</p>
 <p>Once you create an account, you can create a property with the hostname of your website where the Stripe Payment Link redirects to after payment and add your api key.</p>
-
-<p><img class="img-responsive img-thumbnail" src="/img/docs/stripe/stripe-app-to-get-checkout-session-data.png" alt="create property in app to interact with stripe checkout session data" /></p>
-
+<!-- raw HTML omitted -->
 <h2 id="get-data">Call Server To Get Stripe Checkout Session Data</h2>
-
 <p>Once you create a property in the app, all you need to do is call your property from the host you added like so:</p>
-
-<pre><code class="language-javascript">if ({{Checkout Session ID}}) {
-  var xhr = new XMLHttpRequest();
-  xhr.onreadystatechange = function() {
-    
-    if (xhr.readyState == XMLHttpRequest.DONE) {
-      var json = JSON.parse(xhr.responseText)
-      if (json[&quot;customer_email&quot;]) {
-        sendConversion(json[&quot;customer_email&quot;]);
-      }
-
-    }
-  }
-  xhr.open('GET', 'https://stripe.attribut.io/checkout/sessions.json?property_id={{Property ID}}&amp;checkout_session_id={{Checkout Session ID}}', true);
-  xhr.send(null);
-}
-</code></pre>
-
-<p>If you make a call to the app from the current host with the proper Property ID and Checkout Session ID, you will get a response from the server with Stripe data that currently is limited to the customer_id and customer_email.</p>
-
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">if</span> ({{<span style="color:#a6e22e">Checkout</span> <span style="color:#a6e22e">Session</span> <span style="color:#a6e22e">ID</span>}}) {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">xhr</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#a6e22e">XMLHttpRequest</span>();
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">xhr</span>.<span style="color:#a6e22e">onreadystatechange</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>() {
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">xhr</span>.<span style="color:#a6e22e">readyState</span> <span style="color:#f92672">==</span> <span style="color:#a6e22e">XMLHttpRequest</span>.<span style="color:#a6e22e">DONE</span>) {
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">json</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">JSON</span>.<span style="color:#a6e22e">parse</span>(<span style="color:#a6e22e">xhr</span>.<span style="color:#a6e22e">responseText</span>)
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">json</span>[<span style="color:#e6db74">&#34;customer_email&#34;</span>]) {
+</span></span><span style="display:flex;"><span>        <span style="color:#a6e22e">sendConversion</span>(<span style="color:#a6e22e">json</span>[<span style="color:#e6db74">&#34;customer_email&#34;</span>]);
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">xhr</span>.<span style="color:#a6e22e">open</span>(<span style="color:#e6db74">&#39;GET&#39;</span>, <span style="color:#e6db74">&#39;https://stripe.attribut.io/checkout/sessions.json?property_id={{Property ID}}&amp;checkout_session_id={{Checkout Session ID}}&#39;</span>, <span style="color:#66d9ef">true</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">xhr</span>.<span style="color:#a6e22e">send</span>(<span style="color:#66d9ef">null</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>If you make a call to the app from the current host with the proper Property ID and Checkout Session ID, you will get a response from the server with Stripe data that currently is limited to the customer_id and customer_email.</p>
 <p>If you need access to additional data, you can make a request and we can add it.</p>
-
 <p>And once you have your data you can send conversion data to your conversion tracking software whatever that may be.</p>
-
-<p>If you need help bringing all of this together, <a href="/meet/">we’re here for that</a>.</p>
+<p>If you need help bringing all of this together, <!-- raw HTML omitted -->we’re here for that<!-- raw HTML omitted -->.</p>
 
                         </div>
                         
@@ -309,7 +282,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <div class="col-md-12">
             
-            <p class="text-center">Copyright &copy; 2023 Attributio. All rights reserved.</p>
+            <p class="text-center">Copyright &copy; 2024 Attributio. All rights reserved.</p>
             
         </div>
     </div>

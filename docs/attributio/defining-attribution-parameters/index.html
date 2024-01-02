@@ -16,8 +16,6 @@
   
   <meta name="description" content="Options for defining attribution">
   
-
-  <meta name="generator" content="Hugo 0.58.3" />
   
   
 <script>var dataLayer = window.dataLayer = window.dataLayer || [];</script>
@@ -65,7 +63,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   
   <meta property="og:title" content="Defining Attribution Parameters" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="/docs/attributio/defining-attribution-parameters//" />
 
   
     <meta property="og:image" content="img/attributio-logo-300.png" />
@@ -223,71 +220,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="col-md-9" id="blog-post">
 
                         <div id="post-content">
-                          
-
-<h2 id="sessions">Sessions</h2>
-
-<p>The most common type of session is <a href="https://support.google.com/analytics/answer/2731565?hl=en" target="_blank">defined by Google</a> based on time or by a change in campaign. In Google Analytics a new session is created during 30 minutes of inactivity.</p>
-
+                          <h2 id="sessions">Sessions</h2>
+<p>The most common type of session is <!-- raw HTML omitted -->defined by Google<!-- raw HTML omitted --> based on time or by a change in campaign. In Google Analytics a new session is created during 30 minutes of inactivity.</p>
 <p>By default, our sessions are not based on time so you may see session durations in excess of days. This is to minimize the amount of data stored in your visitor&rsquo;s browsers regarding their session data and not storing additional data for every visit past 30 minutes of inactivity if the source, medium, or campaign has not changed. This means that you will see a limited amount of direct traffic as a source in your conversions.</p>
-
 <h3 id="definitions">Definitions</h3>
-
 <p>Our definition of a session is based on First and Last Interaction data and is based on a change of either of the following:</p>
-
 <ol>
 <li>A change in source</li>
 <li>A change in medium</li>
 <li>A change in campaign</li>
 </ol>
-
-<p>URL parameters utilize the same &ldquo;utm_&rdquo; structure that Google Analytics recommends. You can use a <a href="https://ga-dev-tools.appspot.com/campaign-url-builder/">free tool</a> to do the same.</p>
-
+<p>URL parameters utilize the same &ldquo;utm_&rdquo; structure that Google Analytics recommends. You can use a <!-- raw HTML omitted -->free tool<!-- raw HTML omitted --> to do the same.</p>
 <h3 id="default-fields">Default Fields</h3>
-
-<p><table class="table table-sm table-borderless">
-    <tr>
-        <td>First Interaction Referrer</td>
-        <td>Last Interaction Referrer</td>
-    </tr>
-    <tr>
-        <td>First Interaction Source</td>
-        <td>Last Interaction Source</td>
-    </tr>
-    <tr>
-        <td>First Interaction Medium</td>
-        <td>Last Interaction Medium</td>
-    </tr>
-    <tr>
-        <td>First Interaction Campaign</td>
-        <td>Last Interaction Campaign</td>
-    </tr>
-    <tr>
-        <td>First Interaction Content</td>
-        <td>Last Interaction Content</td>
-    </tr>
-    <tr>
-        <td>First Interaction Term</td>
-        <td>Last Interaction Term</td>
-    </tr>
-    <tr>
-        <td>First Interaction Landing Page</td>
-        <td>Last Interaction Landing Page</td>
-    </tr>
-    <tr>
-        <td>First Interaction Session Duration</td>
-        <td>Last Interaction Session Duration</td>
-    </tr>
-    <tr>
-        <td>First Interaction Page Visits</td>
-        <td>Last Interaction Page Visits</td>
-    </tr>
- </table></p>
-
+<!-- raw HTML omitted -->
 <h3 id="custom-fields">Custom Fields</h3>
-
 <p>Include additionals fields as follows:</p>
-
 <ul>
 <li>Journey By Source</li>
 <li>Journey By Medium</li>
@@ -299,23 +246,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <li>Browser</li>
 <li>Location</li>
 </ul>
-
 <h2 id="custom-sessions">Custom Sessions</h2>
-
 <p>Often visitors convert after doing a branded paid or organic search. We typically do not want that information as attribution will typically be credited to Google where little weight should be placed. In these cases, we can set conditions to ignore certain paid branded clicks as Last Impressions and store the previous session with more valuable data.</p>
-
 <p>There are many scenarios you can imagine for a custom fit attribution model for your company.</p>
-
 <h2 id="requirements">Requirements</h2>
-
 <p>It is recommended to use SSL for all traffic to your site. Ensure that all non-ssl links are redirected to a standard SSL encrypted version of your site either containing the subdomain www or not.</p>
-
 <p>If visitors to your site jump between non-encrypted and encrypted versions of your site or between subdomains, session data will not be consistent and original attribution data will be lost.</p>
-
 <p>When configuring redirects, all url parameters must be retained. If they are lost on redirect, session data will not properly be stored.</p>
-
 <h2 id="google-analytics">Google Analytics</h2>
-
 <p>We encourage the use of Google Analytics to compare attribution data stored in your CRM with our tool. Although our tool is independent of Google Analytics, Google Analytics has so much data available that we recommend using it in conjunction with our tool for comparisons. That is why we configure your Analytics to store unique visitor data based on ids provided by Google so you can have all the data you could ever need.</p>
 
                         </div>
@@ -349,7 +287,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <div class="col-md-12">
             
-            <p class="text-center">Copyright &copy; 2023 Attributio. All rights reserved.</p>
+            <p class="text-center">Copyright &copy; 2024 Attributio. All rights reserved.</p>
             
         </div>
     </div>
