@@ -15,7 +15,7 @@ var form = document.getElementById('meetform');
   function processForm(e) {
     if (e.preventDefault) e.preventDefault();
 
-    var cid = google_tag_manager['GTM-WXK2VG6'].dataLayer.get('clientId');
+    // var cid = google_tag_manager['GTM-WXK2VG6'].dataLayer.get('clientId');
     var att = JSON.parse(localStorage.getItem('__att'))
     var fis = att[0];
     var lis = att[att.length - 1];
@@ -24,7 +24,7 @@ var form = document.getElementById('meetform');
     var form = document.getElementById('meetform');
     var formData = new FormData(form);
 
-    formData.append("gcid", cid);
+    // formData.append("gcid", cid);
     formData.append("fis", fis['sc']);
     formData.append("fim", fis['md']);
     formData.append("fic", fis['cp']);
