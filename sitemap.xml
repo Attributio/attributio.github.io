@@ -209,7 +209,47 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/accounting/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/tos/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/base/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/call-tracking/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/cms/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/crm/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -226,6 +266,22 @@
   	
 	  <url>
 	    <loc>https://attribut.io/demo/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/ecommerce/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/formbuilder/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
@@ -3889,6 +3945,14 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/live-chat/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/join/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
@@ -3913,6 +3977,14 @@
   
   	
 	  <url>
+	    <loc>https://attribut.io/platform/payment/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
 	    <loc>https://attribut.io/platform/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
@@ -3922,6 +3994,14 @@
   	
 	  <url>
 	    <loc>https://attribut.io/get/</loc>
+	    <changefreq>daily</changefreq>
+	    <priority>0.5</priority>
+	  </url>
+	  
+  
+  	
+	  <url>
+	    <loc>https://attribut.io/platform/scheduling/</loc>
 	    <changefreq>daily</changefreq>
 	    <priority>0.5</priority>
 	  </url>
