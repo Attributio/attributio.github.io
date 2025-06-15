@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>attribution on Attributio | Business Intelligence &amp; Analytics Experts</title>
+    <title>Attribution on Attributio | Business Intelligence &amp; Analytics Experts</title>
     <link>https://attribut.io/tags/attribution/</link>
-    <description>Recent content in attribution on Attributio | Business Intelligence &amp; Analytics Experts</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Attribution on Attributio | Business Intelligence &amp; Analytics Experts</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 26 Jul 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://attribut.io/tags/attribution/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://attribut.io/multi-touch-attribution/</link>
       <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
       <guid>https://attribut.io/multi-touch-attribution/</guid>
-      <description>What is marketing attribution? In a nutshell, marketing attribution is giving credit to the source that leads to a sale.&#xA;The source can consist of ads, referrals, campaigns, or even salesmen. And the sale can be anything from an action on your website to a conversion that generates leads to an actual purchase.&#xA;What does attribution mean in marketing? Marketing is more art than science. However, with proper attribution, professional marketers can come closer to making marketing more scientific by collecting and measuring where their sales and conversions are coming from.</description>
+      <description>&lt;h2 id=&#34;what-is-marketing-attribution&#34;&gt;What is marketing attribution?&lt;/h2&gt;&#xA;&lt;p&gt;In a nutshell, marketing attribution is giving credit to the source that leads to a sale.&lt;/p&gt;&#xA;&lt;p&gt;The source can consist of ads, referrals, campaigns, or even salesmen. And the sale can be anything from an action on your website to a conversion that generates leads to an actual purchase.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-does-attribution-mean-in-marketing&#34;&gt;What does attribution mean in marketing?&lt;/h2&gt;&#xA;&lt;p&gt;Marketing is more art than science. However, with proper attribution, professional marketers can come closer to making marketing more scientific by collecting and measuring where their sales and conversions are coming from.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -4,7 +4,7 @@
     <title>Docs on Attributio | Business Intelligence &amp; Analytics Experts</title>
     <link>https://attribut.io/docs/</link>
     <description>Recent content in Docs on Attributio | Business Intelligence &amp; Analytics Experts</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 18 Dec 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://attribut.io/docs/index.xml" rel="self" type="application/rss+xml" />
@@ -13,21 +13,21 @@
       <link>https://attribut.io/docs/salesforce/marketing-analytics/</link>
       <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
       <guid>https://attribut.io/docs/salesforce/marketing-analytics/</guid>
-      <description>Installation Follow the link provided to you and select the option to &amp;ldquo;Install for All Users&amp;rdquo;.&#xA;Configure remote site settings Navigate to Setup &amp;gt; Settings &amp;gt; Security &amp;gt; Remote Site Settings and create a new setting Add the following Remote Site URL: https://www.google-analytics.com Configure Lead Mappings Select Setup under the gear icon on the top right of your screen. In the navigation pane to the left go to Platform Tools &amp;gt; Objects and Fields &amp;gt; Object Manager.</description>
+      <description>&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;&#xA;&lt;p&gt;Follow the link provided to you and select the option to &amp;ldquo;Install for All Users&amp;rdquo;.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h3 id=&#34;configure-remote-site-settings&#34;&gt;Configure remote site settings&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Navigate to Setup &amp;gt; Settings &amp;gt; Security &amp;gt; Remote Site Settings and create a new setting&#xA;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Add the following Remote Site URL:&#xA;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;https://www.google-analytics.com&#34;&gt;https://www.google-analytics.com&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Defining Attribution Parameters</title>
       <link>https://attribut.io/docs/attributio/defining-attribution-parameters/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://attribut.io/docs/attributio/defining-attribution-parameters/</guid>
-      <description>Sessions The most common type of session is defined by Google based on time or by a change in campaign. In Google Analytics a new session is created during 30 minutes of inactivity.&#xA;By default, our sessions are not based on time so you may see session durations in excess of days. This is to minimize the amount of data stored in your visitor&amp;rsquo;s browsers regarding their session data and not storing additional data for every visit past 30 minutes of inactivity if the source, medium, or campaign has not changed.</description>
+      <description>&lt;h2 id=&#34;sessions&#34;&gt;Sessions&lt;/h2&gt;&#xA;&lt;p&gt;The most common type of session is &lt;!-- raw HTML omitted --&gt;defined by Google&lt;!-- raw HTML omitted --&gt; based on time or by a change in campaign. In Google Analytics a new session is created during 30 minutes of inactivity.&lt;/p&gt;&#xA;&lt;p&gt;By default, our sessions are not based on time so you may see session durations in excess of days. This is to minimize the amount of data stored in your visitor&amp;rsquo;s browsers regarding their session data and not storing additional data for every visit past 30 minutes of inactivity if the source, medium, or campaign has not changed. This means that you will see a limited amount of direct traffic as a source in your conversions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Stripe Checkout Session Data From Payment Links</title>
       <link>https://attribut.io/docs/stripe/stripe-checkout-session-data-from-payment-links/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://attribut.io/docs/stripe/stripe-checkout-session-data-from-payment-links/</guid>
-      <description>Stripe Checkout Session Data from Stripe Payment Links Stripe continues to make transactions easier for anyone that wants to collect payments online. Anyone that signs up with Stripe can create a product and payment link and Stripe will handle the entire checkout process. This makes it fast and easy to start collecting payments by embedding payment links on your website, emails, or even SMS!&#xA;That&amp;rsquo;s great for simple invoices where you know your customer but for marketers and entrepreneurs that want to quickly create a product and payment link and run marketing campaigns to gain traction need a little help with conversion tracking.</description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Stripe Checkout Session Data from Stripe Payment Links&lt;/h2&gt;&#xA;&lt;p&gt;Stripe continues to make transactions easier for anyone that wants to collect payments online. Anyone that signs up with Stripe can create a product and payment link and Stripe will handle the entire checkout process. This makes it fast and easy to start collecting payments by embedding payment links on your website, emails, or even SMS!&lt;/p&gt;&#xA;&lt;p&gt;That&amp;rsquo;s great for simple invoices where you know your customer but for marketers and entrepreneurs that want to quickly create a product and payment link and run marketing campaigns to gain traction need a little help with conversion tracking.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
